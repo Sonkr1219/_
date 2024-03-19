@@ -5,13 +5,13 @@
 		"effect":"system.effect",
 		"frequency":"system.frequency",
 		"range":"system.range",
-		"keywords1":"system.keywords.0",
-		"keywords2":"system.keywords.1",
-		"keywords3":"system.keywords.2",
-		"keywords4":"system.keywords.3",
-		"keywords5":"system.keywords.4",
-		"keywords6":"system.keywords.5",
-		"keywords7":"system.keywords.6"
+		"keywords1":"system.keywords[0]",
+		"keywords2":"system.keywords[1]",
+		"keywords3":"system.keywords[2]",
+		"keywords4":"system.keywords[3]",
+		"keywords5":"system.keywords[4]",
+		"keywords6":"system.keywords[5]",
+		"keywords7":"system.keywords[6]"
 	},
 	"entries": {
 		"10, 000, 000 Volt Thunderbolt": {
