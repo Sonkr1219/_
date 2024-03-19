@@ -1,0 +1,25 @@
+{
+  "name": "PTR_kr_module",
+  "title": "PTR_kr_module",
+  "description": "PTR translate to Korean module",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "0.7.2",
+  "author": "Cody Swendrowski <cody@swendrowski.us>",
+  "dependencies": [
+
+  ],
+  "scripts": [
+    "/scripts/lib/lib.js"
+  ],
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "languages/ko.json"
+    }
+  ],
+  "url": "https://github.com/cswendrowski/FoundryVTT-module",
+  "manifest": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/latest/module.json",
+  "download": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/0.0.1/module.zip"
+}
