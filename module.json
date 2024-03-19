@@ -19,7 +19,7 @@
       "path": "languages/ko.json"
     }
   ],
-  "url": "https://github.com/cswendrowski/FoundryVTT-module",
-  "manifest": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/latest/module.json",
-  "download": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/0.0.1/module.zip"
+  "url": "https://github.com/Sonkr1219/PTR_kr_module",
+  "manifest": "https://raw.githubusercontent.com/Sonkr1219/PTR_kr_module/main/module.json",
+  "download": "https://github.com/Sonkr1219/PTR_kr_module/archive/main.zip"
 }
