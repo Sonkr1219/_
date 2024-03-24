@@ -2,7 +2,7 @@
   "name": "PTR_kr_module",
   "title": "PTR_kr_module",
   "description": "PTR translate to Korean module",
-  "version": "0.0.6",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.6.2",
   "compatibleCoreVersion": "0.7.2",
   "author": "Cody Swendrowski <cody@swendrowski.us>",
