@@ -33,8 +33,7 @@
 			"effect":"--",
 			"frequency":"임의",
 			"range":"근접",
-			"keywords1":"대상 1",
-			"keywords2":"우선"
+			"keywords1":["대상 1","우선"]
 			},
 		"Acid": {
 			"name": "용해액",
