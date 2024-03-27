@@ -40,7 +40,7 @@
     "Category": "분류",
     "Range": "범위",
     "AC": "AC",
-    "DB": "DB",
+    "DB": "DB(Damage Base)",
     "Bonus": "보너스",
     "DamageBase": "Damage Base",
     "DamageBonus": "Damage Bonus",
@@ -141,7 +141,7 @@
     "ActiveEffectLike": "활성화된 효과",
     "GrantItem": "아이템 건네기",
     "RollOption": "주사위 옵션",
-    "ChoiceSet": "구애 세트",
+    "ChoiceSet": "세트 선택",
     "FlatModifier": "수치 조정",
     "TokenImage": "토큰 이미지",
     "TokenName": "토큰 이름",
@@ -214,7 +214,7 @@
     "MoveLabel": "기술",
     "MoveType": "타입",
     "MoveCategory": "분류",
-    "MoveDb": "DB",
+    "MoveDb": "DB(DamageBase)",
     "MoveDamageRoll": "데미지 굴림",
     "MoveFrequency": "빈도",
     "MoveAc": "AC",
@@ -406,9 +406,9 @@
 
     "FolderNotFound": "폴더를 찾을 수 없습니다.: 새 {folder}를 만드십시오.",
 
-    "PartySheet.NoActor": "양식에 액터가 제공되어야 합니다.",
+    "PartySheet.NoActor": "양식에 캐릭터가 제공되어야 합니다.",
     "PartySheet.NoTrainer": "이 포켓몬은 어떠한 파티에도 속해있지 않습니다. 트레이너 시트에서 할당해주십시오.",
-    "PartySheet.NoFolder": "트레이너는 액터 디렉토리에 자체 폴더를 가져야 합니다.",
+    "PartySheet.NoFolder": "트레이너는 캐릭터 디렉토리에 자체 폴더를 가져야 합니다.",
     "PartySheet.Title": "파티 시트",
     "DexSheet": {
       "Title": "도감",
@@ -486,255 +486,255 @@
     },
 
     "MassGenerator": {
-      "Title": "Mass Generator",
-      "Amount": "Amount to Generate",
-      "Level": "Level Range",
-      "PokemonSelect": "Generate by Species or RollTable?",
-      "Species": "Species",
-      "HabitatTable": "Table",
-      "FoundSpecies": "Detected Species",
-      "CouldNotFindSpecies": "Could not detect species: {species}",
-      "FoundTable": "Detected Table",
-      "CouldNotFindTable": "Could not detect table: {table}",
-      "Folder": "Folder to put generated Pokémon in",
-      "InvalidFolder": "Folder must support Pokémon actors",
-      "FoundFolder": "Detected Folder",
-      "CouldNotFindFolder": "Folder {folder} not found, it will be created upon submit",
-      "Submit": "Generate"
+      "Title": "대량 생성기",
+      "Amount": "총 생성량",
+      "Level": "레벨 범위",
+      "PokemonSelect": "종별로 생성, 또는 테이블에서 무작위로 생성",
+      "Species": "종",
+      "HabitatTable": "테이블",
+      "FoundSpecies": "확인된 종",
+      "CouldNotFindSpecies": "종을 확인할 수 없습니다: {species}",
+      "FoundTable": "확인된 테이블",
+      "CouldNotFindTable": "테이블을 확인할 수 없습니다: {table}",
+      "Folder": "생성된 포켓몬을 넣을 폴더",
+      "InvalidFolder": "폴더는 포켓몬 캐릭터를 지원해야 합니다.",
+      "FoundFolder": "확인된 폴더",
+      "CouldNotFindFolder": "폴더 {folder}을(를) 찾을 수 없습니다, 제출 시에 폴더가 생성됩니다.",
+      "Submit": "생성"
     },
 
     "Stats": {
       "hp": "HP",
-      "atk": "Attack",
-      "def": "Defense",
-      "spatk": "Special Attack",
-      "spdef": "Special Defense",
-      "spd": "Speed",
-      "LevelUpPointsRemaining": "Level-Up Points Remaining"
+      "atk": "공격",
+      "def": "방어",
+      "spatk": "특수공격",
+      "spdef": "특수방어",
+      "spd": "스피드",
+      "LevelUpPointsRemaining": "잔여 레벨업 포인트"
     },
 
     "Roll": {
-      "Add": "Add",
-      "CriticalHit": "Critical Hit",
-      "Fortune": "Fortune",
-      "FortuneTitle": "{title} Fortune",
-      "KeepHigher": "Keep Higher",
-      "KeepLower": "Keep Lower",
-      "Misfortune": "Misfortune",
-      "MisfortuneTitle": "{title} Misfortune",
-      "Modifier": "Modifier",
+      "Add": "추가",
+      "CriticalHit": "치명타",
+      "Fortune": "행운",
+      "FortuneTitle": "{title} 행운",
+      "KeepHigher": "유리점",
+      "KeepLower": "불리점",
+      "Misfortune": "불운",
+      "MisfortuneTitle": "{title} 불운",
+      "Modifier": "수정치",
       "None": "None",
-      "Normal": "Normal",
-      "Roll": "Roll",
-      "Type": "Type",
-      "UntypedPenalty": "Untyped (penalty)"
+      "Normal": "기본",
+      "Roll": "굴림",
+      "Type": "타입",
+      "UntypedPenalty": "타입 없음 (페널티)"
     },
 
-    "ModifierTitle": "Modifier",
-    "RollModeLabel": "Roll Mode",
+    "ModifierTitle": "수정치",
+    "RollModeLabel": "굴림 모드",
 
     "Action": {
-      "AttackRoll": "Accuracy Check: {move}",
-      "DamageRoll": "Damage Roll: {move}",
-      "damage-roll": "Damage Roll",
-      "attack-roll": "Accuracy Check",
-      "AttackOutOfRange": "The target is out of range",
-      "MoveWhileFrozen": "You can't use moves while frozen",
-      "MoveWhileSleeping": "You can't use moves while sleeping",
-      "StatusAttackWhileRaging": "You cannot use a Status Move while Raging",
-      "DisabledMove": "This move is disabled",
-      "CannotAttack": "You cannot attack",
-      "SuppressedMove": "While suppressed you can only use at-will moves",
-      "ConfusionFail": "{name} hurt itself in its confusion! and takes {damage} damage.",
+      "AttackRoll": "명중률 체크: {move}",
+      "DamageRoll": "데미지 롤: {move}",
+      "damage-roll": "데미지 롤",
+      "attack-roll": "명중률 체크",
+      "AttackOutOfRange": "대상이 범위 바깥에 있습니다.",
+      "MoveWhileFrozen": "얼음 상태일 때는 기술을 사용할 수 없습니다.",
+      "MoveWhileSleeping": "잠듦 상태일 때는 기술을 사용할 수 없습니다.",
+      "StatusAttackWhileRaging": "난동 상태일 때는 변화기를 사용할 수 없습니다.",
+      "DisabledMove": "그 기술은 사슬묶기 되어있습니다.",
+      "CannotAttack": "공격할 수 없습니다.",
+      "SuppressedMove": "억제 상태일 때는 오직 임의 기술만 사용할 수 있습니다.",
+      "ConfusionFail": "{name}이(가) 영문도 모른채 자신을 공격했다! {damage}의 데미지를 입었습니다.",
       "Paralyzed": {
         "Suppressed": {
-          "One": "The effects of",
-          "Two": "are suppressed for this round."
+          "One": "효과",
+          "Two": "가 이번 라운드 동안 적용되지 않습니다."
         },
         "Applicable": {
-          "One": "The effects of",
-          "Two": "are in effect this round."
+          "One": "효과",
+          "Two": "가 이번 라운드 동안 적용됩니다."
         },
-        "Fail": "{name} is paralyzed and cannot move!",
-        "Success": "{name} is paralyzed but managed to move anyway!"
+        "Fail": "{name}은(는) 몸이 저려서 움직일 수 없다!",
+        "Success": "{name}은(는) 마비되어 있지만 움직일 수 있었다!"
       },
       "Hypermode": {
         "Suppressed": {
-          "One": "The effects of",
-          "Two": "are suppressed for this round."
+          "One": "효과",
+          "Two": "가 이번 라운드 동안 적용되지 않습니다."
         },
         "Applicable": {
-          "One": "The effects of",
-          "Two": "are in effect this round."
+          "One": "효과",
+          "Two": "가 이번 라운드 동안 적용됩니다."
         },
         "Fail": "{name} is raging and can only use Shadow Moves!",
         "Success": "{name} is barely containing it's rage!",
         "Create": "{name}'s rage is getting out of hand, they entered Hyper Mode!"
       },
-      "DamageSelector": "Damage Selector",
-      "Damage": "Damage",
-      "Apply": "Apply Damage",
-      "CaptureRoll": "Capture Roll",
-      "CaptureNoTarget": "You need to target a Pokémon to capture",
-      "CaptureWrongTarget": "You need to target a Pokémon to capture",
-      "Use": "Apply Effect",
-      "NoTarget": "You need to target an actor before using a move"
+      "DamageSelector": "데미지 선택기",
+      "Damage": "데미지",
+      "Apply": "데미지 적용",
+      "CaptureRoll": "포획 롤",
+      "CaptureNoTarget": "포획할 대상 포켓몬을 선택해야 합니다.",
+      "CaptureWrongTarget": "포획할 대상 포켓몬을 선택해야 합니다.",
+      "Use": "효과 적용",
+      "NoTarget": "기술을 사용하기 전에 대상을 선택해야 합니다."
     },
 
     "Traits": {
       "Substitution": "{type} ({substitution})"
     },
 
-    "DamageLabel": "Damage",
-    "CriticalDamageLabel": "Critical",
-    "CriticalImmunityLabel": "Crit turned to hit due to crit immunity",
+    "DamageLabel": "데미지",
+    "CriticalDamageLabel": "치명타",
+    "CriticalImmunityLabel": "치명타 면역으로 인해 치명타가 평범한 명중으로 변경되었습니다.",
 
-    "Recalc": "Click to add current targets to this roll, shift click to overwrite current targets",
+    "Recalc": "클릭하여 현재 대상을 이 굴림에 추가하고, 쉬프트 키를 눌러 현재 대상을 덮어쓰십시오.",
 
     "Tags": {
-      "Effect": "Effect",
-      "Frequency": "Frequency",
-      "Range": "Range",
-      "DB": "Damage Base"
+      "Effect": "효과",
+      "Frequency": "빈도",
+      "Range": "범위",
+      "DB": "DB(Damage Base)"
     },
 
     "Applicators": {
-      "Hit": "Hit (click to toggle)",
-      "Miss": "Miss (click to toggle)",
-      "Crit": "Crit (click to toggle)",
-      "NoCrit": "No Crit (click to toggle)",
-      "Full": "Apply Normal",
-      "Half": "Apply Half",
-      "Weak": "Apply Resist Less",
-      "Resist": "Apply Resist More",
-      "Flat": "Apply Flat Damage"
+      "Hit": "명중 (클릭하여 토글)",
+      "Miss": "빗나감 (클릭하여 토글)",
+      "Crit": "치명타 (클릭하여 토글)",
+      "NoCrit": "비 치명타 (클릭하여 토글)",
+      "Full": "기본 적용",
+      "Half": "절반 적용",
+      "Weak": "저항 제거 적용",
+      "Resist": "추가 저항 적용",
+      "Flat": "고정 데미지 적용"
     },
     "ApplyButtons": {
-      "Apply": "Apply Damage",
-      "Full": "Full",
-      "Half": "Half",
-      "Weak": "Weak",
-      "Resist": "Resist",
-      "Flat": "Flat"
+      "Apply": "데미지 적용",
+      "Full": "온전",
+      "Half": "절반",
+      "Weak": "약점",
+      "Resist": "저항",
+      "Flat": "고정"
     },
     "Notifications": {
-      "CannotApplyOnMiss": "You can't apply damage on a target that isn't hit.",
-      "InvalidRoll": "Something went wrong while applying damage",
-      "NoEffect": "It appears this move doesn't have any special effect."
+      "CannotApplyOnMiss": "대상에게 명중하지 않았기에 피해를 줄 수 없습니다.",
+      "InvalidRoll": "피해를 적용하는 동안 문제가 발생했습니다.",
+      "NoEffect": "이 기술에는 특별한 효과가 없는 것으로 보입니다."
     },
     "UI": {
-      "ShiftModifyDamageTitle": "Adjust the rolled damage/healing",
-      "ShiftModifyDamageLabel": "Adjust Damage/Healing",
-      "ShiftModifySkipIWRLabel": "Skip Immunities/Weaknesses/Resistances"
+      "ShiftModifyDamageTitle": "피해/회복 굴림을 조정하세요",
+      "ShiftModifyDamageLabel": "데미지/회복을 조정하세요",
+      "ShiftModifySkipIWRLabel": "약점/저항/면역을 무시합니다."
     },
     "Type": {
-      "normal": "Normal",
-      "fighting": "Fighting",
-      "flying": "Flying",
-      "poison": "Poison",
-      "ground": "Ground",
-      "rock": "Rock",
-      "bug": "Bug",
-      "ghost": "Ghost",
-      "steel": "Steel",
-      "fire": "Fire",
-      "water": "Water",
-      "grass": "Grass",
-      "electric": "Electric",
-      "psychic": "Psychic",
-      "ice": "Ice",
-      "dragon": "Dragon",
-      "dark": "Dark",
-      "fairy": "Fairy",
-      "nuclear": "Nuclear",
-      "untyped": "Untyped"
+      "normal": "노말",
+      "fighting": "격투",
+      "flying": "비행",
+      "poison": "독",
+      "ground": "땅",
+      "rock": "바위",
+      "bug": "벌레",
+      "ghost": "고스트",
+      "steel": "강철",
+      "fire": "불꽃",
+      "water": "물",
+      "grass": "풀",
+      "electric": "전기",
+      "psychic": "에스퍼",
+      "ice": "얼음",
+      "dragon": "드래곤",
+      "dark": "악",
+      "fairy": "페어리",
+      "nuclear": "핵",
+      "untyped": "타입 없음"
     },
     "Modifiers": {
-      "Label": "Modifiers",
-      "Total": "Total",
-      "Defense": "Defense",
-      "SpecialDefense": "Special Defense",
-      "DamageReduction": "Damage Reduction",
-      "Effectiveness": "Applicator Effectiveness",
-      "Combined": "Effectiveness Total",
+      "Label": "수정치",
+      "Total": "총합",
+      "Defense": "방어",
+      "SpecialDefense": "특수방어",
+      "DamageReduction": "피해감소",
+      "Effectiveness": "약점 및 저항 적용",
+      "Combined": "총 약점 및 저항",
       "ItemOverwrite": {
-        "hp": "HP Defense",
-        "atk": "ATK Defense",
-        "def": "DEF Defense",
-        "spatk": "SPATK Defense",
-        "spdef": "SPDEF Defense",
-        "spd": "SPD Defense"
+        "hp": "HP 방어",
+        "atk": "공격 방어",
+        "def": "방어 방어",
+        "spatk": "특수공격 방어",
+        "spdef": "특수방어 방어",
+        "spd": "스피드 방어"
       }
     },
     "ApplyDamage": {
-      "AtFullHealth": "<actor>{actor}</actor> is already at full health.",
-      "DamagedForN": "<actor>{actor}</actor> takes {hpDamage} damage.",
-      "HealedForN": "<actor>{actor}</actor> is healed for {hpDamage} damage.",
-      "GainedTempHp": "<actor>{actor}</actor> gains {hpDamage} temporary hit points.",
-      "TakesNoDamage": "<actor>{actor}</actor> takes no damage.",
-      "TheTarget": "The target",
-      "Revert": "Undo Damage",
-      "BossBarBroken": "<actor>{actor}</actor>'s Boss HP Bar is broken! ({bars} left)",
-      "MassiveDamageInjury": "<actor>{actor}</actor> gained 1 injury from taking Massive Damage.",
-      "HpThresholdInjury": "<actor>{actor}</actor> gained 1 injury from reaching {percentage}% HP.",
-      "BossHalfBarInjury": "<actor>{actor}</actor> gained 1 injury from having lost half of its Boss HP Bars!."
+      "AtFullHealth": "<actor>{actor}</actor>은(는) 이미 최대 체력입니다.",
+      "DamagedForN": "<actor>{actor}</actor>이(가) {hpDamage} 데미지를 받았습니다.",
+      "HealedForN": "<actor>{actor}</actor>이(가) {hpDamage} 회복했습니다.",
+      "GainedTempHp": "<actor>{actor}</actor>이(가) {hpDamage} 임시 체력을 얻습니다.",
+      "TakesNoDamage": "<actor>{actor}</actor>이(가) 데미지를 받지 않았습니다.",
+      "TheTarget": "대상",
+      "Revert": "피해 되돌리기",
+      "BossBarBroken": "<actor>{actor}</actor>의 HP바가 파괴되었습니다! (남은 바 {bars}개)",
+      "MassiveDamageInjury": "<actor>{actor}</actor>이(가) 굉장한 피해를 입어 1개의 부상을 입었습니다!",
+      "HpThresholdInjury": "<actor>{actor}</actor>이(가) {percentage}% HP에 도달하여 1개의 부상을 입었습니다!",
+      "BossHalfBarInjury": "<actor>{actor}</actor>가 HP바의 절반을 잃어 1개의 부상을 입었습니다!"
     },
-    "InitiativeRoll": "{name}'s Initiative Roll",
-    "SaveCheck": "{name}'s {save} Save",
+    "InitiativeRoll": "{name}의 이니셔티브 롤",
+    "SaveCheck": "{name}의 {save} 저항",
 
     "Migrations": {
-      "Finished": "PTR System Migration to version {version} completed!",
-      "OnlyGMCanUse": "Only a gamemaster can use this tool.",
-      "OutsideSchemaRange": "The specified range is outside the system's schema version range (between {minimum} and {maximum}).",
-      "Starting": "Applying PTR System Migration to version {version}. Please be patient and do not close your game or shut down your server.",
+      "Finished": "PTR System의 이전이 {version}로 완료되었습니다!",
+      "OnlyGMCanUse": "GM만이 사용할 수 있는 도구입니다.",
+      "OutsideSchemaRange": "지정된 범위가 스키마 버전 범위를 벗어났습니다. ({minimum}과 {maximum} 사이).",
+      "Starting": "PTR 시스템을 버전 {version}로 이전하는 중입니다. 잠시 기다려주시고 게임을 종료하거나 서버를 종료하지 마십시오.",
       "Summary": {
-        "Documents": "Documents",
-        "HelpResources": "An unexpected error was encountered while migrating some actors or items. If you would like further assistance, feel free to report an issue at the <a href=\"https://github.com/dylanpiera/foundry-Pokemon-Tabletop-United-System/issues\">system repository</a> or visit us on <a href=\"https://discord.gg/ptrfvtt\">Discord</a> for community support.",
-        "Migrated": "Migrated",
-        "Remigrate": "Remigrate",
-        "Title": "Migration Summary",
-        "Total": "Total",
+        "Documents": "문서",
+        "HelpResources": "일부 캐릭터 또는 항목을 이전하는 중에 예상치 못한 오류가 발생했습니다. 더 많은 도움이 필요하시다면, <a href=\"https://github.com/dylanpiera/foundry-Pokemon-Tabletop-United-System/issues\">system repository</a>에서 문제를 보고하시거나, <a href=\"https://discord.gg/ptrfvtt\">Discord</a>에 방문하셔서 커뮤니티 지원을 받으십시오.",
+        "Migrated": "이전",
+        "Remigrate": "재이전",
+        "Title": "이전 요약",
+        "Total": "결과",
         "Troubleshoot": {
-          "Hint": "Here you can run a remigration, which will attempt to automatically fix issues with actors and items.",
-          "Title": "System Troubleshooting",
-          "Type": "Document Type",
-          "Name": "Document Name",
-          "Uuid": "Document UUID"
+          "Hint": "여기서는 재이전을 실행할 수 있습니다. 이는 캐릭터와 아이템에 대한 문제를 자동으로 해결하려고 시도합니다.",
+          "Title": "시스템 문제 해결",
+          "Type": "문서 종류",
+          "Name": "문서명",
+          "Uuid": "문서 Uuid"
         }
       },
       "Progress": {
-        "Starting": "Starting Migration",
-        "Progress": "Migration Phase {phase} of {phases}: migrating document...",
-        "Completed": "Migration Completed"
+        "Starting": "이전 시작",
+        "Progress": "이전 단계 {phase} 중 {phases}: 문서 이전중...",
+        "Completed": "이전 성공"
       },
-      "Troubleshooting": "Troubleshooting",
-      "WorldNotReady": "Game world not ready: try again in a few seconds."
+      "Troubleshooting": "문제 해결",
+      "WorldNotReady": "월드가 준비되어 있지 않습니다.: 잠시 후에 다시 시도해주십시오.."
     },
 
     "Actor": {
-      "Plural": "Actors",
-      "Singular": "Actor",
+      "Plural": "캐릭터",
+      "Singular": "캐릭터",
       "Config": {
         "Theme": {
-          "Label": "Theme",
-          "Hint": "if empty will default to your pokeball (if a pokemon) or 'default', if theme cannot be found the parchment theme will be used."
+          "Label": "테마",
+          "Hint": "만약 테마를 지정하지 않으면, 포켓몬이라면 몬스터볼 테마가, 그렇지 않으면 'default'로 설정됩니다, 테마를 찾을 수 없는 경우 양피지 테마가 사용됩니다"
         },
         "Alliance": {
-          "Label": "Alliance",
-          "Hint": "The alliance of the actor."
+          "Label": "동맹",
+          "Hint": "캐릭터의 동맹."
         }
       }
     },
     "Item": {
-      "Plural": "Items",
-      "Singular": "Item"
+      "Plural": "아이템",
+      "Singular": "아이템"
     },
     "OK": "OK",
-    "UserNeedsToOwnCharacter": "You need to set a character for your user in order to use this feature.",
+    "UserNeedsToOwnCharacter": "이 기능을 사용하기 위해서는 사용자의 캐릭터를 설정해야 합니다.",
 
     "RuleEditor": {
       "FlatModifier": {
-        "HideIfDisabled": "Hide (If Disabled)"
+        "HideIfDisabled": "숨김 (만약 비활성화 되어있다면)"
       },
       "General": {
         "Brackets": "Brackets",
@@ -780,48 +780,48 @@
       }
     },
     "Check": {
-      "Check": "Check",
-      "SkillCheck": "{skill} Check",
-      "SkillMod": "Skill Mod",
-      "SkillDice": "Skill Rank"
+      "Check": "체크",
+      "SkillCheck": "{skill} 체크",
+      "SkillMod": "스킬 수정치",
+      "SkillDice": "스킬 랭크"
     },
     "Configure": "Configuring {name}",
 
     "Settings": {
-      "ResetChanges": "Reset Changes",
+      "ResetChanges": "초기화",
       "AddType": {
-        "ExistsLabel": "Edit Type",
-        "Label": "Add Type",
-        "Hint": "Please provide the name & icon for the new type.",
+        "ExistsLabel": "타입 편집",
+        "Label": "타입 추가",
+        "Hint": "새로운 타입의 이름과 아이콘을 제공해주십시오.",
         "Name": {
-          "Name": "Type Name",
-          "Hint": "The name of the type."
+          "Name": "타입명",
+          "Hint": "타입의 이름."
         },
         "IconImg": {
-          "Name": "Type Icon",
-          "Hint": "The icon to use for the type."
+          "Name": "타입의 아이콘",
+          "Hint": "타입에 사용할 아이콘."
         },
         "BarImg": {
-          "Name": "Type Bar Image",
-          "Hint": "The bar image to use for the type when displaying in Chat."
+          "Name": "타입 바 이미지",
+          "Hint": "타입이 채팅에 보일 떄 사용할 바 이미지."
         }
       },
 
       "Variant": {
-        "Name": "Variant Rules",
-        "Label": "Toggle Variant Rules",
-        "Hint": "Enable and configure variant rules like 'Use Dex EXP' for the system.",
+        "Name": "변형 룰",
+        "Label": "변형 룰 토글",
+        "Hint": "시스템에 대해 '도감 경험치'와 같은 변형 룰을 활성화하고 구성합니다.",
         "UseTutorPoints": {
-          "Name": "Use Tutor Points for Pokémon",
-          "Hint": "Otherwise use the suggested changes in the 'GM Advice and Suggested Houserules' (see: https://pastebin.com/iDt2Mj0d)"
+          "Name": "포켓몬 가르침 포인트 사용",
+          "Hint": "그렇지 않으면 'GM 조언 및 제안 하우스룰'에서 제안된 변경 사항을 사용하십시오.(참조: https://pastebin.com/iDt2Mj0d)"
         },
         "UseDexExp": {
-          "Name": "Use Dex Exp for Trainers",
-          "Hint": "Whether the system should check how many pokemon are marked as 'Caught' in a Trainer's dex, and add that to their dex experience total."
+          "Name": "트레이너 도감 경험치 사용",
+          "Hint": "시스템에서 트레이너의 도감에서 '포획'으로 표시된 포켓몬 수를 확인하고, 해당 트레이너의 도감 경험치 총량에 추가해야 하는지의 여부입니다."
         },
         "TrainerRevamp": {
-          "Name": "Use Trainer Revamp (max lvl 25)",
-          "Hint": "Use DataNinja's alt. Trainer Revamp ruleset, disables Dex Exp. (see: https://shorturl.at/oCDWY)"
+          "Name": "트레이너 개선 사용 (최대 레벨 25)",
+          "Hint": "DataNinja의 대체 트레이너 개선 룰셋을 사용합니다. 도감 경험치를 비활성화 합니다. (see: https://shorturl.at/oCDWY)"
         },
         "trainerAdvancement": {
           "Name": "Trainer Advancement Track",
@@ -842,48 +842,48 @@
         }
       },
       "Automation": {
-        "Name": "Automation",
-        "Label": "Toggle Automation",
-        "Hint": "Enable and configure automation rules like 'Remove Expired Effects' for the system.",
+        "Name": "자동화",
+        "Label": "자동화 토글",
+        "Hint": "시스템에 '종료된 효과 제거'와 같은 자동화 시스템을 활성화하고 구성하세요.",
         "LevelUpScreen": {
-          "Name": "Show Level-Up Window",
-          "Hint": "Allow the level-up window to appear whenever a Pokémon levels up."
+          "Name": "레벨업 창 보이기",
+          "Hint": "포켓몬이 레벨업 할 때마다 레벨업 창이 나타납니다."
         },
         "RemoveExpiredEffects": {
-          "Name": "Remove Expired Effects",
-          "Hint": "Remove expired effects from actors."
+          "Name": "종료된 효과 제거",
+          "Hint": "캐릭터의 종료된 효과를 제거합니다."
         },
         "AutoExpireEffects": {
-          "Name": "Auto-Expire Effects",
-          "Hint": "Automatically expire effects when their duration is up."
+          "Name": "효과 자동 종료",
+          "Hint": "효과의 지속 시간이 끝나면 자동으로 효과가 만료됩니다."
         },
         "FailAttackIfOutOfRange": {
-          "Name": "Fail Attack if Out of Range",
-          "Hint": "Automatically fail an attack if the target is out of range."
+          "Name": "범위를 벗어난 공격 실패",
+          "Hint": "대상이 범위를 벗어난 경우 공격이 자동으로 실패합니다."
         },
         "FailAttackIfNoTarget": {
-          "Name": "Fail Attack if No Target",
-          "Hint": "Automatically fail an attack if no actor is targeted."
+          "Name": "대상이 존재하지 않는 공격 실패",
+          "Hint": "대상에게 캐릭터가 없을 경우 공격이 자동으로 실패합니다.."
         },
         "FlankingDetection": {
-          "Name": "Flanking Detection",
-          "Hint": "Automatically apply flanking for attacks."
+          "Name": "포위 확인",
+          "Hint": "자동으로 공격에 포위 효과를 적용합니다."
         },
         "AutoFaint": {
-          "Name": "Auto-Faint",
-          "Hint": "Automatically adds the fainted condition to a Pokémon when it reaches 0 HP."
+          "Name": "자동 기절",
+          "Hint": "포켓몬의 HP가 0에 도달하면 자동으로 기절을 부여합니다."
         },
         "AutoFaintRecovery": {
-          "Name": "Auto-Faint Recovery",
-          "Hint": "Automatically remove the fainted condition from a Pokémon when it is healed above 0 HP."
+          "Name": "자동 기절 회복",
+          "Hint": "포켓몬의 HP가 0 이상으로 회복되면 자동으로 기절 상태를 제거합니다."
         },
         "MassiveDamageThreshold": {
-          "Name": "Massive Damage (%)",
-          "Hint": "The % of max HP resulting in an Injury from Massive Damage. (A huge percentage like 10000 practically disables Injuries from this source)"
+          "Name": "대규모 피해 (%)",
+          "Hint": "대규모 피해로 인한 부상을 얻는 최대 HP의 %입니다. (10000과 같이 매우 큰 값은 실질적으로 이 기능으로 인한 부상을 비활성화합니다.)"
         },
         "HpInjuryGateInterval": {
-          "Name": "Injury HP Interval (%)",
-          "Hint": "Down from 100% max HP, reaching every interval of this percentage causes an injury. E.g. 50% => 50%, 0%, -50%, ... (A huge percentage like 10000 practically disables Injuries from this source)"
+          "Name": "부상 HP 간격 (%)",
+          "Hint": "100%의 최대 HP로부터, 해당 비율의 간격마다 부상이 발생합니다. 예시. 50% => 50%, 0%, -50%, ... (10000과 같이 매우 큰 값은 실질적으로 이 기능으로 인한 부상을 비활성화합니다.)"
         }
       },
       "Generation": {
@@ -978,14 +978,14 @@
       }
     },
     "Contests": {
-      "Dice": "Dice",
-      "Type": "Contest Type",
-      "Stats": "From Stats",
-      "Reserve": "Reserve Dice",
-      "Poffins": "From Poffins",
-      "Voltage": "Voltage",
-      "DiceTotal": "Dice Total",
-      "Appeal": "Appeal"
+      "Dice": "주사위",
+      "Type": "콘테스트 타입",
+      "Stats": "관련 스탯",
+      "Reserve": "마이너스 주사위",
+      "Poffins": "포핀",
+      "Voltage": "볼티지",
+      "DiceTotal": "총 주사위",
+      "Appeal": "어필"
     },
     "Spirit": {
       "Friendship": "Friendship",
@@ -1003,47 +1003,47 @@
     },
     "Dialog": {
       "CaptureSuccess": {
-        "Title": "Capture Success",
-        "Hint": "To which trainer's party should the Pokemon be added?",
+        "Title": "포획 성공",
+        "Hint": "해당 포켓몬은 어떤 트레이너 파티에 추가되어야 합니까?",
         "Trainer": {
-          "Name": "Trainer",
-          "Hint": "The trainer to add the Pokemon to"
+          "Name": "트레이너",
+          "Hint": "포켓몬을 추가할 트레이너."
         },
         "PartyChoice": {
-          "Name": "Party Location",
-          "Hint": "Where in the Party should the Pokemon be added?",
-          "Party": "Party",
-          "Box": "Box",
-          "Available": "Available"
+          "Name": "파티 위치",
+          "Hint": "파티의 어디에 포켓몬이 추가되어야 합니까?",
+          "Party": "파티",
+          "Box": "박스",
+          "Available": "이용 가능"
         },
-        "Submit": "Submit",
-        "Cancel": "Cancel",
-        "TrainerNotFound": "An invalid trainer was selected, please try again.",
-        "LocationNotFound": "An invalid location was selected, please try again.",
-        "PokemonNotFound": "Unable to find the Pokemon, did you delete it?",
-        "ChatMessage": "{trainer} Caught {pokemon}! They have been added to {location}."
+        "Submit": "확인",
+        "Cancel": "취소",
+        "TrainerNotFound": "잘못된 트레이너가 선택되었습니다. 다시 시도해주세요.",
+        "LocationNotFound": "잘못된 위치가 선택되었습니다. 다시 시도해주세요.",
+        "PokemonNotFound": "포켓몬을 찾을 수 없습니다, 삭제되었나요?",
+        "ChatMessage": "{trainer}은(는) {pokemon}을(를) 잡았다! 포켓몬은 {location}에 옮겨집니다."
       },
       "ContestedCheck": {
-        "Title": "{name}'s Contested {skill} Check",
-        "Hint": "Select the skill to roll",
-        "Skill": "Skill to roll",
-        "Submit": "Submit",
-        "Cancel": "Cancel"
+        "Title": "{name}'의 콘테스트 {skill} 체크",
+        "Hint": "스킬을 선택한 뒤 굴려주세요",
+        "Skill": "스킬 굴림",
+        "Submit": "확인",
+        "Cancel": "취소"
       }
     },
     "Token": {
       "Size": {
-        "Dimensions": "Dimensions",
-        "Label": "Size",
+        "Dimensions": "차원",
+        "Label": "크기",
         "LinkToActorSize": {
-          "Link": "Link to Actor Size",
-          "Unlink": "Unlink from Actor Size"
+          "Link": "캐릭터 크기 링크",
+          "Unlink": "캐릭터 크기 링크 해제"
         }
       }
     },
-    "ExpBudget": "EXP Reward:",
+    "ExpBudget": "경험치 보상:",
     "TypeMatrix": {
-      "Title": "Type Chart"
+      "Title": "타입 표"
     },
     "CompendiumBrowser": {
       "Enrichment":{
@@ -1056,76 +1056,76 @@
         "LoadingPack": "Loading {pack}"
       },
       "Tabs": {
-        "Abilities": "Abilities",
-        "Capabilities": "Capabilities",
-        "Edges": "Edges",
-        "Effects": "Effects",
-        "Feats": "Features",
-        "Items": "Items",
-        "Moves": "Moves",
-        "PokeEdges": "Poke Edges",
-        "Species": "Species",
-        "Settings": "Settings"
+        "Abilities": "특성",
+        "Capabilities": "재능",
+        "Edges": "엣지",
+        "Effects": "효과",
+        "Feats": "재주",
+        "Items": "아이템",
+        "Moves": "기술",
+        "PokeEdges": "포켓엣지",
+        "Species": "종",
+        "Settings": "설정"
       },
       "PackNotLoaded": "Compendium \"{pack}\" could not be loaded.",
-      "Title": "Compendium Browser",
-      "Hint": "Please select a tab to continue...",
-      "CompendiumPacks": "Compendium Browser Packs",
+      "Title": "컴펜디움 브라우저",
+      "Hint": "tap을 눌러 계속해서 진행...",
+      "CompendiumPacks": "컴펜디움 브라우저 팩",
       "FilterOptions": {
-        "Source": "Source",
-        "Name": "Name",
-        "Class": "Class",
-        "Cost": "Cost",
-        "ItemType": "Item Type",
-        "MoveType": "Type",
-        "Category": "Category",
-        "DamageBase": "Damage Base",
-        "Number": "Dex Number",
-        "HasForm": "Has Form",
-        "LearnableMoves": "Learnable Moves",
-        "Abilities": "Obtainable Abilities",
-        "Keywords":"Keywords"
+        "Source": "원본",
+        "Name": "이름",
+        "Class": "클래스",
+        "Cost": "비용",
+        "ItemType": "아이템 타입",
+        "MoveType": "타입",
+        "Category": "분류",
+        "DamageBase": "DB(Damage Base)",
+        "Number": "도감 번호",
+        "HasForm": "양식 있음",
+        "LearnableMoves": "습득 가능한 기술",
+        "Abilities": "획득 가능한 특성",
+        "Keywords":"키워드"
       },
       "Search": {
-        "Placeholder": "Your query...",
-        "Title": "Search"
+        "Placeholder": "당신의 검색은...",
+        "Title": "검색"
       },
       "Filter": {
-        "SortBy": "Sort By",
-        "ClearFilters": "Clear Filters",
-        "AndLabel": "All of above",
-        "OrLabel": "Any of above"
+        "SortBy": "정렬 기준",
+        "ClearFilters": "필터 지우기",
+        "AndLabel": "위 항목 전체",
+        "OrLabel": "위 항목 중 하나"
       }
     },
     "Alliance": {
-      "Default": "Ownership Default ({alliance})",
-      "Neutral": "Neutral",
-      "Opposition": "Opposition",
-      "Party": "Party"
+      "Default": "소유 기본 ({alliance})",
+      "Neutral": "중립",
+      "Opposition": "적대",
+      "Party": "파티"
     },
-    "RulebookJournalSheetName": "Rulebook Sheet"
+    "RulebookJournalSheetName": "룰북 시트"
   },
 
-  "physical-evasion": "Physical Evasion",
-  "special-evasion": "Special Evasion",
-  "speed-evasion": "Speed Evasion",
-  "vulnerable": "Vulnerable: No Evasion",
-  "capture-dc": "Capture DC",
+  "physical-evasion": "물리 회피",
+  "special-evasion": "특수 회피",
+  "speed-evasion": "스피드 회피",
+  "vulnerable": "취약: 회피 없음",
+  "capture-dc": "포획 DC",
 
-  "overland": "Overland",
-  "sky": "Sky",
-  "swim": "Swim",
-  "levitate": "Levitate",
-  "burrow": "Burrow",
-  "highJump": "High Jump",
-  "longJump": "Long Jump",
-  "teleporter": "Teleporter",
-  "power": "Power",
-  "naturewalk": "Naturewalk",
-  "weightClass": "Weight Class",
-  "throwingRange": "Throwing Range",
+  "overland": "육상이동",
+  "sky": "공중이동",
+  "swim": "수중이동",
+  "levitate": "부유이동",
+  "burrow": "지중이동",
+  "highJump": "높이뛰기",
+  "longJump": "멀리뛰기",
+  "teleporter": "순간이동",
+  "power": "파워",
+  "naturewalk": "자연걸음",
+  "weightClass": "무게 등급",
+  "throwingRange": "투척 거리",
 
-  "party": "Party",
-  "neutral": "Neutral",
-  "opposition": "Opposition"
+  "party": "파티",
+  "neutral": "중립",
+  "opposition": "적대"
 }
