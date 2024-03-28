@@ -2571,17 +2571,17 @@
 			},
 		"Fusion Flare": {	
 			"name": "크로스플레임",
-			"effect":"만약 이 라운드나 전라운드에 이 인카운터의 모든 참가자들 중 누군가가 크로스썬더를 사용했을 경우 크로스플레임의 기본피해량은 +3만큼 상승합니다.",
+			"effect":"만약 이 라운드나 전 라운드에 이 인카운터의 모든 참가자들 중 누군가가 크로스썬더를 사용했을 경우 크로스플레임의 기본피해량은 +3만큼 상승합니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"8",
+			"keywords": ["대상 1, 강타"]
 			},
 		"Future Sight": {	
 			"name": "미래예지",
 			"effect":"미래예지는 사용한 턴 아무것도 일어나지 않습니다. 대상의 다음턴이 끝날 때, 사용자가 필드위에 없어도 미래예지가 명중합니다,미래예지는 빗나가지 않습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"10",
+			"keywords": ["대상 1"]
 			},
 		"G-Max Befuddle": {	
 			"name": "G-Max Befuddle",
@@ -2832,21 +2832,21 @@
 			"name": "위액",
 			"effect":"대상의 특성을 인카운터가 끝날때까지 무효화합니다. 만약 대상의 특성이 1개보다 많을경우 당신은 특성들 중 하나를 선택합니다. 해당 특성을 무효화합니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1"]
 			},
 		"Gear Grind": {	
 			"name": "기어소서",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["이단타격"]
 			},
 		"Gear Up": {	
-			"name": "Gear Up",
-			"effect":"",
-			"frequency":"",
-			"range":"",
+			"name": "어시스트기어",
+			"effect":"모든 강철타입 대상은 공격과 특수공격 전투단계에 +1을 얻습니다.",
+			"frequency":"파열 4",
+			"range":"장면x2",
 			"keywords": [""]
 			},
 		"Genesis Shackles": {	
@@ -2867,8 +2867,8 @@
 			"name": "지오컨트롤",
 			"effect":"준비효과 : 사용자는 이번 라운드동안 이동할 수 없습니다. 사용자는 임의의 수만큼 파열 3에 해당하는 범위 내의 지면에 험한 지형을 생성 할 수 있습니다. 사용자는 지표면에 관계 없이 식물을 퍼뜨려 파열3 내에서 원하는 만큼 험한 지형을 생성할 수 있습니다. 발동 효과: 지오컨트롤은 특수공격, 특수방어, 스피드 +2 전투단계를 상승시킵니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"자신",
+			"keywords": ["준비"]
 			},
 		"Get Lucky": {	
 			"name": "Get Lucky",
@@ -2888,22 +2888,22 @@
 			"name": "기가드레인",
 			"effect":"대상이 피해를 입은 뒤, 사용자는 대상이 받았다고 계산된 피해의 절반만큼 체력을 얻습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Giga Impact": {	
 			"name": "기가임팩트",
 			"effect":"--",
-			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"frequency":"하루x2",
+			"range":"근접",
+			"keywords": ["대상 1, 대시, 강타, 탈진"]
 			},
 		"Gigaton Hammer": {	
 			"name": "거대해머",
-			"effect":"피해를 입힌 사용자는 다음 턴이 끝날 때까지 둔화 및 취약 상태가 됩니다.",
+			"effect":"--",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Gigavolt Havoc": {	
 			"name": "Gigavolt Havoc",
@@ -2916,29 +2916,29 @@
 			"name": "블리자드랜스",
 			"effect":"블리자드랜스가 명중한 대상들은 다음 자신의 턴이 끝날 때까지 '구속'과 '수렁' 상태에 빠집니다.",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"직선 8",
+			"keywords": ["강타"]
 			},
 		"Glaciate": {	
 			"name": "얼어붙은세계",
 			"effect":"대상 전체의 스피드 전투단계를 -1전투단계만큼 하락시킵니다. 명중굴림이 짝수가 나왔을 때 지면위의 모든 대상은 둔화됩니다.",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 2",
 			"keywords": [""]
 			},
 		"Glaive Rush": {	
 			"name": "대검돌격",
-			"effect":"적중 시, 사용자가 1라운드 동안 취약 상태가 되는 것을 선택할 수 있습니다. 이 경우 공격이 한 단계 더 효과적입니다.  또한, 이렇게 취약한 상태에서 당신을 향한 다음 공격이 성공 하면 자동으로 치명타가 됩니다.",
+			"effect":"사용자의 다음 턴 종료까지, 모든 적은 사용자에 대한 명중 체크를 자동으로 성공하고, 데미지가 한 단계 더 효과적이게 됩니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"파열 1",
+			"keywords": ["이판사판"]
 			},
 		"Glare": {	
 			"name": "뱀눈초리",
 			"effect":"뱀눈초리에 맞을 경우 대상은 마비상태가 됩니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["사회적, 대상 1"]
 			},
 		"Golden Fist": {	
 			"name": "Golden Fist",
@@ -2956,94 +2956,94 @@
 			},
 		"Gouge": {	
 			"name": "속임수",
-			"effect":"대상의 공격 스탯을 확인합니다. 피해량을 계산할 때, 자신의 공격 스탯 대신 대상의 공격 스탯을 이용하여 계산합니다.",
+			"effect":"만약 속임수의 모든 공격이 대상에게 명중하면, 대상은 부상을 입습니다. 제한: 소형 근접무기와 단거리 사격무기로만 사용 가능",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"무기 범위",
+			"keywords": ["이단타격"]
 			},
 		"Grass Knot": {	
 			"name": "풀묶기",
 			"effect":"풀묶기의 기본피해량은 대상의 무게 등급의 2배 입니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"5",
+			"keywords": ["대상 1, 무게 등급"]
 			},
 		"Grass Pledge": {	
 			"name": "풀의맹세",
 			"effect":"아군이 불꽃의맹세 또는 물의맹세를 사용했다면, 그들의 턴 이후 같은 적을 대상으로 즉시 우선(고급)으로 풀의맹세를 사용할 수 있습니다. 불꽃의맹세와 같이 사용되면, 대상 주위 파열1 범위에 불바다(불꽃 함정)를 생성합니다. 물의맹세와 같이 사용되면, 대상과 대상과 인접한 모든 적들은 둔화되고 그들의 스피드 전투단계는 -2만큼 하락합니다. 자세한 내용은 맹세 키워드를 참조하세요.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1, 맹세"]
 			},
 		"Grass Whistle": {	
 			"name": "풀피리",
 			"effect":"대상은 잠듦상태가 됩니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1, 소리"]
 			},
 		"Grassy Glide": {	
 			"name": "그래스슬라이더",
 			"effect":"사용자가 그래스필드에 있다면 그래스슬라이더를 '우선'을 가지고서 사용될 수 있습니다. 장면당 한 번. 그래스슬라이더가 처리된 이후, 사용자는 지나온 공간(시작, 끝 포함)에 5라운드간 지속되는 그래스필드를 생성하도록 선택할 수 있습니다. 이 공간 안에 있는 모든 생물은 다른 필드 기술이 아닌 그래스필드에 영향을 받는 것처럼 취급됩니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["통과, 정신급증"]
 			},
 		"Grassy Terrain": {	
 			"name": "그래스필드",
 			"effect":"이 지역은 5라운드간 그래스필드 상태가 됩니다. 그래스필드일 때 땅을 밟고 서있는 트레이너와 모든 포켓몬은 매 턴 시작시 현재최대체력의 1/10씩 회복하며 지면에 있는 트레이너와 포켓몬의 풀타입 공격의 피해량 굴림에 +10을 더합니다.",
-			"frequency":"하루 x2",
-			"range":"",
+			"frequency":"하루x2",
+			"range":"필드",
 			"keywords": [""]
 			},
 		"Grav Apple": {	
 			"name": "G의힘",
 			"effect":"대상의 방어 전투단계를 -1만큼 하락시킵니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Gravity": {	
 			"name": "중력",
-			"effect":"5라운드 동안, 그 영역은 왜곡상태로 취급합니다. 왜곡상태 동안, 사용자가 공중에 뜨는 기술은 사용할 수 없습니다(예 : 뛰어오르기, 공중날기, 프리폴 등). 포켓몬은 공중이동 이나 부유 재능으로 1M보다 높은 고도에서 턴을 마치는 것이 불가능합니다. 비행타입과 부유 특성을 가진 포켓몬들은 땅타입 기술을 무효화 하지 않습니다. 모든 명중 굴림은 +2 보너스를 받습니다.",
-			"frequency":"하루 x2",
-			"range":"",
+			"effect":"5라운드 동안, 그 영역은 왜곡상태로 취급합니다. 왜곡상태 동안, 사용자가 공중에 뜨는 기술은 사용할 수 없습니다(예 : 뛰어오르기, 공중날기, 프리폴 등). 포켓몬은 공중이동 이나 부유이동으로 1M보다 높은 고도에서 턴을 마치는 것이 불가능합니다. 비행타입과 부유 특성을 가진 포켓몬들은 땅타입 기술을 무효화 하지 않습니다. 모든 명중 굴림은 +2 보너스를 받습니다.",
+			"frequency":"하루x2",
+			"range":"필드",
 			"keywords": [""]
 			},
 		"Growl": {	
 			"name": "울음소리",
 			"effect":"모든 대상은 공격 전투단계를 -1만큼 하락시킵니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"파열 1",
+			"keywords": ["친화, 소리, 사회적"]
 			},
 		"Growth": {	
 			"name": "성장",
 			"effect":"사용자의 공격과 특수공격 전투단계를 +1만큼 상승시킵니다. 쾌청일 경우 2배로 얻습니다. *습득시 팽창성 재능을 얻습니다.",
 			"frequency":"격턴",
-			"range":"",
+			"range":"자신",
 			"keywords": [""]
 			},
 		"Grudge": {	
 			"name": "원념",
 			"effect":"사용자가 공격기로 기절했을 때 당신은 방해로 원념을 사용할 수 있습니다. 원념은 자유행동으로 활성화됩니다(명령은 사용되지 않습니다.) 그 공격은 평범하게 처리되고, 사용자는 기절합니다. 사용자를 기절하게 한 공격자는 인카운터의 나머지동안 억압되고; 이 방법으로 효과가 사용되면 교체와 숨돌리기로도 이 억압은 해제되지 않습니다.",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1, 방해"]
 			},
 		"Guard Split": {	
 			"name": "가드셰어",
 			"effect":"대상은 방어와 특수방어에서 5만큼을 잃습니다. 그렇게 하면, 사용자는 5 피해 감소를 얻습니다. 이 효과는 장면 끝까지 남습니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Guard Swap": {	
 			"name": "가드스왑",
 			"effect":"사용자와 대상의 방어스탯과 특수방어 스탯의 전투단계를 서로 바꿉니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Guardian of Alola": {	
 			"name": "Guardian of Alola",
@@ -3056,50 +3056,50 @@
 			"name": "가위자르기",
 			"effect":"1d100을 굴립니다. 이 굴림은 어떠한 방법이든 보정치를 줄 수 없습니다. 만약 굴린 값이 X보다 낮을경우 대상은 기절합니다. 가위자르기는 노말타입에게 면역인 대상에게 무효가 됩니다 (X=30+사용자의 Lv-대상의Lv)",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 일격"]
 			},
 		"Gunk Shot": {	
 			"name": "더스트슈트",
 			"effect":"더스트슈트는 명중굴림의 값이 15이상이 나왔을 때 대상을 중독시킵니다.",
 			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["강타, 대상 1"]
 			},
 		"Gust": {	
 			"name": "바람일으키기",
 			"effect":"만약 대상이 뛰어오르기, 공중날기 또는 프리폴로 인해 공중에 뜬 상태였을 경우, 바람일으키기는 명중 가능하며 범위를 무시할수 있고 기본피해량을 8로 대체합니다. *습득시 세찬바람 재능을 얻습니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1, 바람"]
 			},
 		"Guster": {	
-			"name": "Guster",
-			"effect":"",
-			"frequency":"",
-			"range":"",
-			"keywords": [""]
+			"name": "세찬바람",
+			"effect":"--",
+			"frequency":"임의",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Guster+": {	
-			"name": "Guster+",
-			"effect":"",
-			"frequency":"",
-			"range":"",
-			"keywords": [""]
+			"name": "세찬바람+",
+			"effect":"--",
+			"frequency":"임의",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Gyro Ball": {	
 			"name": "자이로볼",
 			"effect":"대상의 스피드 스탯(전투단계 포함)을 밝힙니다. 사용자의 스피드(전투단계 포함)보다 높으면, 대상의 스피드에서 사용자의 스피드를 빼고 그 차이만큼을 보너스 피해로 적용합니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Hail": {	
 			"name": "싸라기눈",
 			"effect":"5라운드 동안 날씨가 싸라기눈으로 바뀝니다. 싸라기눈인 동안, 얼음타입 아닌 모든 포켓몬들은 턴 시작시에 소량의 체력을 잃습니다.",
-			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"frequency":"하루x2",
+			"range":"필드",
+			"keywords": ["날씨"]
 			},
 		"Hail [Weather Playtest]": {	
 			"name": "Hail [Weather Playtest]",
@@ -3119,99 +3119,99 @@
 			"name": "암해머",
 			"effect":"사용자의 스피드 전투단계가 -1만큼 하락합니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 펀치"]
 			},
 		"Harden": {	
 			"name": "단단해지기",
 			"effect":"사용자의 방어 전투단계를 +1 만큼 상승시킵니다.",
 			"frequency":"임의",
-			"range":"",
+			"range":"자신",
 			"keywords": [""]
 			},
 		"Haze": {	
 			"name": "흑안개",
 			"effect":"인카운터에 존재하는 모든 포켓몬과 트레이너의 전투단계를 기본상태로 되돌린다(보통 0).",
 			"frequency":"장면x2",
-			"range":"",
+			"range":"필드",
 			"keywords": [""]
 			},
 		"Head Charge": {	
 			"name": "아프로브레이크",
 			"effect":"대상은 뒤로 2m 밀려납니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["밀기, 반동 1/3, 대상 1"]
 			},
 		"Head Smash": {	
 			"name": "양날박치기",
 			"effect":"대상은 2M 밀려납니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대시, 밀기, 반동 1/3, 대상 1"]
 			},
 		"Headbutt": {	
 			"name": "박치기",
 			"effect":"박치기의 명중굴림의 값이 15이상이 나왔을 때 대상을 풀죽게 합니다. .",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Headlong Rush": {	
 			"name": "들이받기",
-			"effect":"사용자의 방어와 특수방어는 각각 -1 전투단계만큼 감소합니다.  들이받기는 사용자가 대상을 향해 직선 방향으로 3미터 이상 이동한다면, 기본 행동으로 취한 '질주' 동작이 끝날 때 자유 행동으로 사용할 수 있습니다. 이 방식으로 사용하면 들이받기는 적중 시 대상을 넘어뜨립니다.",
+			"effect":"사용자의 방어와 특수방어는 각각 -1 전투단계만큼 감소합니다. 들이받기는 사용자가 대상을 향해 직선 방향으로 3미터 이상 이동한다면, 기본 행동으로 취한 '질주' 동작이 끝날 때 자유 행동으로 사용할 수 있습니다. 이 방식으로 사용하면 들이받기는 적중 시 대상을 넘어뜨립니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 강타, 펀치"]
 			},
 		"Heal Bell": {	
 			"name": "치료방울",
 			"effect":"모든 대상은 지속성 상태이상을 모두 회복합니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"파열 3",
+			"keywords": ["소리, 회복"]
 			},
 		"Heal Block": {	
 			"name": "회복봉인",
 			"effect":"전투가 끝날 때까지 대상은 어떤 출처에서도 체력 또는 임시 체력을 획득할 수 없습니다. 이 효과는 대상이 교체되거나 숨돌리기를 하면 종료됩니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Heal Order": {	
 			"name": "회복지령",
 			"effect":"사용자는 현재최대체력의 절반과 동일한 체력을 얻습니다.",
-			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"frequency":"하루x2",
+			"range":"자신",
+			"keywords": ["회복"]
 			},
 		"Heal Pulse": {	
 			"name": "치유파동",
 			"effect":"대상의 현재최대체력의 절반을 회복합니다. 치유파동의 사용자는 자신 스스로를 대상으로 할 수 없습니다.",
-			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"frequency":"하루x2",
+			"range":"6",
+			"keywords": ["대상 1. 오라, 회복"]
 			},
 		"Healing Wish": {	
 			"name": "치유소원",
 			"effect":"사용자는 체력이 0으로 낮아지고 즉시 기절합니다. 사용자는 치유소원을 사용할 때 감소된 체력으로부터 부상을 입지 않습니다. 대상은 즉시 부상을 3개까지 치유하고, 최대체력까지 회복되며 모든 기술의 빈도를 회복합니다. 치유소원은 몬스터볼 안의 포켓몬을 대상으로 할 수 있습니다. 치유소원은 치유소원 또는 초승달춤의 빈도를 복구시킬수 없습니다. 치유소원으로 치료한 부상은 하루에 회복 가능한 부상 수에 포함되고 부상 회복에 대한 제한을 받습니다.",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["회복, 대상 1"]
 			},
 		"Heart Stamp": {	
 			"name": "하트스탬프",
-			"effect":"히트스탬프의 명중굴림의 값이 15이상이 나왔을 때 대상을 풀죽게 합니다. .",
+			"effect":"하트스탬프의 명중굴림의 값이 15이상이 나왔을 때 대상을 풀죽게 합니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Heart Swap": {	
 			"name": "하트스왑",
-			"effect":"대상과 모든 스탯의 전투단계를 서로 바꿉니다.",
+			"effect":"대상의 모든 스탯의 전투단계를 서로 바꿉니다.",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"10",
+			"keywords": ["대상 2"]
 			},
 		"Heartful Embrace": {	
 			"name": "Heartful Embrace",
@@ -3224,231 +3224,231 @@
 			"name": "히트스탬프",
 			"effect":"대상보다 높은 무게 등급마다, 히트스탬프의 기본피해량에 +2만큼 합니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 대시"]
 			},
 		"Heat Wave": {	
 			"name": "열풍",
 			"effect":"열풍의 명중굴림의 값이 18이상이 나왔을 때 모든 대상은 화상을 입습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"인접 폭발 3",
+			"keywords": ["강타, 바람"]
 			},
 		"Heavy Slam": {	
 			"name": "헤비봄버",
 			"effect":"대상보다 높은 사용자의 무게 등급마다, 헤비봄버의 기본피해량은 +2 증가합니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Helping Hand": {	
 			"name": "도우미",
-			"effect":"도우미는 이번턴 대상의 행할 다음 명중굴림에+2, 다음 피해굴림에+10을 준다.",
+			"effect":"도우미는 이번 라운드 대상의 행할 다음 명중굴림에+2, 다음 피해굴림에 +10을 줍니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1, 우선"]
 			},
 		"Hex": {	
 			"name": "병상첨병",
 			"effect":"장면에 한번, 대상이 상태이상에 걸려있을 경우, 병상첨병의 기본피해량은 13으로 대체됩니다.(4d10+10 / 35)",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Hidden Power": {	
 			"name": "잠재파워",
 			"effect":"포켓몬이 처음으로 잠재파워를 얻었을 때 1d20을 굴립니다. 잠재파워의 타입은 1일때 벌레, 2일때 악, 3일때 드래곤, 4일때 전기, 5일때 페어리, 6일때 격투, 7일때 불꽃, 8일때 비행, 9일때 고스트, 10일때 풀, 11일때 땅, 12일때 얼음, 13일때 노말, 14일때 독, 15일때 에스퍼, 16일때 바위, 17일때 강철, 18일때 물, 19-20일때 당신이 다른 숫자가 나올때 까지 다시 굴립니다. 이 효과는 영구적입니다. (만약 잠재파워를 잊었다 다시 기억해냈을 때에도 같은 타입으로 적용됩니다.)",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Bug": {	
 			"name": "잠재파워 벌레",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Dark": {	
 			"name": "잠재파워 악",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Dragon": {	
 			"name": "잠재파워 드래곤",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Electric": {	
 			"name": "잠재파워 전기",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Fairy": {	
 			"name": "잠재파워 페어리",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Fighting": {	
 			"name": "잠재파워 격투",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Fire": {	
 			"name": "잠재파워 불꽃",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Flying": {	
 			"name": "잠재파워 비행",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Ghost": {	
 			"name": "잠재파워 고스트",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Grass": {	
 			"name": "잠재파워 풀",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Ground": {	
 			"name": "잠재파워 땅",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Ice": {	
 			"name": "잠재파워 얼음",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Normal": {	
-			"name": "Hidden Power Normal",
-			"effect":"",
-			"frequency":"",
-			"range":"",
+			"name": "잠재파워 노말",
+			"effect":"--",
+			"frequency":"격턴",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Poison": {	
 			"name": "잠재파워 독",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Psychic": {	
 			"name": "잠재파워 에스퍼",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Rock": {	
 			"name": "잠재파워 바위",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Steel": {	
 			"name": "잠재파워 강철",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hidden Power Water": {	
 			"name": "잠재파워 물",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"High Horsepower": {	
 			"name": "10만마력",
 			"effect":"10만마력은 기본행동을 사용해 대상을 향해 최소 3m이상 일직선으로 이동하는 질주행동을 끝낸 후 자유행동으로 사용할 수 있습니다. 이렇게 사용될 경우 10만마력은 [강타]키워드를 가집니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"High Jump Kick": {	
 			"name": "무릎차기",
 			"effect":"무릎차기가 빗나가면, 사용자는 최대체력의 1/4에 해당하는 체력을 잃습니다. 키워드[방패]를 지닌 기술로 인해 발생한 명중 실패는 빗나감으로 간주되지 않습니다. 중력(기술)이 적용되는 경우 이 효과를 사용할 수 없습니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대시, 대상 1, 이판사판"]
 			},
 		"Hold Back": {	
-			"name": "Hold Back",
-			"effect":"",
-			"frequency":"",
-			"range":"",
+			"name": "적당히손봐주기",
+			"effect":"적당히손봐주기를 사용할 때 다른 기술을 선언합니다.(빈도가 허용되는 경우) 이 기술 대신 해당 기술을 사용하지만, 해당 기술은 대상의 HP를 1 미만으로 낮출 수 없습니다. ",
+			"frequency":"임의",
+			"range":"자신",
 			"keywords": [""]
 			},
 		"Hold Hands": {	
 			"name": "손에손잡기",
-			"effect":"사용자와 대상은 격려됨 상태가 됩니다. 둘 다 내성체크를 2번 굴려 더 좋은 결과를 얻기 위해 격려됨 상태를 포기할 수 있습니다. 9월 플레이테스트: 대상과 사용자는 소량의 체력x3만큼의 체력을 얻고, 1개의 전체라운드 동안 내성체크에 +2의 보너스를 받습니다.",
+			"effect":"대상과 사용자는 3개의 소량의 체력의 임시체력을 얻으며, 1라운드 동안 내성 체크에 +2의 보너스를 얻습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Hone Claws": {	
 			"name": "손톱갈기",
-			"effect":"사용자의 공격 전투단계와 명중를 +1 만큼 상승시킵니다.",
+			"effect":"사용자의 공격 전투단계와 명중을 +1 만큼 상승시킵니다.",
 			"frequency":"임의",
-			"range":"",
+			"range":"자신",
 			"keywords": [""]
 			},
 		"Horn Attack": {	
 			"name": "뿔찌르기",
 			"effect":"--",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 대시"]
 			},
 		"Horn Drill": {	
 			"name": "뿔드릴",
 			"effect":"1d100을 굴립니다. 이 굴림은 어떠한 방법이든 보정치를 줄 수 없습니다. 만약 굴린 값이 X보다 낮을경우 대상은 기절합니다. 뿔드릴은 노말타입에게 면역인 대상에게 무효가 됩니다. (X=30+사용자의 Lv-대상의Lv)",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 강타"]
 			},
 		"Horn Leech": {	
 			"name": "우드혼",
 			"effect":"대상이 피해를 입은 뒤, 사용자는 대상이 받았다고 계산된 피해의 절반만큼 체력을 얻습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 대시"]
 			},
 		"Howl": {	
-			"name": "Howl",
-			"effect":"",
-			"frequency":"",
-			"range":"",
+			"name": "멀리짖기",
+			"effect":"사용자와 대상의 공격 전투단계를 +1 만큼 상승시킵니다.",
+			"frequency":"격턴",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Hug": {	
@@ -3462,29 +3462,29 @@
 			"name": "폭풍",
 			"effect":"폭풍의 명중굴림의 값이 15 이상이 나왔을 때 대상은 혼란에 빠집니다. 대상이 쾌청 내부에 있을때 폭풍의 AC는 11이 됩니다. 대상이 비바라기 내부에 있을 때 폭풍은 빗나가지 않습니다. 만약 대상이 뛰어오르기, 공중날기 또는 프리폴로 인해 공중에 뜬 상태였을 경우 폭풍은 빗나가지 않습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"파열 1",
+			"keywords": ["강타, 바람"]
 			},
 		"Hydro Cannon": {	
 			"name": "하이드로캐논",
 			"effect":"--",
 			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"range":"직선 9",
+			"keywords": ["강타, 탈진"]
 			},
 		"Hydro Pump": {	
 			"name": "하이드로펌프",
 			"effect":"사용자를 중심으로 대상은 3m 밀려납니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["밀기, 대상 1"]
 			},
 		"Hydro Steam": {	
 			"name": "하이드로스팀",
-			"effect":"하이드로스팀은 쾌청 날씨에서도 피해가 감소하지 않습니다. 하이드로스팀은 쾌청 날씨일 때 +10의 피해를 더 입힙니다.",
-			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"effect":"쾌청 날씨일 때 이 기술의 DB는 4 증가합니다. 하이드로스팀은 쾌청 날씨에서도 피해가 감소하지 않습니다.",
+			"frequency":"장면X2",
+			"range":"4",
+			"keywords": ["대상 1"]
 			},
 		"Hydro Vortex": {	
 			"name": "Hydro Vortex",
@@ -3497,127 +3497,127 @@
 			"name": "파괴광선",
 			"effect":"--",
 			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"range":"10",
+			"keywords": ["대상 1, 강타, 탈진"]
 			},
 		"Hyper Drill": {	
 			"name": "하이퍼드릴",
-			"effect":"방패 키워드가 있는 축복 또는 기술은 하이퍼드릴에 반응하여 활성화되지 않습니다.",
+			"effect":"축복 또는 기술 (기술 '방어'처럼)은 하이퍼드릴에 반응하여 활성화되지 않습니다.",
 			"frequency":"장면",
-			"range":"",
+			"range":"직선 3",
 			"keywords": [""]
 			},
 		"Hyper Fang": {	
 			"name": "필살앞니",
-			"effect":"필살앞니의 명중굴림의 값이 19이상이 나왔을 때 대상을 풀죽게 합니다. .",
+			"effect":"필살앞니의 명중굴림의 값이 19이상이 나왔을 때 대상을 풀죽게 합니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 물기"]
 			},
 		"Hyper Voice": {	
 			"name": "하이퍼보이스",
-			"effect":"모든 대상들은 사용자를 기준으로 폭발범위바깥의 칸까지 뒤로 밀립니다.",
+			"effect":"모든 대상들은 사용자를 기준으로 폭발 범위 바깥의 칸까지 뒤로 밀립니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"인접 폭발 3",
+			"keywords": ["소리, 강타"]
 			},
 		"Hyperspace Fury": {	
 			"name": "이차원러시",
-			"effect":"다른차원러시는 방해의 발동조건에 해당되지 않습니다. 사용자의 방어 전투단계가-1 만큼 하락합니다.",
+			"effect":"이차원러시는 '방해' 키워드를 발동시키지 않습니다. 사용자의 방어 전투단계가-1 만큼 하락합니다.",
 			"frequency":"하루",
-			"range":"",
+			"range":"파열 2",
 			"keywords": [""]
 			},
 		"Hyperspace Hole": {	
 			"name": "이차원홀",
-			"effect":"이차원홀의 공격의 시도와 처리를 따로 합니다. 각 공격 사이에서, 사용자는 순간이동 재능을 사용해 대상 옆에 이동(전환)할 수 있습니다. 이차원홀은 방해의 발동조건에 해당되지 않습니다.",
+			"effect":"이차원홀의 공격의 시도와 처리를 따로 합니다. 각 공격 사이에서, 사용자는 순간이동 재능을 사용해 대상 옆에 이동할 수 있습니다. 이차원홀은 '방해' 키워드를 발동시키지 않습니다.'",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 3"]
 			},
 		"Hypnosis": {	
 			"name": "최면술",
 			"effect":"대상은 잠듦상태가 됩니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1"]
 			},
 		"Ice Ball": {	
 			"name": "아이스볼",
-			"effect":"사용자는 아이스볼이 대상에게 빗나갈 때까지 또는 아이스볼을 하는 중 명중시킬 어떠한 대상이 없을 때까지 각 턴마다 아이스볼을 계속 사용합니다 . 성공적으로 아이스볼을 사용할 때마다 아이스볼의 기본피해량은 +3 최대 기본피해량은 15입니다.",
+			"effect":"사용자는 아이스볼이 대상에게 빗나갈 때까지 또는 아이스볼을 하는 중 명중시킬 어떠한 대상이 없을 때까지 각 턴마다 아이스볼을 계속 사용합니다. 성공적으로 아이스볼을 사용할 때마다 아이스볼의 기본피해량은 +3 최대 기본피해량은 15입니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1"]
 			},
 		"Ice Beam": {	
 			"name": "냉동빔",
 			"effect":"냉동빔의 명중굴림의 값이 19이상이 나왔을 때 대상은 얼음상태가 됩니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1"]
 			},
 		"Ice Burn": {	
 			"name": "콜드플레어",
-			"effect":"준비효과 : 사용자는 이동(전환)후 턴을 종료합니다. 발동효과: 사용자가 아이스번으로 공격했으며 해당 명중굴림이 15이상일 경우 대상은 화상에 걸립니다.",
+			"effect":"준비효과 : 사용자는 이동(전환)후 턴을 종료합니다. 발동효과: 사용자가 콜드플레어로 공격했으며 해당 명중굴림이 15이상일 경우 대상은 화상에 걸립니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"10",
+			"keywords": ["대상 1, 준비, 완전행동"]
 			},
 		"Ice Fang": {	
 			"name": "얼음엄니",
 			"effect":"얼음엄니는 명중굴림의 값이 18~19일 경우 대상은 동전을 던져 얼음이나 풀죽음 중 무엇이 걸릴지 선택합니다. 명중굴림의 값이 20일 경우 얼음과 풀죽음 둘 다 걸립니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 물기"]
 			},
 		"Ice Hammer": {	
 			"name": "아이스해머",
 			"effect":"사용자의 스피드 전투단계가 -1만큼 하락합니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 펀치"]
 			},
 		"Ice Punch": {	
 			"name": "냉동펀치",
 			"effect":"냉동펀치의 명중굴림의 값이 19이상 나왔을 때 대상은 얼음상태가 됩니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 펀치"]
 			},
 		"Ice Shard": {	
 			"name": "얼음뭉치",
 			"effect":"--",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1, 우선"]
 			},
 		"Ice Spinner": {	
 			"name": "아이스스피너",
-			"effect":"모든 대상이 굴림 18 이상일 때 넘어집니다. 사용자가 지형 지역을 통과하거나 필드 범위 지형이 활성화되어 있으면 해당 효과는 즉시 종료됩니다.",
+			"effect":"필드의 모든 필드 효과와 함정을 파괴합니다. 해당 공격은 함정에 대해 5의 추가 피해를 입힙니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Icicle Crash": {	
 			"name": "고드름떨구기",
 			"effect":"고드름떨구기의 명중굴림의 값이 15이상이 나왔을 때 대상을 풀죽게 합니다. .",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Icicle Spear": {	
 			"name": "고드름침",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1, 오단타격"]
 			},
 		"Icy Wind": {	
 			"name": "얼어붙은바람",
 			"effect":"모든 대상의 스피드 전투단계를 -1만큼 하락시킵니다",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"원뿔 2",
+			"keywords": ["바람"]
 			},
 		"Imperil Curse [CR]": {	
 			"name": "Imperil Curse [CR]",
@@ -3630,8 +3630,8 @@
 			"name": "봉인",
 			"effect":"장면의 나머지 동안 대상은 봉인 상태가 됩니다. 봉인 상태인 대상은 사용자가 알고 있는 기술을 사용할 수 없습니다. 봉인은 빗나가지 않습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"10",
+			"keywords": ["대상 1"]
 			},
 		"Incentives": {	
 			"name": "Incentives",
@@ -3644,7 +3644,7 @@
 			"name": "불태우기",
 			"effect":"만약 대상이 지니는 도구 또는 주로 쓰는 손이나 반대 손에 도구를 차고 있었으면, 그들은 즉시 도구를 떨어뜨리거나 소량의 체력을 잃습니다. 그들이 얼마나 도구를 차고 있었던지 상관 없이 한번의 소량의 체력을 잃습니다.",
 			"frequency":"임의",
-			"range":"",
+			"range":"직선 3",
 			"keywords": [""]
 			},
 		"Infernal Blade": {	
@@ -3656,17 +3656,17 @@
 			},
 		"Infernal Parade": {	
 			"name": "백귀야행",
-			"effect":"백귀야행에 적중당한 적합한 대상들은 17 이상이 나오면 화상을 입습니다.   장면당 한 번, 백귀야행 대상 중 최소 한 명에게 상태이상이 있다면, 백귀야행의 기본피해량이 12가 되도록 할 수 있습니다(3d12+10 / 30).",
+			"effect":"백귀야행에 적중당한 적합한 대상들은 17 이상이 나오면 화상을 입습니다. 장면당 한 번, 백귀야행 대상 중 최소 한 명에게 상태이상이 있다면, 백귀야행의 기본피해량이 12가 되도록 할 수 있습니다(3d12+10 / 30).",
 			"frequency":"격턴",
-			"range":"",
+			"range":"8, 원거리 폭발 2",
 			"keywords": [""]
 			},
 		"Inferno": {	
 			"name": "연옥",
 			"effect":"연옥은 대상을 화상으로 만듭니다. 연옥은 대상의 2미터 이내에 다른 전투원이나 거친 지형 또는 차단 지형이 없으면 대상의 회피를 무시합니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Inferno Overdrive": {	
 			"name": "Inferno Overdrive",
@@ -3679,15 +3679,15 @@
 			"name": "엉겨붙기",
 			"effect":"대상은 조이기 상태가 됩니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"3",
+			"keywords": ["대상 1"]
 			},
 		"Ingrain": {	
 			"name": "뿌리박기",
-			"effect":"뿌리박기는 밀리거나 당겨지지 않으며 사용자의 턴의 시작시 현재최대체력의 1/10만큼의 체력을 얻는 효과가 있는 코트를 사용자에게 줍니다.",
+			"effect":"뿌리박기는 밀리거나 당겨지지 않으며 교체할 수 없으며, 사용자의 턴의 시작시 현재최대체력의 1/10만큼의 체력을 얻는 효과가 있는 코트를 사용자에게 줍니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"자신",
+			"keywords": ["코트"]
 			},
 		"Inspire": {	
 			"name": "Inspire",
@@ -3705,10 +3705,10 @@
 			},
 		"Instruct": {	
 			"name": "지휘",
-			"effect":"대상은 즉시 전에 했던 공격을 소모된 빈도를 무시하고 자유행동으로 재사용합니다. 대상은 그 반복된 기술의 대상을 새로 선택할 수 있습니다. 대상이 지난 번 사용한 기술이 지휘라면 지휘는 사용될 수 없습니다..",
+			"effect":"대상은 즉시 전에 했던 공격을 소모된 빈도를 무시하고 자유행동으로 재사용합니다. 대상은 그 반복된 기술의 대상을 새로 선택할 수 있습니다. 대상이 지난 번 사용한 기술이 지휘거나, '준비' 키워드가 포함된 기술이거나, '발동조건' 키워드가 포함된 기술이거나, 대상이 현재 탈진 효과를 받고 있는 경우에는 지휘는 사용될 수 없습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Inverted Appeal": {	
 			"name": "Inverted Appeal",
@@ -3721,50 +3721,50 @@
 			"name": "플라스마샤워",
 			"effect":"대상 영역에 플라즈마가 확산되어 있습니다. 이 영역을 대상으로 하거나 해당 영역에서 시작된 모든 노말타입 기술은 전기타입 기술이 됩니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"5, 원거리 폭발 3",
+			"keywords": ["방해"]
 			},
 		"Iron Defense": {	
 			"name": "철벽",
 			"effect":"사용자의 방어 전투단계를 +2 만큼 상승시킵니다.",
 			"frequency":"격턴",
-			"range":"",
+			"range":"자신",
 			"keywords": [""]
 			},
 		"Iron Head": {	
 			"name": "아이언헤드",
 			"effect":"아이언헤드의 명중굴림의 값이 15이상이 나왔을 때 대상을 풀죽게 합니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 대시"]
 			},
 		"Iron Tail": {	
 			"name": "아이언테일",
 			"effect":"아이언테일의 명중굴림이 19 이상이 나왔을 때 대상의 방어의 전투단계를 -1 하락시킵니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["강타, 대상 1"]
 			},
 		"Ivy Cudgel": {	
 			"name": "덩굴방망이",
-			"effect":"덩굴방망이은 사용자가 현재 보유하고 있는 모든 타입이 될 수 있습니다. 덩굴방망이은 18 이상일 때 치명타가 됩니다.",
-			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"effect":"덩굴방망이는 18 이상일 때 치명타가 됩니다. 기술의 타입은 오거폰의 2번째 타입과 일치하며, 2번째 타입이 존재하지 않는 경우는 풀 타입이 됩니다. 기술의 사용자가 오거폰이 아닐 경우 기술의 타입은 항상 풀 타입이 됩니다.",
+			"frequency":"장면X2",
+			"range":"근접",
+			"keywords": ["대상 1 또는 파열 1"]
 			},
 		"Jaw Lock": {	
 			"name": "물고버티기",
 			"effect":"당신은 자유행동으로 대상에 대해 붙잡기 동작을 수행할 수 있습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 물기"]
 			},
 		"Jet Punch": {	
 			"name": "제트펀치",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 우선, 펀치"]
 			},
 		"Jet Strike": {	
 			"name": "Jet Strike",
@@ -3777,29 +3777,29 @@
 			"name": "심판의뭉치",
 			"effect":"심팡의뭉치의 타입은 사용자가 원하는 어떠한 타입으로든 변경 될 수 있습니다.",
 			"frequency":"하루",
-			"range":"",
-			"keywords": [""]
+			"range":"6, 원거리 폭발 3",
+			"keywords": ["강타"]
 			},
 		"Jump Kick": {	
 			"name": "점프킥",
 			"effect":"점프킥이 빗나가면, 사용자는 최대체력의 1/4에 해당하는 체력을 잃습니다. 키워드 [방패]를 지닌 기술로 인해 발생한 명중 실패는 빗나감으로 간주되지 않습니다. 중력(기술)이 적용되는 경우 이 효과를 사용할 수 없습니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대시, 대상 1, 이판사판"]
 			},
 		"Jungle Healing": {	
 			"name": "정글힐",
 			"effect":"사용자와 파열 안의 모든 아군은 최대 체력값의 4분의 1에 해당하는 체력을 되찾고 모든 지속적 또는 휘발성 상태 이상을 치료합니다.",
-			"frequency":"하루 x2",
-			"range":"",
+			"frequency":"하루x2",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Karate Chop": {	
 			"name": "태권당수",
 			"effect":"태권당수는 명중굴림의 값이 17 이상이 나왔을 때 치명타가 됩니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Karma Beam": {	
 			"name": "Karma Beam",
@@ -3812,15 +3812,15 @@
 			"name": "숟가락휘기",
 			"effect":"사용자나 6m내의 아군 중 하나가 공격에 명중당했을 경우 방해로 숟가락휘기를 사용할 수 있습니다. 발동조건이 된 공격의 명중굴림에 -4의 페널티를 줍니다. 이로인해 기술은 빗나가게 될 수 있습니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["발동조건, 방해, 대상 1"]
 			},
 		"King's Shield": {	
 			"name": "킹실드",
-			"effect":"어떠한 공격에 명중당했을 때, 킹실드를 사용할 수 있습니다. 사용자는 기술에 명중하지 않은것으로 처리됩니다. 어떠한 피해와 기술의 효과도 사용자에게 적용되지 않습니다.추가로 발동조건의 대상이 된 공격이 근접거리의 공격일 경우, 공격자의 공격 전투단계를 -2만큼 하락시킵니다.",
+			"effect":"어떠한 공격에 명중당했을 때, 킹실드를 사용할 수 있습니다. 사용자는 기술에 명중하지 않은것으로 처리됩니다. 어떠한 피해와 기술의 효과도 사용자에게 적용되지 않습니다.추가로 발동조건의 대상이 된 공격이 근접공격일 경우, 공격자의 공격 전투단계를 -2만큼 하락시킵니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"자신",
+			"keywords": ["방해, 방패, 발동조건"]
 			},
 		"Knock Off": {	
 			"name": "탁쳐서떨구기",
@@ -3833,21 +3833,21 @@
 			"name": "도각참",
 			"effect":"도각참은 빗나가지 않습니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"파열 1",
+			"keywords": ["베기"]
 			},
 		"Land's Wrath": {	
 			"name": "그라운드포스",
 			"effect":"*습득시 지형변화 재능을 얻습니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"파열 5",
+			"keywords": ["친화, 지면통과"]
 			},
 		"Laser Focus": {	
 			"name": "예민해지기",
 			"effect":"사용자가 다음에 행할 공격기가 성공하면 치명타가 됩니다.",
 			"frequency":"장면x2",
-			"range":"",
+			"range":"자신",
 			"keywords": [""]
 			},
 		"Laser Pulse": {	
@@ -3861,36 +3861,36 @@
 			"name": "분풀이",
 			"effect":"사용자가 지난 턴이 끝난 후 자신이 아닌 다른 요인으로부터 전투단계를 잃은 경우, 분풀이의 DB는 대신 15 (4d10 + 20/45)가 됩니다. 적은 장면 당 한 번만 증가 된 피해의 대상이 될 수 있습니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Last Resort": {	
 			"name": "비장의무기",
-			"effect":"비장의무기는한 번의 전투에서 교체되어 나가는 일 없이 사용자가 가진 다른 5가지 기술을 사용한 후에만 사용할 수 있습니다.",
+			"effect":"비장의무기는 한 번의 전투에서 교체되어 나가는 일 없이 사용자가 가진 다른 5가지 기술을 사용한 후에만 사용할 수 있습니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대시, 대상 1"]
 			},
 		"Last Respects": {	
 			"name": "성묘",
-			"effect":"이 기술은 이 장면에서 기절한 아군의 수에 따라 추가 효과를 얻습니다. 이 효과는 누적됩니다. 1: 대상은 15 이상일 때 풀죽습니다. 2: 대상은 17 이상일 때 저주받습니다. 3: 이 기술은 강타를 얻습니다. 장명당 한 번, 이 기술은 고스트타입 대신에 기절한 아군의 어느 타입으로 피해를 줄 수 있습니다. 이 기술이 자속보정을 얻는 지의 여부는 영향을 받지 않습니다.",
-			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"effect":"이 기술의 DB는 파티의 기절한 아군마다 4 올라갑니다.(최대 25)",
+			"frequency":"장면",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Lava Plume": {	
 			"name": "분연",
 			"effect":"분연의 명중굴림의 값이 16이상이 나왔을 때 모든 대상은 화상을 입습니다.",
 			"frequency":"격턴",
-			"range":"",
+			"range":"파열 1",
 			"keywords": [""]
 			},
 		"Leaf Blade": {	
 			"name": "리프블레이드",
 			"effect":"리프블레이드의 명중굴림의 값이 18이상이 나왔을 때 치명타가 됩니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["통과, 베기"]
 			},
 		"Leaf Shield": {	
 			"name": "Leaf Shield",
@@ -3903,43 +3903,43 @@
 			"name": "리프스톰",
 			"effect":"피해량 계산이후 사용자의 특수공격 전투단계를 -2만큼 하락시킵니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"8, 원거리 폭발 3",
+			"keywords": ["강타"]
 			},
 		"Leaf Tornado": {	
 			"name": "그래스믹서",
-			"effect":"대상 중 소형 또는 중형인 폭발의 중심칸에 있는 대상은 명중하지 않습니다. 명중굴림의 값이 15 이상이 나왔을 때 모든 대상의 명중를 -1만큼 하락시킵니다.",
+			"effect":"대상 중 소형 또는 중형인 폭발의 중심칸에 있는 대상은 명중하지 않습니다. 명중굴림의 값이 15 이상이 나왔을 때 모든 대상의 명중을 -1만큼 하락시킵니다.",
 			"frequency":"격턴",
-			"range":"",
+			"range":"6, 원거리 폭발 3",
 			"keywords": [""]
 			},
 		"Leafage": {	
 			"name": "나뭇잎",
 			"effect":"--",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Leech Life": {	
-			"name": "Leech Life",
-			"effect":"",
-			"frequency":"",
-			"range":"",
-			"keywords": [""]
+			"name": "흡혈",
+			"effect":"대상이 피해를 입은 뒤, 사용자는 대상이 받았다고 계산된 피해의 절반만큼 체력을 얻습니다.",
+			"frequency":"장면X2",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Leech Seed": {	
 			"name": "씨뿌리기",
 			"effect":"매 대상의 턴 시작시 대상은 현재최대체력의 1/10만큼 체력을 잃습니다. 씨뿌리기는 대상이 체력을 잃은 것과 같은 양만큼 사용자가 체력을 얻습니다. 씨뿌리기는 대상이 기절하거나 몬스터볼로 돌아갈 때 까지 지속됩니다. 풀타입과 풀타입공격을 무효화 하는 대상은 씨뿌리기에 면역됩니다.",
 			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Leer": {	
 			"name": "째려보기",
 			"effect":"모든 대상의 방어 전투단계를 -1만큼 하락시킵니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"원뿔 2",
+			"keywords": ["친화, 사회적"]
 			},
 		"Let's Snuggle Forever": {	
 			"name": "Let's Snuggle Forever",
@@ -3952,29 +3952,29 @@
 			"name": "핥기",
 			"effect":"핥기의 명중굴림의 값이 15 이상이 나왔을 때 대상은 마비상태가 됩니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Life Dew": {	
 			"name": "생명의물방울",
-			"effect":"파열범위 내의 자신을 포함한 아군 전체의 체력을 현재최대체력의 1/4만큼 얻는다.",
-			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"effect":"파열 범위 내의 자신을 포함한 아군 전체의 체력을 현재최대체력의 1/4만큼 얻는다.",
+			"frequency":"하루x2",
+			"range":"파열 1",
+			"keywords": ["회복"]
 			},
 		"Light of Ruin": {	
 			"name": "파멸의빛",
 			"effect":"--",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"8, 원거리 폭발 3",
+			"keywords": ["강타, 반동 1/2"]
 			},
 		"Light Screen": {	
 			"name": "빛의장막",
 			"effect":"축복 – 빛의장막의 영향을 받는 사용자는 특수 피해를 받을 때 이 축복을 활성해서 피해를 한단계 반감되게 할 수 있습니다. 빛의장막은 2번 활성화할 수 있고 그런 다음 사라집니다.",
 			"frequency":"장면",
-			"range":"",
-			"keywords": [""]
+			"range":"필드",
+			"keywords": ["축복"]
 			},
 		"Light That Burns The Sky": {	
 			"name": "Light That Burns The Sky",
@@ -3987,15 +3987,15 @@
 			"name": "아쿠아브레이크",
 			"effect":"명중굴림의 값이 17이상이 나왔을 때 대상의 방어 전투단계를 -1만큼 하락시킵니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Lock-On": {	
 			"name": "록온",
 			"effect":"대상은 록온됩니다. 사용자가 행하는 대상에 대한 다음 기술의 명중굴림은 빗나가지 않습니다. 대상과 사용자에 대한 록온효과는 배턴터치로 넘겨집니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"10",
+			"keywords": ["대상 1"]
 			},
 		"Lovely Kiss": {	
 			"name": "악마의키스",
