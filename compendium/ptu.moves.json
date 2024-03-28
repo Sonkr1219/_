@@ -2465,39 +2465,39 @@
 			"keywords": ["대상 1"]
 			},
 		"Freezer": {	
-			"name": "Freezer",
-			"effect":"",
-			"frequency":"",
-			"range":"",
-			"keywords": [""]
+			"name": "냉동고",
+			"effect":"--",
+			"frequency":"임의",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Freezer+": {	
-			"name": "Freezer+",
-			"effect":"",
-			"frequency":"",
-			"range":"",
-			"keywords": [""]
+			"name": "냉동고+",
+			"effect":"--",
+			"frequency":"임의",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Freezing Glare": {	
 			"name": "얼어붙는시선",
-			"effect":"명중굴림의 값이 19이상일 때, 얼어붙는시선은 대상을 얼음 상태로 만듭니다. 장면당 1번, 얼어붙는시선을 얼음타입 기술로 사용할 수 있습닏.",
-			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"effect":"명중굴림의 값이 19이상일 때, 얼어붙는시선은 대상을 얼음 상태로 만듭니다. 장면당 1번, 얼어붙는시선을 얼음타입 기술로 사용할 수 있습니다.",
+			"frequency":"격턴",
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Frenzy Plant": {	
 			"name": "하드플랜트",
 			"effect":"--",
-			"frequency":"하루 x2",
-			"range":"",
-			"keywords": [""]
+			"frequency":"하루x2",
+			"range":"3",
+			"keywords": ["강타, 탈진, 대상 5"]
 			},
 		"Frost Breath": {	
 			"name": "얼음숨결",
 			"effect":"얼음숨결이 명중했을 경우, 치명타가 됩니다. *습득시 냉동고 재능을 얻습니다.",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"4",
+			"keywords": ["대상 1"]
 			},
 		"Frost Slash": {	
 			"name": "Frost Slash",
@@ -2508,10 +2508,10 @@
 			},
 		"Frustration": {	
 			"name": "화풀이",
-			"effect":"화풀이의 기본피해량은 [9 - 사용자의 친밀도]입니다. 화풀이를 사용하면 당신의 포켓몬이 당신을 싫어하게 될 수도 있습니다.",
-			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"effect":"화풀이의 DB는 6+지난 사용자의 턴 이후로 공격에 맞은 횟수X2 입니다. (최대 DB는 12입니다.)",
+			"frequency":"격턴",
+			"range":"근접",
+			"keywords": ["대상 1"]
 			},
 		"Frustration [F&S Playtest]": {	
 			"name": "Frustration [F&S Playtest]",
@@ -2536,38 +2536,38 @@
 			},
 		"Furious Strikes": {	
 			"name": "맹공",
-			"effect":"당신의 오단타격을 굴려서 명중하는 굴림마다, 대상의 공격 회피는 한 라운드 내내 1만큼 감소합니다. 제한: 근접 또는 단거리 사격무기만 가능",
+			"effect":"당신의 오단타격을 굴려서 명중하는 굴림마다, 대상의 공격 회피는 한 라운드 내내 1만큼 감소합니다. 제한: 근접 또는 단거리 사격무기로만 사용 가능",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"무기 범위",
+			"keywords": ["오단타격, 대상 1"]
 			},
 		"Fury Attack": {	
 			"name": "마구찌르기",
 			"effect":"--",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 오단타격"]
 			},
 		"Fury Cutter": {	
 			"name": "연속자르기",
 			"effect":"연속자르기가 성공적으로 연속적으로 동일한 대상에 사용되면 기본 데미지가 +4 증가됩니다(첫 번째 명중에 DB가 4, 두 번째 명중에 DB가 8, 세 번째에 DB가 12, 그리고 네 번째 이후부턴 모두 DB가 16이 됩니다.). 연속자르기가 대상을 놓치거나 피해를 주는 데 실패하면 기본 데미지가 초기화됩니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 베기"]
 			},
 		"Fury Swipes": {	
 			"name": "마구할퀴기",
 			"effect":"--",
 			"frequency":"격턴",
-			"range":"",
-			"keywords": [""]
+			"range":"근접",
+			"keywords": ["대상 1, 오단타격"]
 			},
 		"Fusion Bolt": {	
 			"name": "크로스썬더",
 			"effect":"만약 이 라운드나 전 라운드에 이 인카운터의 모든 참가자들 중 누군가가 크로스플레임을 사용했을 경우 크로스썬더의 기본피해량은 +3만큼 상승합니다.",
 			"frequency":"장면x2",
-			"range":"",
-			"keywords": [""]
+			"range":"8",
+			"keywords": ["대상 1, 강타"]
 			},
 		"Fusion Flare": {	
 			"name": "크로스플레임",
