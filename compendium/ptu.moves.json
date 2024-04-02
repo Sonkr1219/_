@@ -5373,8 +5373,8 @@
 			"name": "환상빔",
 			"effect":"환상빔은 명중굴림의 값이 19이상이 나왔을 때 대상에게 혼란을 겁니다.",
 			"frequency":"임의",
-			"range":"",
-			"keywords": [""]
+			"range":"6",
+			"keywords": ["대상 1"]
 			},
 		"Psyblade": {	
 			"name": "사이코블레이드",
