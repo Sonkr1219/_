@@ -1,0 +1,3791 @@
+{
+	"label": "PTR Abilities",
+	"mapping":{
+		"effect":"system.effect",
+		"frequency":"system.frequency",
+		"keywords":"system.keywords"
+	},
+	"entries": {
+		"Abominable": {	
+			"name": "가증스러움",
+			"effect": "기본 HP가 +5 증가하며, 공격할때 기술의 반동 키워드를 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Absolution": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Absorb Force": {	
+			"name": "힘흡수",
+			"effect": "발동조건 - 사용자가 물리 공격에 의해 피해를 받았을 때<br>사용자는 피해를 받을때 1단계 더 반감하는것처럼 피해를 입습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Abyssal Shroud [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Accelerate": {	
+			"name": "급속",
+			"effect": "자속보정을 받는 공격기를 우선 키워드를 더해 쓸 수 있습니다. 그 기술이 적중하면 스피드 스탯의 절반을 피해에 더합니다. 이미 우선 키워드가 있던 기술이면 명중굴림에 추가로 +4 보너스를 받습니다. 이 특성은 기존 질풍날개, 리프레시, 대격류파동을 대체합니다.",
+			"frequency": "장면 x2 - 자유 행동, 우선",
+			"keywords": [""]
+		},	
+		"Acceleration": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Accuracy Expert": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Adaptability": {	
+			"name": "적응력",
+			"effect": "자속보정을 받는 기술의 피해량에 +1D10",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Adorable": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Adrenaline": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Aerilate": {	
+			"name": "스카이스킨",
+			"effect": "발동조건 - 사용자가 피해를 주는 노말타입 기술 사용했을 때<br>그 기술을 비행타입으로 바꿉니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Aftermath": {	
+			"name": "유폭",
+			"effect": "발동조건 - 기절했을 때<br>파열 1 범위 안에 있는 모든것들은 소량의 체력을 잃습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Air Lock": {	
+			"name": "에어록",
+			"effect": "이 특성을 가진 포켓몬이 원하는 한, 날씨를 보통 날씨로 고정해둘수 있습니다. 이 효과는 매 라운드 신속 행동으로 연장할수 있습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Air Lock [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Alchemists Cloak": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Allure": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Ambush": {	
+			"name": "매복",
+			"effect": "사용자는 이 특성을 활성해서 기본 피해량이 6 이하인(자속 보정이나 기타 보정 적용 전)기술을 사용하면 우선 키워드가 있는것처럼 취급합니다. 이러한 기술이 명중하면, 대상을 풀죽게 하고 대상은 한 라운드 동안 정확도 굴림에 -2 페널티를 받습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Amplifier": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Analytic": {	
+			"name": "애널라이즈",
+			"effect": "이 라운드 이니셔티브에서 이미 행동했던 트레이너나 포켓몬에게 피해주는 기술을 사용하면 피해량에 +5.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Anchored": {	
+			"name": "닻",
+			"effect": "타타륜은 필드에 닻 토큰을 가지고 있으며, 이 토큰은 중형 크기인 것처럼 칸 하나를 차지하지만 덮어지거나 및 대상이 되는 것에 대해서는 무시됩니다. 타타륜은 자진해서든 아니든 닻으로부터 3m 보다 더 멀리 떨어져 있거나 이동할 수 없습니다. 닻 토큰 자체는 타타륜의 의사에 반하여 밀거나 끌거나 이동할 수 없습니다. 타타륜은 닻 토큰을 신속 행동으로 전환하여 3m 이내의 어느 칸으로 이동시킬 수 있습니다. <br>보너스: 사용자가 닻을 이동시킬 때, 사용자가 사용할 수 있는 행동이 있으면 즉시 닻에서 공격을 발생시킬 수 있습니다. 공격 범위는 '근접, 1 대상'으로 변경되고, 공격은 +2d6 피해를 주며, 공격의 분류는 물리가 아니었다면 물리로 변경됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Anger Point": {	
+			"name": "분노의경혈",
+			"effect": "치명타를 맞으면 난동부리며, 공격이 6단계 오릅니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Anger Shell": {	
+			"name": "분노의껍질",
+			"effect": "발동조건 - 사용자가 장면에서 처음으로 난동 상태가 되거나 하나 이상의 부상을 입는 경우<br>사용자는 공격, 특수공격, 스피드 전투 단계가 +1 증가하지만 방어, 특수방어 전투 단계가 -1 감소합니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Anticipation": {	
+			"name": "위험예지",
+			"effect": "대상 - 다수의 포켓몬 또는 트레이너<br>대상이 위험예지를 가진 포켓몬에게 효과가 굉장한 기술을 알고있는지 간파합니다. 같은 대상에게는 인카운터마다 한번씩만 쓸수 있으며, 그 대상이 그러한 기술을 알고있는지의 여부만 알려줍니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Aqua Boost": {	
+			"name": "아쿠아부스트",
+			"effect": "발동조건 - 인접한 아군 하나가 물타입 기술을 사용했을 때<br>대상이 사용한 그 기술의 피해량이 5 증가합니다. 아쿠아부스트의 효과는 중복되지 않습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Aqua Bullet": {	
+			"name": "아쿠아불릿",
+			"effect": "연결 - 아쿠아제트. 사용자는 완전 행동으로 물타입 기술을 공중이동 10을 얻고서 사용할 수 있고 그 기술을 사용하려고 시도하기 전에 일직선으로 이동합니다. 이 방법으로 이동할 때, 기회 공격이 유발되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Arena Trap": {	
+			"name": "개미지옥",
+			"effect": "대상 - 다수의 포켓몬 또는 트레이너<br>개미지옥이 발동하면 반경 5미터 이내의 모든 적은 둔화되고 수렁 상태에 빠진 것으로 취급합니다. 이 효과는 비행타입이거나 부유/공중이동 재능이 있거나 지중이동이 4 이상인 포켓몬에겐 영향을 주지 않습니다. 사용자는 자유 행동으로 이 효과를 끝낼수 있으며, 사용자가 기절하거나 볼로 돌아오면 효과가 해제됩니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Armor Tail": {	
+			"name": "테일아머",
+			"effect": "원거리 4, 폭발 3을 생성합니다. 이 영역에 있는 적들은 1라운드 동안 자신의 이니셔티브 밖에서 우선을 선언하거나 기술을 방해할 수 없습니다. 이 효과가 지속되는 동안 적이 폭발 영역에 들어오고 나갈 때마다 사용자는 사거리를 무시하고 다른 제한을 따르는 기회 공격을 할 수 있습니다.<br>보너스: 사용자의 발버둥은 에스퍼 타입일 수 있습니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Aroma Veil": {	
+			"name": "아로마베일",
+			"effect": "사용자 그리고 인접한 모든 포켓몬과 트레이너는 혼란/난동/억압 상태가 될수 없습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Atomize": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Aura Break": {	
+			"name": "오라브레이크",
+			"effect": "대상 - 6m내에 있는 단일의 적<br>적의 특성을 밝힙니다. 하나의 특성을 선택하십시오. 이 특성으로 부여 된 모든 피해 보너스 (기본피해량 증가 또는 피해 굴림 보너스)는 같은 값의 피해 페널티가됩니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Aura Storm": {	
+			"name": "파동바람",
+			"effect": "사용자가 입은 부상마다, 피해 굴림에 +3 보너스를 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Bad Dreams": {	
+			"name": "나이트메어",
+			"effect": "5미터 이내의 모든 잠자고 있는 대상은 소량의 체력을 잃습니다. 이런 식으로 하나 이상의 대상이 체력을 잃으면 사용자는 임시 소량의 체력을 얻습니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Ball Fetch": {	
+			"name": "볼줍기",
+			"effect": "발동조건 - 한 포켓몬이 전투 필드에 방출되었을 때<br>사용자는 자유 행동으로 자신의 속도로 이동할 수 있습니다. 그들은 이 이동을 그 포켓몬에게 더 가까운 상태로 끝내야 합니다.",
+			"frequency": "장면 – 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Battery": {	
+			"name": "배터리",
+			"effect": "대상 - 인접한 단일 아군.<br>대상의 다음 특수 공격은 +2d6+4 피해를 줍니다. 공격이 전기타입이라면, 대신 +3d6+6 피해를 더 줍니다 .",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Battle Armor": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Beads of Ruin": {	
+			"name": "재앙의구슬",
+			"effect": "축복 - 재앙의구슬의 영향을 받은 모든 사용자는 특수 피해를 줄 때 이를 활성화하여 공격 대상 한 명에게 한 단계 더 효과적으로 피해를 입힐 수 있습니다. 재앙의구슬은 2번 발동한 후 사라집니다.",
+			"frequency": "장면- 신속 행동",
+			"keywords": [""]
+		},	
+		"Beam Cannon": {	
+			"name": "빔캐논",
+			"effect": "원거리 대상 1 기술의 추가효과 범위와 치명타 범위가 3 증가합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Beast Boost": {	
+			"name": "비스트부스트",
+			"effect": "발동조건 - 자신의 공격으로 인해 적이 기절했을 때<br>사용자는 HP를 제외한 제일 높은 스탯에서 +1 전투단계를 받습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Beautiful": {	
+			"name": "아름다움",
+			"effect": "사용하면 콘테스트에서 아름다움 주사위를 2개 받거나, 특수공격 전투단계에 +1를 받고 5미터 이내의 모든 아군의 난동 상태를 치유합니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Beherition [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Berserk": {	
+			"name": "발끈",
+			"effect": "발동조건 - 처음 HP가 절반 이하로 떨어지거나 난동부릴 경우<br>사용자는 +1 특수공격 전투단계를 받습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Big Pecks": {	
+			"name": "부풀린가슴",
+			"effect": "방어스탯과 방어 전투단계가 감소하지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Big Swallow": {	
+			"name": "큰꿀꺽",
+			"effect": "연결- 비축하기. 사용자가 꿀꺽 또는 토해내기를 사용할 때마다 비축하기 카운트를 하나 더 높은 것처럼 처리할 수 있습니다. 이 특성은 비축하기 카운트가 이미 3인 경우에는 적용되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Blanketing Firn [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Blaze": {	
+			"name": "맹화",
+			"effect": "불타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Blaze Boost": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Blessed Touch": {	
+			"name": "축복의손길",
+			"effect": "발동조건 - 최대 체력이 50%미만인 인접한 아군 한명<br>대상은 임시 소량 체력을 3개를 얻고, 그들은 다음 기술이 빗나가지 않습니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Bloodlust": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Blow Away": {	
+			"name": "바람불기",
+			"effect": "연결 - 날려버리기. 사용자가 날려버리기를 사용할 때, 맞은 모든 대상은 2미터 더 밀려나고 소량의 체력을 잃습니다.<br>보너스: 사용자가 날려버리기를 신속 행동으로 사용할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Blur": {	
+			"name": "흐릿함",
+			"effect": "명중판정이 필요없는 공격과 기술의 대상이 되면, 그 기술이 AC 2의 명중판정이 필요하게 합니다. 이러한 공격과 기술에는 당신의 회피가 절반만 적용됩니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Bodyguard": {	
+			"name": "보디가드",
+			"effect": "발동조건 - 하나의 인접한 아군이 공격에 명중당했을 때<br>그 아군과 사용자가 위치를 바꿔 공격의 대상을 사용자로 바꾸고, 그 공격의 피해를 한번 더 반감합니다. 이렇게 자리를 바꾸는것으로 대상이 공격의 범위에서 벗어나지 않으면, 그 아군이 맞는것을 막아주진 못합니다. 방어적.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Bone Lord": {	
+			"name": "뼈군주",
+			"effect": "발동조건 - 뼈다귀치기, 뼈다귀부메랑, 본러시 중 하나의 기술을 이용해 명중시켰을 때<br>연결 – 뼈다귀부메랑. 장면 당 기술 당 한번, 다음의 기술들은 이러한 보너스를 가진 것처럼 사용될 수 있습니다:<br>- 뼈다귀치기: 뼈다귀치기의 대상은 방어와 특수공격에서 1 CS를 잃습니다.<br>- 뼈다귀부메랑: 직선 6의 범위를 가지게 되지만 이단타격 키워드를 잃습니다.<br>- 본러시: 본러시는 자동으로 네 번 '명중'합니다(오단타격에 따라서).",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Bone Wielder": {	
+			"name": "뼈술사",
+			"effect": "사용자의 뼈다귀치기, 뼈다귀부메랑, 본러시는 땅타입 기술에 무효인 것을 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Brave Heart": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Brimstone": {	
+			"name": "유황",
+			"effect": "사용자가 불타입 또는 독타입 공격으로 피해를 입혀 화상 또는 독상태에 걸리게 할 때마다, 대상은 화상, 독상태 모두 걸립니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Bulletproof": {	
+			"name": "방탄",
+			"effect": "원거리 대상 X의 공격을 받을때 한단계 더 반감해서 받습니다. 이 효과는 1체 또는 정확히 n체의 대상을 지정하는 기술에만 적용됩니다. 여러 대상을 공격할수 있다고 해도, 파열이나 원뿔같은 범위 기술에 대해선 적용되지는 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Bully": {	
+			"name": "괴롭힘",
+			"effect": "발동조건 - 대상에게 근접기술로 효과가 굉장한 피해를 주었을 경우<br>공격 대상은 2미터 밀려나고, 넘어지며, 부상을 입습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Burning Heart": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Capsicum": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Cascading Rays [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Castigation [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Cave Crasher": {	
+			"name": "동굴파괴자",
+			"effect": "땅타입과 바위타입에 한단계 더 반감합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Celebrate": {	
+			"name": "기념",
+			"effect": "발동조건 - 적을 공격기로 명중시켰을 때<br>사용자는 즉시 자유 행동으로 이탈할 수 있습니다.<br>보너스: 어떤 이유로든지 사용자가 이탈할 때마다, 1미터 대신 2미터 전환합니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Cheek Pouch": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Chemical Romance": {	
+			"name": "케미컬로맨스",
+			"effect": "연결 - 달콤한향기. 사용자가 남성 대상에게 독가스, 스모그, 달콤한향기, 맹독, 또는 베놈트랩으로 명중시킬 때마다, 대상은 사용자에게 헤롱헤롱하게 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Chernobyl": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Chernobyl [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Cherry Power": {	
+			"name": "체리파워",
+			"effect": "임시 체력을 15 얻고 모든 지속성 상태이상을 회복합니다.",
+			"frequency": "하루 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Chilling Neigh": {	
+			"name": "백의울음",
+			"effect": "발동조건 - 사용자가 데미지를 주어서 적을 기절시켰을 경우<br>사용자의 공격 전투단계가 +1 상승합니다. 또한 사용자로부터 3m 이내의 있는 모든 적들은 1라운드 동안 회피에 -2 패널티를 받습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Chlorofury": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Chlorophyll": {	
+			"name": "엽록소",
+			"effect": "쾌청 날씨 또는 체력이 최대 체력이 절반 미만일 때, 사용자의 이니셔티브는 2배가 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Clay Cannons": {	
+			"name": "클레이캐논",
+			"effect": "그 라운드의 끝까지, 사용자는 자신의 2미터 이내의 어느 칸에서부터 원거리 기술을 사용할 수 있습니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Clear Body": {	
+			"name": "클리어바디",
+			"effect": "상대방의 특성과 기술 등으로 인해 전투단계가 감소하지 않습니다. 상태이상에 의해서는 정상적으로 감소합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Closed Heart": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Cloud Nine": {	
+			"name": "날씨부정",
+			"effect": "평범한 날씨로 돌아옵니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Cluster Mind": {	
+			"name": "클러스터마인드",
+			"effect": "기술을 2개까지 더 배울수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Coldfire Star": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Color Change": {	
+			"name": "변색",
+			"effect": "발동조건 - 기술로 명중 당했을 경우<br>사용자의 타입이 그 기술의 타입과 같게 변합니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Color Theory": {	
+			"name": "색채이론",
+			"effect": "태어날때 1d12를 굴려 색깔을 정합니다.<br>1=빨강 2=빨강-주황 3=주황 4=주황-노랑 5=노랑 6=노랑-초록 7=초록 8=초록-파랑 9=파랑 10=파랑-보라 11=보라 12=보라-빨강.<br><br>빨강은 공격, 주황은 방어, 노랑은 특공, 초록은 특방, 파랑은 스피드, 보라는 HP에 각각 연관되어있습니다. 단색이라면 해당 기본 스탯에 +6, 혼색이라면 각각에 +3 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Comatose": {	
+			"name": "절대안깸",
+			"effect": "사용자는 잠에 빠지고, 소량의 체력을 회복합니다. 보너스: 사용자는 잠들어 있는 상태에서 평범하게 행동할 수 있고 잠듦으로부터의 모든 다른 페널티를 무시합니다. 잠들어 있는 동안, 사용자는 깨어나기 위한 내성 체크를 할 수 없고, 맞았을 때 그들이 원한다면 깨어날 수 있습니다.",
+			"frequency": "임의 - '이동 행동'",
+			"keywords": [""]
+		},	
+		"Combo Striker": {	
+			"name": "콤보스트라이커",
+			"effect": "발동조건 - 사용자의 공격기의 공격굴림에서 주사위 굴린 값만 1, 10, 11이 나왔을 때<br>공격이 해결된 후 자유 행동으로 발버둥을 날릴수 있습니다.<br>주: 네, 이 발버둥도 콤보스트라이커를 발동시킬수 있습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Commander": {	
+			"name": "사령탑",
+			"effect": "대상 - 인접한 아군<br>사용자가 대상에게 붙습니다. 부착된 동안 사용자는 대상의 칸을 점유하고 자신의 이동 재능을 대상의 이동 재능으로 대체합니다. 한 라운드에 한번, 사용자와 대상은 자유 행동으로 서로의 공격을 가로챌 수 있습니다.<br>보너스: 사용자가 30레벨 이상인 경우 부착된 동안, 대상은 자신의 기술 목록에 있는 것처럼 한판내기 사용할 수 있습니다.<br>특수: 대상에게 한입가득 특성이 있는 경우, 대상과 사용자는 라운드당 한 번이 아닌 횟수 제한 없이 서로의 공격을 가로챌 수 있습니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Competitive": {	
+			"name": "승기",
+			"effect": "자신의 기술/특성이 아닌 요인으로 전투단계가 내려가면 특공이 2단계 오릅니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Compound Eyes": {	
+			"name": "복안",
+			"effect": "명중굴림에 +3 보너스.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Conditioning": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Confidence": {	
+			"name": "자신감",
+			"effect": "스탯 하나를 고릅니다. 5미터 이내의 모든 아군은 그 능력치가 1단계 증가합니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Conqueror": {	
+			"name": "정복자",
+			"effect": "발동조건 - 자신의 물리기 또는 특수기에 의해 적이 기절했을 때<br>공격,특공,스피드가 1단계 증가합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Content": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Contrary": {	
+			"name": "심술꾸러기",
+			"effect": "전투단계가 증감이 거꾸로 적용됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Conundrum": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Copy Master": {	
+			"name": "흉내달인",
+			"effect": "연결 - 흉내쟁이. 사용자가 흉내쟁이나 흉내내기를 사용할 때마다 기술이 해결된 후 선택한 스탯에서 +1의 전투단계를 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Corrosion": {	
+			"name": "부식",
+			"effect": "사용자의 독타입 공격은 한단계 덜 반감되고, 무효인 대상에게는 두번 반감하는 것처럼 피해를 입힙니다. 사용자는 강철과 독타입 포켓몬을 독, 맹독 상태로 만들 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Corrosive Toxins": {	
+			"name": "부식독",
+			"effect": "연결 - 맹독. 사용자가 맹독을 이용하여 상태이상, 축복, 맹독으로 체력 손실되는 걸 방지하는 특성의 효과(예: 매직가드 혹은 포이즌힐)의 면역을 무시할 수 있도록 이 특성을 활성화시킬 수 있습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Costar": {	
+			"name": "협연",
+			"effect": "대상 - 전투 단계가 양수인 3미터 이내의 아군<br>사용자의 전투 단계가 대상의 전투 단계와 일치하도록 변경됩니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Cotton Down": {	
+			"name": "솜털",
+			"effect": "발동조건 - 어떠한 공격에 명중당했을 때<br>사용자의 주변 파열 1 안에 있는 모든 포켓몬은 스피드 1 CS가 낮아지고, 한 라운드 내내 둔화됩니다.",
+			"frequency": "장면 – 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Courage": {	
+			"name": "용기",
+			"effect": "체력이 1/3 이하일때 모든 공격의 피해량에 +5, 피해감소 5. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Covert": {	
+			"name": "은밀",
+			"effect": "친숙한 환경에 있을때 회피 +2. <br>얼음타입=얼음위/설원 <br>땅타입&바위타입=사막이나 암석지대 <br>풀타입&벌레타입 등=풀숲.. 이런식으로 주로 친숙합니다. <br>몇몇 포켓몬은 여러 환경에 친숙할수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Creeping Doom": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Crippling Poison": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Critical Resistance": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Cruelty": {	
+			"name": "잔인",
+			"effect": "발동조건 - 적을 공격기로 명중시켰을 때<br>피해를 입힌 후 대상은 부상을 입습니다. 대상에게 부상을 입힌 횟수에 따라 이하의 효과를 골라 '획득'할수 있습니다.<br>1회 : 대상이 체력을 2 잃습니다.<br>1회 : 대상이 둔화됩니다.<br>2회 : 인카운터 끝까지 대상은 어떤 방식으로도 체력을 회복하거나 임시 체력을 얻지 못합니다. 이 효과는 대상이 교체되거나 한숨 돌리면 해제됩니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Crush Trap": {	
+			"name": "크러시트랩",
+			"effect": "발동조건 - 대상을 성공적으로 붙잡았을 경우<br>연결 - 김밥말이. 이 특성을 활성화하면 사용자는 마치 발버둥 공격으로 때린 것처럼 즉시 대상에게 피해를 입힐 수 있습니다. 명중 굴림이 없으므로 이 피해는 피할 수 없고, 치명타가 되거나 효과 범위의 발동 조건으로 쓸 수 없습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Cud Chew": {	
+			"name": "되새김질",
+			"effect": "인카운터(전투)에서 이전에 사용자가 사용한 소모성 아이템의 효과를 파괴되지 않은 것처럼 다시 사용합니다. 아이템은 여전히 없어집니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Curious Medicine": {	
+			"name": "기묘한약",
+			"effect": "사용자로부터 2m 이내 있는 모든 아군은 CS를 기본값으로 재설정합니다.<br>특수: 사용자는 대신 '필드에 참가할 때'를 발동 조건으로, '자유행동, 반응'으로 사용할 수 있습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Cursed Body": {	
+			"name": "저주받은바디",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>그 기술이 사슬묶기 당합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Cute Charm": {	
+			"name": "헤롱헤롱바디",
+			"effect": "대상 - 인접한 적<br>그대상이 사용자에게 헤롱헤롱당합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Cute Tears": {	
+			"name": "헤롱헤롱눈물",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>공격자의 공격/특공중 그 기술에 사용된 능력치가 2단계 감소합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Damp": {	
+			"name": "습기",
+			"effect": "10미터 이내의 누군가가 기술 자폭 또는 대폭발을 사용하려하거나 유폭 특성을 활성하려고하면 그 효과는 실패하고 아무것도 하지 못합니다.<br>보너스: 사용자는 물타입 기술에서 피해 굴림에 +1d10 보너스를 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Dancer": {	
+			"name": "무희",
+			"effect": "발동조건 - 10미터 이내의 누군가가 변화 분류 춤 기술을 사용했을 때<br>사용자는 즉시 자유 행동으로 그 기술을 사용할 수 있습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Danger Syrup": {	
+			"name": "위험한시럽",
+			"effect": "연결 - 달콤한향기. 이 특성을 활성할 때 사용자는 빈도를 무시하고 자유 행동으로 달콤한향기를 사용할 수 있습니다. 사용자가 달콤한향기로 적을 명중시킬 때마다, 그 적은 한 라운드동안 실명 상태가 됩니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Dangerous Depths": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Dark Art": {	
+			"name": "다크아트",
+			"effect": "악타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Dark Shroud": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Dauntless Shield": {	
+			"name": "불굴의방패",
+			"effect": "사용자의 기본값 방어 전투단계 +1 증가.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Dazzling": {	
+			"name": "비비드바디",
+			"effect": "대상 - 인접한 단일 적<br>장면의 나머지동안, 대상의 이니셔티브는 10 낮아지고 우선 기술을 사용할 수 없습니다. 보너스: 사용자의 행동에 반응하여 방해 기술을 사용할 수 없습니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Deadly Poison": {	
+			"name": "치명적인독",
+			"effect": "발동조건 - 대상이 독에 중독되었을 경우<br>대신 대상에게 맹독을 겁니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Deafening Wail": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Decoy": {	
+			"name": "디코이",
+			"effect": "기술 '날따름'을 배운것처럼 즉시 사용하고, 다음 내 턴까지 회피에 +2를 받습니다.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Deep Freeze": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Deep Sleep": {	
+			"name": "깊은잠",
+			"effect": "잠든동안 매 턴 소량의 체력을 회복합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Defeatist": {	
+			"name": "무기력",
+			"effect": "사용자는 체력이 최대 체력의 절반보다 높으면 피해 굴림에 +2d6 보너스를 받습니다. 절반 이하일 때는, 사용자는 피해 굴림에 -5 페널티를 받고 +10 이니셔티브.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Defiant": {	
+			"name": "오기",
+			"effect": "자신의 기술/특성이 아닌 요인으로 전투단계가 내려가면 공격이 2단계 오릅니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Defy Death": {	
+			"name": "죽음저항",
+			"effect": "사용자는 즉시 부상을 3개까지 제거하고, 이 방법으로 제거한 부상마다 소량의 체력을 얻습니다 . 죽음저항은 하루에 부상을 3개까지 제거하는데 사용할 수 있습니다. 이 회복은 하루에 회복가능한 부상 제한에 포함되지 않습니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Delayed Reaction": {	
+			"name": "반응지연",
+			"effect": "발동조건 - 사용자가 직접피해 공격기에 맞을 경우<br>받는 피해가 절반이 됩니다. 다음 내 턴의 끝에, 이렇게 줄인 피해만큼 체력을 잃습니다. 방어적.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Delivery Bird": {	
+			"name": "배달새",
+			"effect": "도구를 2개까지 들수 있습니다. 도구와 상호작용하는 특성이나 기술에 영향받는다면 둘중 원하는 쪽을 상호작용하게 할수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Delta Stream [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Desert Weather": {	
+			"name": "사막날씨",
+			"effect": "사용자는 모래바람 피해에 면역이 되고, 쾌청 날씨에서 불꽃타입 기술에 반감되며, 비바라기 날씨 상태일 때 각 턴이 끌날 때 소량의 임시 체력을 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Designer": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Desolate Land [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Diamond Cut": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Diamond Defense": {	
+			"name": "다이아몬드방어",
+			"effect": "연결 - 스텔스락. 스텔스락의 빈도는 장면x2이고, 사용자의 스텔스락은 바위 타입이나 페어리 타입 데미지에 더 효과적인 피해를 줄 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Dig Away": {	
+			"name": "땅굴탈출",
+			"effect": "연결 - 구멍파기. 기술에 맞으면, 빈도가 허용되면, 이 포켓몬은 이 특성을 활성화하여 구멍파기를 사용하고, 공격을 피하고 즉시 지하로 이동할 수 있습니다. 이것은 명령을 정상적으로 소모합니다. 구멍파기를 사용할 수 있는 지형이어야 합니다.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Dire Spore": {	
+			"name": "위험포자",
+			"effect": "연결 - 버섯포자. 사용자가 버섯포자로 대상을 명중시켰을 때, 그 대상은 중독도 걸립니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Discipline": {	
+			"name": "절제력",
+			"effect": "혼란/난동/헤롱헤롱/풀죽음 상태로 턴을 시작할때, 이 특성을 사용해 그 상태를 해소할수 있습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Discretion": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Disenchant": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Disguise": {	
+			"name": "탈",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>그 공격은 빗나가고 아무런 효과가 없습니다. 그런 다음 사용자는 선택한 한 스탯에서 +1 전투단계를 얻습니다. [방어적]",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Dodge": {	
+			"name": "회피",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>그 기술이 빗나갑니다. 방어적",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Download": {	
+			"name": "다운로드",
+			"effect": "대상 - 포켓몬 또는 트레이너<br>대상은 방어와 특수방어 중 어느 쪽이 낮은 지 공개해야합니다. 만약 방어 스탯이 낮다면, 사용자는 +1 공격 CS. 특수방어가 낮다면, 사용자는 +1 특수공격 CS. 만약 둘이 같다면, 사용자는 선택한 아무 스탯에서 +1 전투단계 .",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Dragon's Maw": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Dream Smoke": {	
+			"name": "몽연",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>공격자가 잠듭니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Dreamspinner": {	
+			"name": "드림스피너",
+			"effect": "3미터 이내의 잠자고 있는 모든 적들은 소량의 체력을 잃고, 사용자는 소량의 임시 체력을 얻습니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Drizzle": {	
+			"name": "잔비",
+			"effect": "날씨가 1라운드 동안 비바라기가 됩니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Drizzle [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Drought": {	
+			"name": "가뭄",
+			"effect": "날씨가 1라운드 동안 쾌청이 됩니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Drought [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Drown Out": {	
+			"name": "소리묻히기",
+			"effect": "발동조건 - 적이 [소리] 키워드를 가진기술을 사용했을 경우<br>그 기술은 실패하고 아무런 효과가 나타나지 않습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Dry Skin": {	
+			"name": "건조피부",
+			"effect": "불타입 공격기에 맞거나 쾌청한 날씨 아래에서 턴을 끝낼때마다 소량의 체력을 잃습니다. 물타입 기술의 피해와 효과에 무효화이며, 물타입 공격기에 적중당하거나 비바라기 아래에서 턴을 끝낼때마다 소량의 체력을 회복합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Dust Cloud": {	
+			"name": "먼지구름",
+			"effect": "연결 - 독가루. 사용자는 가루 키워드를 가진 기술을 '파열1'의 범위를 가진 것처럼 사용 할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Early Bird": {	
+			"name": "일찍기상",
+			"effect": "사용자는 이니셔티브에 스피드의 절반에 해당하는 수치만큼 보너스로 받고, 잠듦의 내성 체크에서 +3 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Earth Eater": {	
+			"name": "흙먹기",
+			"effect": "사용자는 땅타입 공격의 피해와 효과에 면역이 되며, 땅타입 공격을 받을 때마다 소량의 체력를 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Effect Spore": {	
+			"name": "포자",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>1d6을 굴립니다. 1-2 : 공격자가 독에 걸립니다. 3-4 : 공격자가 마비됩니다. 5-6 : 공격자가 잠듧니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Eggscellence": {	
+			"name": "일등급알",
+			"effect": "연결– 구슬던지기. 사용자는 구슬던지기와 알폭탄을 사용할 때 자속보정을 받습니다. 이 기술들은 16+에서 한단계 더 효과적인 것처럼 피해를 줍니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Eidetic Memory": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Electric Surge": {	
+			"name": "일렉트릭메이커",
+			"effect": "필드는 일렉트릭필드의 영향을 받은 것처럼 한 라운드 내내 일렉트릭필드가 됩니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Electrodash": {	
+			"name": "일렉트로대시",
+			"effect": "자유 행동으로 질주 행동을 쓸수 있습니다.<br>보너스: 사용자는 '이동 행동'으로 구속 상태에서 자유로워질 수 있습니다. 사용자가 질주할 때 기회 공격이 유발되지 않습니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Electromorphosis": {	
+			"name": "전기로바꾸기",
+			"effect": "발동조건 - 인접한 적이 사용자에게 피해를 주는 기술을 적중시켰을 때 <br>연결 - 충전. 사용자는 자유 행동으로 충전을 사용할 수 있습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Elementalist": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Embody Aspect": {	
+			"name": "초상투영",
+			"effect": "사용자는 타입을 바꾸고 특성을 부여하는 가면을, 4가지 다른 모양의 가면으로 바꿀 수 있다. 선천적.<br>벽록의가면-풀-오기<br>우물의가면-풀/물-저수<br>화덕의가면-풀/불꽃-틀깨기<br>주춧돌의가면-풀/바위-풀가드",
+			"frequency": "임의 - 연장 행동",
+			"keywords": [""]
+		},	
+		"Emergency Exit": {	
+			"name": "위기회피",
+			"effect": "사용자의 체력이 최대치의 절반 아래로 떨어졌을 때, 그들의 트레이너는 즉시 자유 행동으로 사용자를 불러들이고 다른 포켓몬을 내보낼 수 있습니다. 사용자가 아직 턴을 받지 않았다면, 이 라운드에서 교체 작업을 할 수 있습니다. [방어적] 보너스: 사용자는 수렁에 면역입니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Empower": {	
+			"name": "자율",
+			"effect": "자기 자신을 대상으로 하는 변화기를 자유 행동으로 사용합니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Encroach": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Enduring Rage": {	
+			"name": "불굴의격노",
+			"effect": "난동에서 벗어나기 위한 굴림을 굴릴수 없게 되지만, 난동부리는 동안 피해감소 5.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Energy Forge": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Enfeebling Lips": {	
+			"name": "악마의입술",
+			"effect": "연결 - 악마의키스. 사용자는 악마의키스 기술을 사용할 때, 스탯을 선택할 수 있습니다. 기술이 명중에 성공하면, 대상이 되는 포켓몬 또는 트레이너는 해당 전투 스탯에 해당되는 전투단계를 2 잃습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Entandem": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Eventide": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Excruciating Effluvium [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Exploit": {	
+			"name": "착취",
+			"effect": "효과가 굉장한 공격을 가할때마다 그 공격의 피해굴림에 +5.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Fabulous Trim": {	
+			"name": "기막힌손질",
+			"effect": "트리미앙의 특성은 현재의 헤어스타일에 달려 있습니다. 트리미앙의 헤어스타일은 미용실에서 연장 행동으로 바꿀 수 있습니다.<br><br>스타컷: 기념<br>다이아컷: 오기<br>하트컷: 헤롱헤롱눈물<br>킹덤컷: 모래숨기<br>가부키컷: 정신력<br>퀸컷: 위협<br>마담컷: 프렌드가드<br>젠틀컷: 자기과신<br>레이디컷: 자신감",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Fade Away": {	
+			"name": "페이드어웨이",
+			"effect": "다음 내 턴 시작까지 투명해지고, 즉시 이동할수 있습니다. 이 특성은 내가 물리기에 적중당했을때 방해로 쓸수 있습니다:이 특성을 사용하면 그 공격의 피해와 효과를 무효화합니다. 방어적.",
+			"frequency": "장면 - 기본 행동, 방해",
+			"keywords": [""]
+		},	
+		"Feedback": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Feisty": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Fiery Crash": {	
+			"name": "불타는충격",
+			"effect": "대시 키워드가 붙은 기술을 사용할때 그 기술의 기본 피해량을 2 늘리거나, 불꽃 타입으로 바꿀수 있습니다. 대시 키워드가 붙은 모든 불꽃타입 기술은 19+에서 대상에게 화상을 입히거나, 화상을 입히는 범위가 2 늘어납니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Filter": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Final Strike": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Flame Body": {	
+			"name": "불꽃몸",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>공격자가 화상을 입습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Flame Tongue": {	
+			"name": "불꽃혀",
+			"effect": "발동조건 - 적을 핥기로 명중시켰을 경우<br>연결 - 핥기. 핥기에 맞은 적은 부상과 화상을 입는다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Flare Boost": {	
+			"name": "열폭주",
+			"effect": "사용자는 공격과 특수공격에서 +3 전투단계를 얻습니다. 열폭주는 화상중일 때에만 사용할 수 있습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Flash Fire": {	
+			"name": "타오르는불꽃",
+			"effect": "사용자는 불꽃타입 피해와 효과엔 무효입니다. 만약 사용자가 불꽃타입 공격에 맞으면, 공격 또는 특수공격 중 선택해서 +1 전투단계를 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Flavorful Aroma": {	
+			"name": "맛있는향기",
+			"effect": "발동조건 - 아로마미스트를 사용했을 때<br>연결 – 아로마미스트. 아로마미스트에 영향받는 모든 아군은 한라운드 내내 정확도 굴림에 +1 및 +5 피해 굴림을 얻습니다.",
+			"frequency": "임의 – 자유 행동",
+			"keywords": [""]
+		},	
+		"Flower Gift": {	
+			"name": "플라워기프트",
+			"effect": "플라워기프트는 오직 쾌청 날씨일 때나 체력이 절반 미만일 때 사용할 수 있습니다. 활성할 때, 사용자는 두 스탯을 고를 수 있고, 각 스탯은 +2 전투단계를 얻습니다. 2미터 이내의 모든 대상은 또한 선택한 각 스탯에서 +1 전투단계를 얻습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Flower Power": {	
+			"name": "플라워파워",
+			"effect": "발동조건 - 풀타입 포켓몬 하나<br>대상 - 풀타입 포켓몬 하나<br>플라워 파워를 대상에게 그날 하루동안 충전합니다. 플라워파워가 충전된 포켓몬은 스킬체크에 +1 보너스를 받습니다. 충전된 플라워 파워를 소모하면, 풀타입 기술의 명중굴림이나 내성 체크 한번에 +2 보너스를 받습니다. 이 특성은 하루에 각 대상에게 한번씩만 써줄수 있습니다.",
+			"frequency": "임의 - 연장 행동",
+			"keywords": [""]
+		},	
+		"Flower Veil": {	
+			"name": "플라워베일",
+			"effect": "5미터 이내의 풀타입 포켓몬은 전투단계가 내려가지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Fluffy": {	
+			"name": "복슬복슬",
+			"effect": "사용자는 근접 공격의 피해에 한단계 더 반감합니다, 하지만 불꽃타입 공격에는 한단계 덜 반감합니다. [방어적]",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Fluffy Charge": {	
+			"name": "복슬복슬충전",
+			"effect": "연결 - 충전. 사용자가 충전을 사용할 때마다 방어 전투 스탯에 +1을 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Flutter": {	
+			"name": "파닥파닥",
+			"effect": "다음 내 턴 끝까지 회피에 +3을 받고, 포위되지 않습니다.",
+			"frequency": "임의 - '이동 행동'",
+			"keywords": [""]
+		},	
+		"Flying Fly Trap": {	
+			"name": "파리덫",
+			"effect": "이 포켓몬은 땅타입/벌레타입 기술에 피해를 받지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Focus": {	
+			"name": "정신일도",
+			"effect": "격투타입의 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Forecast": {	
+			"name": "기분파",
+			"effect": "날씨에 따라 타입이 변화합니다. 쾌청할땐 불타입,싸라기눈일땐 얼음타입,비바라기일땐 물타입,모래바람일땐 바위타입, 평범한 날씨에선 노말타입이 됩니다. 여러 날씨 효과가 펼쳐져있을땐 타입 하나를 골라, 그 날씨가 사라지기 전까지 그 타입이 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Forecast [WP]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Forest Lord": {	
+			"name": "숲의군주",
+			"effect": "이 턴에, 사용자는 10미터 이내에 있는 완전히 자란 나무에서 자속보정을 얻는 기술을 시작할 수 있습니다. 이 방법으로 수행한 기술은 명중 굴림에 +2 보너스를 얻습니다.",
+			"frequency": "장면 x2 - 이동 행동",
+			"keywords": [""]
+		},	
+		"Forewarn": {	
+			"name": "예지몽",
+			"effect": "대상 - 포켓몬 또는 트레이너 하나<br>대상이 알고있는 가장 위력적인(피해굴림 기준) 기술을 공개합니다. 이번 인카운터 끝까지 그 기술의 명중굴림에 -2를 받게합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Foundry": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Fox Fire": {	
+			"name": "여우불",
+			"effect": "연결 - 불꽃세례. 사용자는 불덩이 3개를 만들어냅니다. 6미터 이내의 적에게 대상으로 지정되면, 발동한 그 기술이 해결된 후 불덩이를 소모해 자유 행동으로 공격자에게 불꽃세례를 사용할수 있습니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Freezing Point": {	
+			"name": "빙점",
+			"effect": "얼음타입의 [마지막기회]를 습득합니다.",
+			"frequency": "발동조건",
+			"keywords": [""]
+		},	
+		"Friend Guard": {	
+			"name": "프렌드가드",
+			"effect": "발동조건 - 하나의 인접한 아군이 데미지를 입음<br>그 피해가 한번 더 반감됩니다. 방어적.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Frighten": {	
+			"name": "겁주기",
+			"effect": "대상 - 5m내의 포켓몬 또는 트레이너<br>대상은 즉시 가장 높은 사용 가능한 이동 재능을 사용해 사용자에게서 3미터 멀어지고, 가능한 경우 트레이너 쪽으로 이동합니다. 그 후 대상은 1라운드 동안 둔화됩니다. 특정 대상에게 겁주기는 장면당 한 번만 사용할 수 있습니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Frisk": {	
+			"name": "통찰",
+			"effect": "대상 - 인접한 단일 포켓몬<br>대상은 타입, 특성, 성격, 레벨, 가지고 있다면 현재 착용중인 소지 도구의 이름을 밝힙니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Frostbite": {	
+			"name": "동상",
+			"effect": "얼음타입 공격기술을 쓸때, 18+에서 대상을 둔화시킵니다. 얼음상태로 만드는 효과범위가 +1 늘어납니다. 얼음상태로 만들지 않는 기술이라면, 20에서 얼음상태로 만듭니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Full Force": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Full Guard": {	
+			"name": "풀가드",
+			"effect": "발동조건 - 임시 체력이 있는 상태에서 피해를 받을 때<br>그 공격의 피해를 한단계 더 반감해 받습니다.<br>추가: 임시 체력이 없는 상태에서 효과가 굉장한 공격을 받으면, 소량의 임시 체력을 얻습니다. 방어적.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Full Metal Body": {	
+			"name": "메탈프로텍트",
+			"effect": "사용자의 전투단계는 적의 재주, 특성, 또는 기술의 효과에 의해 낮아지지 않습니다. 상태이상은 여전히 그들의 전투단계에 영향을 줍니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Fur Coat": {	
+			"name": "퍼코트",
+			"effect": "모든 물리공격을 한단계 더 반감해 받습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Gale Wings": {	
+			"name": "질풍날개",
+			"effect": "비행타입 기술을 우선 키워드가 있는것처럼 쓸 수 있습니다. [썬문] 이 특성을 급속으로 대체합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Galvanize": {	
+			"name": "일렉트릭스킨",
+			"effect": "사용자가 노말타입 기술로 공격하면, 대신 그 기술은 전기타입이 됩니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Geiger Sense": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Gentle Vibe": {	
+			"name": "다정한분위기",
+			"effect": "파열 2.범위 내의 모든 대상(사용자 포함)은 전투단계 증감이 리셋되고, 휘발성 상태이상이 치유됩니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Giver": {	
+			"name": "기부자",
+			"effect": "연결 - 프레젠트. 프레젠트의 기본 피해량을 정하기 위한 굴림 이후, 당신은 그 굴림을 무시하고 1 또는 5가 나온 것처럼 하도록 선택할 수 있습니다.<br>보너스: 사용자는 기술머신과 기술가르침 3개의 제한을 받지 않고 자유롭게 얼마든지 기술을 알 수가 있습니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Glaciation": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Glisten": {	
+			"name": "섬광",
+			"effect": "사용자는 페어리타입 공격에 무효입니다. 방어적. 보너스: 사용자가 페어리타입 공격기에 맞으면, +1 방어 또는 특수방어 전투단계를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Gluttony": {	
+			"name": "먹보",
+			"effect": "사용자는 한번에 음식버프를 3개까지 가질 수 있고, 장면 당 음식버프 3개까지 사용할 수 있고 30분마다 음료수를 2개를 마실수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Good as Gold": {	
+			"name": "황금몸",
+			"effect": "발동조건 - 사용자가 적을 공격할 때<br>한 라운드 동안 발동 조건의 적이 자신을 목표로 하지 않는 공격을 사용하면, 그 적은 한 라운드 동안 둔화됩니다. 적이 자신과 인접한 경우, 대신 구속 상태가 됩니다.<br>보너스: 사용자는 적들의 변화기에 면역이 됩니다. 방어적.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Gooey": {	
+			"name": "미끈미끈",
+			"effect": "발동조건 - 근접공격에 명중 당했을 경우.<br>공격자의 스피드가 1단계 감소합니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Gore": {	
+			"name": "들이박기",
+			"effect": "발동조건 - 뿔찌르기를 사용할 때<br>연결 - 뿔찌르기. 뿔찌르기는 이단타격 키워드를 얻고, 대상은 2미터 밀려납니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Gorilla Tactics": {	
+			"name": "무아지경",
+			"effect": "발동조건 - 사용자가 기술을 사용<br>사용자는 장면 끝까지 그 기술을 포함해 피해 굴림에 +10 보너스를 얻습니다. 하지만, 그 장면 끝까지, 이 특성이 발동하기 전에 이 장면에서 이미 사용한 기술만 사용할 수 있습니다(발동조건의 기술은 사용 가능한 항목에 포함됨).",
+			"frequency": "장면 – 신속 행동",
+			"keywords": [""]
+		},	
+		"Graphic Artist": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Grass Cloak": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Grass Pelt": {	
+			"name": "풀모피",
+			"effect": "사용자는 두 번의 소량의 임시 체력을 얻습니다.<br>보너스: 풀숲이나 숲의 둔화/험한 지형에서 피해감소 5. 방어적.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Grassy Surge": {	
+			"name": "그래스메이커",
+			"effect": "필드는 그래스필드의 영향을 받은 것처럼 한 라운드 내내 그래스필드가 됩니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Grim Neigh": {	
+			"name": "흑의울음",
+			"effect": "발동조건 - 사용자가 데미지를 주어서 적을 기절시켰을 경우<br>사용자의 공격 전투단계가 +1 상승합니다. 또한 사용자로부터 3m 이내의 있는 모든 적들은 1라운드 동안 회피에 -2 패널티를 받습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Guard Dog": {	
+			"name": "파수견",
+			"effect": "발동조건 - 적이 직접적으로 사용자의 전투 단계(명중과 효과 범위 포함하지만 상태 이상과 같은 것은 제외됨)를 낮추었을 때<br>사용자의 전투 단계가 감소하는 만큼 대신 증가합니다.<br>보너스: 사용자가 밀기 효과와 울부짖기 효과에 면역이 됩니다. 방어적.",
+			"frequency": "장면 - 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Guardian Spirit": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Gulp Missile": {	
+			"name": "그대로꿀꺽미사일",
+			"effect": "발동조건 - 비축하기, 파도타기, 다이빙중 하나를 사용했을 때<br>연결 – 비축하기. 그 다음에 사용자가 피해를 입으면, 공격자에 대해서 AC 4 물리 공격을 굴립니다(사용자가 기절했을지라도). 명중시, 대상은 소량의 체력을 2번 잃습니다. 게다가, 명중 굴림이 성공적이라면, 짝수 굴림에선 대상이 마비되고; 홀수 굴림에선, 대상이 방어 1 전투단계를 잃습니다.",
+			"frequency": "장면 x2 – 자유 행동",
+			"keywords": [""]
+		},	
+		"Guts": {	
+			"name": "근성",
+			"effect": "화상,독,마비,냉동,잠듦 상태인 동안 공격이 2단계 오릅니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Hadron Engine": {	
+			"name": "하드론엔진",
+			"effect": "발동조건 - 사용자가 특수기를 사용할 때<br>발동 기술은 사용될 때 강타를 얻습니다. 해결 후, 사용자를 중심으로 파열 5의 일렉트릭필드가 생성되며, 이 필드는 전투가 끝날 때까지 지속됩니다. 해당 칸 안에 있는 모든 전투원은 다른 필드 기술이 아닌 일렉트릭필드 기술의 영향을 받습니다.<br>보너스: 사용자 주변의 파열 1 범위의 칸들은 일렉트릭필드로 간주됩니다.",
+			"frequency": "장면- 신속 행동",
+			"keywords": [""]
+		},	
+		"Handyman": {	
+			"name": "배달부",
+			"effect": "사용자는 한번에 두 개의 지니는 도구를 지닐 수 있습니다. 특성 또는 기술이 지니는 도구에 영향을 줄 때마다, 당신은 영향받을 도구를 선택할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Harvest": {	
+			"name": "수확",
+			"effect": "만복 버프를 소모할때마다 동전을 던집니다. 앞면이면 버프가 소모될때의 효과는 받지만 버프가 소모되지 않습니다. 뒷면이면 평범하게 소모됩니다. 쾌청한 날씨 아래에선 동전을 던지지 않고 버프가 소모되지 않습니다. 만복 버프는 한턴에 한번만 발동할수 있습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Haunt": {	
+			"name": "혼팅",
+			"effect": "고스트타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Hay Fever": {	
+			"name": "꽃가루알레르기",
+			"effect": "발동조건 - 사용자가 변화기를 사용하거나 사용자가 잠듦 상태에서 턴을 마쳤을 때<br>파열 2 또는 인접한 폭발 3 범위에 꽃가루를 퍼트립니다. 범위 내 모든 트레이너와, 벌레/풀/독타입이 아닌 포켓몬들은 소량의 체력을 잃습니다. 이 특성은 비바라기/모래바람/싸라기눈 아래에선 발동할수 없습니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Healer": {	
+			"name": "치유의마음",
+			"effect": "대상 - 인접한 단일 포켓몬 또는 트레이너<br>대상의 모든 상태이상을 치유합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Heat Mirage": {	
+			"name": "신기루",
+			"effect": "발동조건 - 사용자가 불꽃타입 기술을 사용했을 때<br>다음 턴 시작 때까지 사용자의 회피 +3.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Heatproof": {	
+			"name": "내열",
+			"effect": "사용자는 불꽃타입 기술에 한단계 더 반감하고, 화상 상태로부터 체력을 잃지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Heavy Metal": {	
+			"name": "헤비메탈",
+			"effect": "사용자의 무게등급이 +2 증가합니다. 그들의 방어 기본 스탯은 +2 증가라지만 스피드 기본 스탯은 2 감소합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Heliophobia": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Heliovolt": {	
+			"name": "헬리오볼트",
+			"effect": "발동조건 - 전기타입 기술을 사용했을 때<br>1라운드동안, 회피가 1 증가하고 날씨가 쾌청한 날씨인것으로 취급됩니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Helper": {	
+			"name": "헬퍼",
+			"effect": "연결 - 도우미. 사용자가 하나의 아군을 대상으로 기술을 사용할 때마다, 그 아군은 사용자의 다음 턴 끝까지 정확도와 스킬 체크 +1 보너스를 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Honey Paws": {	
+			"name": "꿀파기",
+			"effect": "꿀을 먹으면 먹다남은음식을 먹은것처럼 만복/음식 버프를 얻습니다. 이 만복/음식버프는 통상의 제한에 영향을 주거나 받지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Honey Thief": {	
+			"name": "꿀도둑",
+			"effect": "연결 - 벌레먹기. 사용자가 만약 벌레먹기를 사용해서 만복/음식버프를 빼앗으면, 그들은 소량의 임시 체력을 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Hopeful": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Horde Break": {	
+			"name": "무리이탈",
+			"effect": "발동조건 - 군집의 모습에서 단독의 모습으로 폼체인지했을 경우<br>사용자의 모든 상태이상은 치료됩니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Hospitality": {	
+			"name": "대접",
+			"effect": "발동조건 - 사용자가 기술을 사용할 때<br>발동 기술은 친화 키워드를 얻을 수 있습니다. 해결 후, 발동된 기술의 대상의 인접한 아군 한 명을 선택합니다. 선택한 아군은 임시 소량의 체력 2번을 얻습니다. 이 특성의 사용 횟수를 한번 더 소모하여 아군을 추가로 선택할 수 있습니다.",
+			"frequency": "장면x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Hubris": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Huge Power": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Hunger Switch": {	
+			"name": "꼬르륵스위치",
+			"effect": "사용자의 턴이 시작될 때 사용자는 다음 턴이 시작될 때까지 배부른 모양 또는 배고픈모양 중 하나를 선택해야 합니다. 배부른 모양에서는 정확도에 +2 보너스를 제공합니다. 배고픈 모양에서는 피해 굴림에 +5 보너스를 줍니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Hustle": {	
+			"name": "의욕",
+			"effect": "사용자는 명중굴림에 -2 페널티를 받지만 모든 피해 굴림에 +10 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Hybrid Armor": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Hydration": {	
+			"name": "촉촉바디",
+			"effect": "사용자는 상태 이상 하나를 치료합니다. 촉촉바디의 빈도는 비바라기 날씨에서 사용할 땐 무시합니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Hyper Cutter": {	
+			"name": "괴력집게",
+			"effect": "공격 스탯과 단계가 내려가지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Hypnotic": {	
+			"name": "최면",
+			"effect": "연결 - 최면술. 사용자에 의해 사용될 경우 최면술은 빗나가지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Ice Body": {	
+			"name": "아이스바디",
+			"effect": "사용자는 소량의 체력을 얻습니다. 아이스바디는 오직 사용자가 체력이 절반 미만일 때 또는 싸라기눈 날씨일 때만 사용 가능합니다.<br>보너스: 사용자는 싸라기눈으로부터 체력을 잃지 않습니다.",
+			"frequency": "하루 x5 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Ice Face": {	
+			"name": "아이스페이스",
+			"effect": "사용자는 소량의 임시 체력을 2개 가지고 전투를 시작합니다. 싸라기눈일 때 기본 행동으로, 소량의 임시 체력을 2개 얻을 수 있습니다. 사용자는 싸라기눈의 피해로부터 면역입니다. 이 특성으로부터 사용자가 임시 체력을 가지고 있는 동안, 아이스페이스 모습이 되고, 다른 경우 나이스페이스 모습이 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Ice Scales": {	
+			"name": "얼음인분",
+			"effect": "사용자는 특수기에 한단계 더 반감합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Ice Shield": {	
+			"name": "아이스실드",
+			"effect": "3칸짜리 얼음벽을 만들수 있습니다. 각 얼음벽은 다른 얼음벽과 이어져있어야 합니다. 이 얼음벽은 가로막는 환경으로 취급되며, 파괴되거나 인카운터가 끝날때까지 유지됩니다. 각 얼음벽 1칸은 높이 2미터, 너비 1미터, 두께 2센티미터입니다. 각 얼음벽 1칸은 10의 체력과 피해감소 5를 가지고 있으며, 얼음타입으로 취급합니다.",
+			"frequency": "장면 - 기본 행동, 방해",
+			"keywords": [""]
+		},	
+		"Illuminate": {	
+			"name": "발광",
+			"effect": "이 포켓몬을 대상으로 하는 공격은 명중굴림에 -2 페널티를 받습니다. 맹인감각 능력을 가진 캐릭터에겐 적용되지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Illusion": {	
+			"name": "일루전",
+			"effect": "일반 행동으로 아무 사물/포켓몬/트레이너에게 표식을 남길수 있습니다. 집중 랭크까지의 수만큼 표식을 남길수 있으며, 이를 초과해 새기려 하면 먼저 새겨둔 표식이 사라집니다. <br>라운드당 한번 자유 행동으로 특성 보유자는 환영의 힘을 이용해 표식이 남은 대상과 똑같은 모습으로 변할수 있습니다. 볼에서 나오면서 변할수도 있습니다. 이 변화는 모습에만 영향을 줄 뿐, 기술이나 타입같은 그 외의 어떤 데이터에도 영향을 주지 않습니다. 표식 대상과 비슷한 소리를 내는건 가능하지만, 말을 흉내낼순 없습니다. 특성 보유자가 공격기에 맞으면 환영은 사라집니다. 또, 자유 행동으로 환영을 없앨수도 있습니다.",
+			"frequency": "특수",
+			"keywords": [""]
+		},	
+		"Immunity": {	
+			"name": "면역",
+			"effect": "독,맹독 상태가 되지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Imposter": {	
+			"name": "괴짜",
+			"effect": "만약 사용자가 변신한 상태가 아니라면, 그들은 자유 행동 방해로 변신을 사용할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Infiltrator": {	
+			"name": "틈새포착",
+			"effect": "사용자는 은신 체크에 +2를 얻고, 함정을 유발하지 않으며, 행동에 대한 반응으로 축복을 활성할 수 없게 하며, 사용자는 대타출동의 효과를 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Infuriate": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Innards Out": {	
+			"name": "내용물분출",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>사용자는 그 공격에 한단계 더 반감합니다. 공격이 해결된 후, 2미터 이내의 한 적은 사용자가 그 공격으로 잃은 체력의 2배에 해당하는 체력을 잀습니다(그 공격으로 사용자가 기절했을 지라도).",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Inner Focus": {	
+			"name": "정신력",
+			"effect": "사용자는 풀죽지 않고, 어떠한 효과로 인해 강제로 이니셔티브가 낮아지지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Insomnia": {	
+			"name": "불면",
+			"effect": "잠듦 상태가 되지 않고, 잠자기 기술을 쓸수 없습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Instinct": {	
+			"name": "본능",
+			"effect": "기본 회피 +2. 방어적",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Interference": {	
+			"name": "간섭",
+			"effect": "1라운드 동안 3미터 이내의 모든 적들의 정확도 -2",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Intimidate": {	
+			"name": "위협",
+			"effect": "대상 - 5m내의 포켓몬 또는 트레이너<br>대상은 풀죽고 공격 또는 특수공격 중 선택한 전투 단계 1을 잃습니다. 위협은 장면당 한 번만 특정 적을 대상으로 할 수 있습니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Intoxicate": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Intrepid Sword": {	
+			"name": "불요의검",
+			"effect": "사용자의 기본값 공격 전투단계 +1 증가.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Iron Barbs": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Iron Fist": {	
+			"name": "철주먹",
+			"effect": "사용자는 다음의 기술의 기본 피해량이 +2 증가합니다; 불릿펀치, 연속펀치, 잼잼펀치, 드레인펀치, 폭발펀치, 불꽃펀치, 코멧펀치, 섀도펀치, 냉동펀치, 마하펀치, 메가톤펀치, 스카이어퍼, 번개펀치, 기합펀치, 암해머, 그로우펀치.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Juicy Energy": {	
+			"name": "쥬스에너지",
+			"effect": "발동조건 - 나무열매쥬스 음식버프를 소모했을 때<br>30 대신 (내 레벨)만큼 회복합니다.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Justified": {	
+			"name": "정의의마음",
+			"effect": "발동조건 - 피해를 주는 악타입기술이나 기회공격에 당했을 때<br>사용자는 공격 또는 특수공격 전투단계를 +1 올릴 수 있습니다.<br>보너스: 사용자는 가로채기를 위한 스킬체크에 항상 +4 보너스를 받습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Kampfgeist": {	
+			"name": "투지",
+			"effect": "발동조건 - 벌레, 악, 바위타입으로 인한 피해를 받았을 경우<br>발동조건의 그 기술은 한단계 더 반감됩니다 .<br>보너스: 사용자는 격투타입 기술에 자속보정을 받습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Keen Eye": {	
+			"name": "날카로운눈",
+			"effect": "명중이 감소하지 않으며, 명중 페널티를 받지도 않습니다(발광같은 요인에 의해). 완전 실명이 아니면 실명에도 면역이며, 스탯으로 인해 오른게 아닌 회피 수정치를 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Klutz": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Lancer": {	
+			"name": "랜서",
+			"effect": "내 턴동안 3미터 이상 이동했다면 다음 턴 시작까지 치명타 범위에 +3 보너스를 받습니다. 내 턴동안 전혀 전환도 이탈도 하지 않았다면, 다음 턴 시작까지 피해감소 +5.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Landslide": {	
+			"name": "침강",
+			"effect": "땅타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Last Chance": {	
+			"name": "마지막기회",
+			"effect": "노말타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Lazy": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Lead Skin": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Leaf Guard": {	
+			"name": "리프가드",
+			"effect": "사용자는 상태 이상을 하나 치료합니다. 쾌청 날씨에서 사용될 때 리프가드의 빈도는 무시됩니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Leaf Rush": {	
+			"name": "리프러시",
+			"effect": "사용하면 풀타입 기술을 우선 키워드가 붙은것처럼 쓸 수 있습니다. 그 기술이 공격기였으면 피해굴림에 스피드 스탯의 절반을 더합니다. [썬문] 이 특성을 급속으로 대체합니다.",
+			"frequency": "장면 x2 - 자유 행동, 우선",
+			"keywords": [""]
+		},	
+		"Leafy Cloak": {	
+			"name": "잎사귀망토",
+			"effect": "잎사귀망토를 발동하면 엽록소,리프가드,방음중 둘을 고릅니다. 잎사귀망토를 다시 활성화하기 전까지 고른 특성을 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Learn": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Leek Mastery": {	
+			"name": "대파의달인",
+			"effect": "연결 - 애크러뱃. 만약 사용자가 대파를 가지고 있어도 그들은 여전히 도구를 지니고 있지 않은 것처럼 애크러뱃을 사용할 수 있습니다. 사용자가 든 막대기는 무장해제되지 않고, 사용자가 원하지 않는 한 트킥, 바꿔치기, 도둑질 또는 다른 기술이나 효과에 의해 제거되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Levitate": {	
+			"name": "부유",
+			"effect": "이 포켓몬은 땅타입 기술의 효과와 피해에 무효이며, 부유이동 4를 얻습니다. 이미 부유이동이 있다면 그 속도에 +2합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Levitate (Wind Runner)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Life Force": {	
+			"name": "생명력",
+			"effect": "사용자는 소량의 체력을 얻습니다.",
+			"frequency": "하루 x5 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Light Metal": {	
+			"name": "라이트메탈",
+			"effect": "사용자의 무게 등급이 2 낮아집니다. 스피드 기본 스탯은 +2 증가하지만, 방어 기본 스탯은 2 감소합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Lightning Kicks": {	
+			"name": "번개킥",
+			"effect": "사용자는 이 특성을 활성하하여 '킥'이란 이름 붙은 기술을 우선 기술처럼 사용할 수 있고 그 공격의 정확도 굴림에 +4 보너스를 얻습니다. (킥 기술: 두번차기, 무릎차기, 점프킥, 안다리걸기, 돌려차기, 트리플킥, 블레이즈킥, 트로피컬킥, 메가톤킥)",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Lightning Rod": {	
+			"name": "피뢰침",
+			"effect": "발동조건 - 10m내의 누군가가 원거리 전기타입 기술을 사용했을 때 <br>그 기술은 1-대상 기술이 되며, 사용자에게 실패하거나 빗나가지 않고 유도됩니다. 이 효과는 록온과 마음의눈을 무시합니다. 사용자의 특수공격 +1 전투단계 오릅니다.<br>보너스: 사용자는 전기타입의 피해와 효과에 무효가 됩니다. 방어적.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Limber": {	
+			"name": "유연",
+			"effect": "마비에 면역입니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Lingering Aroma": {	
+			"name": "가시지않는향기",
+			"effect": "대상 - 2m 내의 모든 적과 아군<br>범위 내에 있는 적이 사용자 쪽으로 1m 밀립니다. 범위 내에 있는 아군은 장면이 끝날 때까지 또는 아군이 아직 가시지않는향기를 가지고 있지 않은 경우 전환될 때까지 가시지않는향기를 얻습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Liquid Ooze": {	
+			"name": "해감액",
+			"effect": "사용자는 독타입 피해에 한단계 더 저항합니다. 추가로, 사용자가 흡수, 드레인펀치, 기가드레인, 흡혈, 씨뿌리기, 우드혼, 메가드레인에 피해를 입으면, 그 기술에 반동 1/2 키워드를 더하고 체력을 회복하지 못하게 합니다. 사용자가 씨뿌리기에 명중당하면, 사용자는 씨뿌리기로 인해 체력을 잃지 않으며; 대신 씨뿌리기의 사용자는 해감액 사용자의 소량의 값과 같은 체력을 잃습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Liquid Voice": {	
+			"name": "촉촉보이스",
+			"effect": "발동조건 - 소리 키워드를 지닌 기술을 사용했을 때<br>그 공격은 [소리] 키워드를 잃지만, 친화 키워드를 얻고 물타입이 됩니다. 그 기술이 변화기였다면, 당신은 그 기술을 DB1를 가진 특수기로 취급할 수 있습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Long Reach": {	
+			"name": "원격",
+			"effect": "사용자는 공격기를 평범한 범위 대신 '8, 1 대상' 범위를 가진 것처럼 사용할 수 있습니다 .",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Lullaby": {	
+			"name": "자장가",
+			"effect": "연결 - 노래하기. 사용자가 기술 '노래하기'를 사용할 때마다, 그들은 이 특성을 활성화할 수 있습니다. 사용자는 노래하기의 대상이 될 트레이너 또는 포켓몬을 고릅니다; 노래하기는 자동적으로 대상에게 명중합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Lunchbox": {	
+			"name": "도시락통",
+			"effect": "대상 - 사용자가 음식버프를 소비<br>사용자는 소량의 임시 체력을 얻습니다. 해당 버프로 얻은 임시체력과 중첩 가능.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Mach Speed": {	
+			"name": "마하스피드",
+			"effect": "비행타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Maelstrom Pulse": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Magic Bounce": {	
+			"name": "매직미러",
+			"effect": "발동조건 - 사용자가 변화기술을 맞았을 때<br>그 기술을 공격자에게 되돌려보냅니다.<br>직접 사용하면 인근 10미터 이내의 함정들의 위치를 원하는대로 바꿀수 있습니다. 방어적.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Magic Guard": {	
+			"name": "매직가드/영구동토",
+			"effect": "함정/날씨/상태이상/조이기/반동/꽃가루알레르기/철가시/까칠한피부/씨뿌리기에 피해를 입거나 체력을 잃지 않습니다. 방어적",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Magician": {	
+			"name": "매지션",
+			"effect": "발동조건 - 단일 타겟을 대상으로 하는 공격으로 적을 명중시켰을 때<br>대상이 지닌 도구를 가져옵니다. 특성 사용자가 이미 도구를 지니고 있으면 적용되지 않습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Magma Armor": {	
+			"name": "마그마의무장",
+			"effect": "적에게 근접 공격을 맞추거나 붙잡고 있는 동안 턴을 마칠 때마다, 적들은 소량의 체력을 잃습니다. 화상에 면역이 있는 적들은 이 효과에 영향받지 않습니다.<br>보너스: 사용자는 얼음상태가 되지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Magnet Pull": {	
+			"name": "자력",
+			"effect": "대상 - 6m내에 존재하는 강철타입 포켓몬 하나<br>2가지 효과 선택;<br>-대상을 X미터를 사용자 쪽으로 향해서 밀어내거나 당깁니다. X는 최대 6m에서 대상의 무게 등급을 뺀 값입니다.<br>-사용자의 다음 턴 끝까지, 대상은 사용자로부터 6미터보다 멀어질 수 없습니다 .<br>-사용자의 다음 턴 끝까지, 대상은 사용자에게 3미터보다 더 다가올 수 없습니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Malice": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Marvel Scale": {	
+			"name": "이상한비늘",
+			"effect": "잠듦,마비,화상,얼음,독 상태일때 방어 +2단계. 이 증가치는 상태이상이 해소되면 원래대로 돌아옵니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mega Launcher": {	
+			"name": "메가런처",
+			"effect": "파동탄,악의파동,용의파동,물의파동의 기본 피해량 +3",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Memory Wipe": {	
+			"name": "기억지우기",
+			"effect": "반경 10미터 이내의 포켓몬이나 트레이너를 지정합니다. 이 특성을 신속 행동으로 썼다면 대상이 마지막으로 사용한 기술은 사슬묶기당합니다. 이 특성을 기본 행동으로 썼다면, 대상은 풀죽음 상태가 됩니다. 이 특성을 연장 행동으로(1분간 시간을 들여서)썼다면, 대상이 기억중인 최근 30분간의 기억중 5분어치를 지워버릴수 있습니다.",
+			"frequency": "장면 - 특수",
+			"keywords": [""]
+		},	
+		"Merciless": {	
+			"name": "무도한행동",
+			"effect": "독상태의 대상에 대해서 사용하는 사용자의 모든 공격은 치명타가 됩니다. 하지만 공격은 여전히 명중해야만 합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Migraine": {	
+			"name": "편두통",
+			"effect": "발동조건 - 체력이 절반 이하일때 기술 염동력을 명중시킬 경우<br>연결 - 염동력. 염동력은 대상에게 자동으로 혼란 상태을 일으키고 치명타가 됩니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Mimicry": {	
+			"name": "의태",
+			"effect": "사용자는 필드에 따라 타입이 변합니다. 다음 표로부터 한 타입을 선택하세요. 날씨와 같은 것으로 인해 두 개 이상의 행이 관련이 있는 경우 그 중 하나를 선택합니다:<br>-해변: 땅 또는 물<br>-동굴: 바위 또는 악<br>-사막: 땅 또는 바위<br>-숲: 풀<br>-민물 / 바다: 물<br>-초원: 노말 또는 풀<br>-습지: 물 또는 독<br>-산: 바위 또는 땅<br>-열대 우림: 풀 또는 독<br>-타이가: 얼음 또는 풀<br>-툰드라: 얼음<br>-도시: 노말 또는 강철<br>-쾌청: 불꽃<br>-비바라기: 물<br>-싸라기눈 상태: 얼음<br>-모래바람 상태: 바위<br>GM이 원할 경우 추가 옵션을 제공할 수 있습니다(예: 천상의 숲은 에스퍼와 페어리 옵션을 제공할 수 있습니다).",
+			"frequency": "장면 – 자유 행동",
+			"keywords": [""]
+		},	
+		"Mimitree": {	
+			"name": "흉내나무",
+			"effect": "연결 - 흉내내기. 사용자가 흉내내기에 의해 복사된 기술을 사용할 때마다, 그들은 한번 더 그 기술을 흉내내기로 바꿀 수 있습니다. 이 방법을 사용할 때 흉내내기의 빈도를 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mind Mold": {	
+			"name": "마음의틀",
+			"effect": "에스퍼 타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mind's Eye": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Mini-Noses": {	
+			"name": "작은코",
+			"effect": "작은코 3개를 사용자, 그리고 그와 인접한 위치에 둘수 있습니다. 이 작은 코들은 각각 사용자의 레벨과 같은 양의 HP를 가지고 있지만, 다른 스탯은 사용자 본인의 스탯과 같으며, 부유이동 4의 속도를 가집니다. 매 라운드 작은코를 이동시킬수 있으며, 원한다면 본인 대신 작은코에게서 원거리 기술이 나가도록 할 수도 있습니다. 작은코의 HP가 0 이하로 감소하면 작은코가 파괴되고, 다시 자라나는데 하나당 24시간이 필요합니다. 사용자가 기절하면 작은코들은 파괴되진 않지만 비활성화됩니다. 작은코들은 사용자에게서 5미터 이상 멀어지지 않고, 그 이상 멀어지면 자동으로 사용자쪽으로 돌아오려 합니다.",
+			"frequency": "하루 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Minus": {	
+			"name": "마이너스",
+			"effect": "대상 - 10m이내에 존재하는 플러스특성의 아군<br>대상의 특공 +2단계",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Miracle Mile": {	
+			"name": "미라클마일",
+			"effect": "페어리타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mirror Armor": {	
+			"name": "미러아머",
+			"effect": "발동조건 - 적의 기술 이나 특성이 직접적으로 사용자의 전투단계를 하락시킴 (효과 범위는 포함이 되지만 상태기로 인한 것은 포함 안됨)<br>사용자의 전투단계는 하락되지 않고, 대신 동일한 스탯의 적의 전투단계를 사용자가 하락되려고 했던 수치만큼 하락시킵니다.",
+			"frequency": "임의 – 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Missile Launch": {	
+			"name": "미사일발사",
+			"effect": "연결 – 드래곤애로. 사용자는 6미터 이내에 2개의 드라꼰 토큰을 놓습니다. 사용자는 신속 행동으로 모든 드라꼰 토큰을 컨트롤해서 4미터를 움직이게 할 수 있습니다. 드라꼰 토큰은 자유롭게 다른 생물체의 칸으로 이동할 수 있고, 이 이동으로 토큰은 파괴되며, 그 생물체에게 사용자의 미사일발사로 인한 AC2 DB 5 물리 드래곤타입 공격인 것처럼 공격을 받게 합니다 .<br>드라꼰 토큰은 대상이 될 수 있습니다. 그것들은 사용자와 같은 회피를 가지고 있고, 어떠한 피해를 받아도 파괴됩니다(강타 피해 포함).<br>",
+			"frequency": "장면 x2 – 기본 행동",
+			"keywords": [""]
+		},	
+		"Misty Surge": {	
+			"name": "미스트메이커",
+			"effect": "필드는 미스트필드의 영향을 받은 것처럼 한 라운드 내내 미스트필드가 됩니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Mojo": {	
+			"name": "마력",
+			"effect": "사용자의 고스트타입 기술은 노말타입의 무효를 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mold Breaker": {	
+			"name": "틀깨기",
+			"effect": "대상 - 인접한 단일 포켓몬 또는 트레이너<br>모든 적의 방어적 특성을 무시합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mooch": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Moody": {	
+			"name": "변덕쟁이",
+			"effect": "사용자의 턴을 끝났을 때, 1d6를 굴리고 스탯을 정해 +2 전투단계를 올리고, 그런 다음 1d6를 굴리고 스탯을 정해 1 전투단계를 내립니다. 1은A공격, 2는 방어, 3은 특수공격, 4는 특수방어, 5는 스피드, 6은 정확도.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Morning Fog [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Motor Drive": {	
+			"name": "전기엔진",
+			"effect": "전기타입 공격의 효과와 피해에 무효입니다. 전기타입 공격에 적중당할때마다 스피드 +1단계. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mountain Peak": {	
+			"name": "산봉우리",
+			"effect": "바위타입의 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Moxie": {	
+			"name": "자기과신",
+			"effect": "내 기술로 적을 기절시키면 공격 +1단계. 기술 한번으로 여러 적을 기절시켜도, 자기과신은 1번만 발동합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mud Dweller": {	
+			"name": "진흙서식자",
+			"effect": "땅타입과 물타입 기술을 한단계 더 반감해 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Mud Shield": {	
+			"name": "진흙가드",
+			"effect": "사용자는 소량의 임시 체력을 2번 얻습니다. 보너스: 둔화 또는 험한 지형인 진흙이나 흙 지형에 서 있을 때, 사용자는 +5 피해 감소를 얻습니다. 방어적.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Multiscale": {	
+			"name": "멀티스케일",
+			"effect": "체력이 가득할 때, 모든 피해가 한단계 더 반감됩니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Multitype": {	
+			"name": "멀티타입",
+			"effect": "내 타입을 원하는 타입으로 바꿀수 있습니다. 이 특성은 무효화되거나 복사되지 않습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Mummy": {	
+			"name": "미라",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>사용자의 특성 중 하나가 장면 나머지까지 또는 그들이 교대되기까지 무력화됩니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Mycelium Might": {	
+			"name": "균사의힘",
+			"effect": "발동조건 - 이니셔 라운드 종료<br>자유 행동으로 변화기를 적을 대상으로 사용할 수 있습니다. 이 기술에서는 적의 특성이 무시되고, 기술에 가루 키워드가 있더라도 풀타입은 영향을 받으며, 축복과 방해는 이에 대응하여 활성화될 수 없습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Natural Cure": {	
+			"name": "자연회복",
+			"effect": "몬스터볼로 돌아가거나 숨을 돌릴때마다, 이 특성을 발동해 모든 지속성 상태이상을 회복할수 있습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Needles": {	
+			"name": "가시",
+			"effect": "연결 – 바늘팔. 사용자가 물리 근접 공격으로 대상을 명중시킬 때마다, 대상은 소량의 체력을 잃습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Neuroforce": {	
+			"name": "브레인포스",
+			"effect": "당신이 대상에게 굉장한효과 피해를 줄 때마다, 대상은 당신의 피해 굴림이 +10 증가한 것으로 취급합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Neutralizing Gas": {	
+			"name": "화학변화가스",
+			"effect": "사용자 주변 파열 1에서는 특성이 발동되지 않고 그 영역 안에서 방어적 특성은 작동되지 않습니다(사용자는 제외). 만약 사용자가 독가스, 스모그, 클리어스모그, 또는 원더스팀을 사용하면, 그 기술에 맞은 대상은 한라운드 내내 특성을 발동하거나 방어적 특성으로부터 영향을 받지 못합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Nimble Strikes": {	
+			"name": "빠른공격",
+			"effect": "노말타입 물리기의 피해굴림에 스피드 스탯의 절반을 더합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"No Guard": {	
+			"name": "노가드",
+			"effect": "사용자는 모든 공격 굴림에 +3 보너스를 받지만 모든 적들은 사용자에 대해 공격에 +3 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Noctem": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Noctem [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Normalize": {	
+			"name": "노말스킨",
+			"effect": "사용자의 공격은 굉장한효과 또는 반감 피해를 처리할 수 없으며, 대신 중립적 피해를 처리하는 것처럼 해결합니다. 또한 사용자는 무효가 아닌 모든 공격으로부터 중립적인 피해를 입습니다. 이것은 무효(면역)에는 영향을 주지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Oblivious": {	
+			"name": "둔감",
+			"effect": "난동과 헤롱헤롱에 걸리지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Odious Spray": {	
+			"name": "나쁜스프레이",
+			"effect": "연결 - 독가스. 사용자는 독가스를 범위 “8, 1 대상”, AC 2를 가진 것처럼 사용할 수 있고, 명중하게 되면 대상은 풀죽습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Omen": {	
+			"name": "징조",
+			"effect": "5미터 이내의 포켓몬이나 트레이너를 대상으로 지정합니다. 대상의 명중에 -2.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Opportunist": {	
+			"name": "편승",
+			"effect": "발동조건 - 적의 전투 단계가 상승했을 때<br>사용자 또는 인접한 아군이 동일한 전투 단계를 올립니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Orbital Tide": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Orichalcum Pulse": {	
+			"name": "진홍빛고동",
+			"effect": "발동조건 - 사용자가 물리기를 사용할 때<br>발동 기술은 사용될 때 강타를 얻습니다. 해결 후, 사용자를 중심으로 폭발 5의 고대 날씨가 생성되며, 이 날씨는 전투가 끝날 때까지 지속됩니다. 해당 칸 안에 있는 모든 전투원은 다른 날씨 효과 대신 고대 날씨의 영향을 받습니다.<br>고대 날씨는 특성, 재주, 기술 사용 시 쾌청 날씨로 간주되지만, 불타입 기술은 대신 +10 피해 보너스를 받습니다. 또한, 고대 날씨에 있는 전투원은 얼음 상태에 면역입니다.<br>보너스: 사용자 주변의 파열 1 범위의 칸들은 고대 날씨로 간주됩니다.",
+			"frequency": "장면- 신속 행동",
+			"keywords": [""]
+		},	
+		"Overbear": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Overcharge": {	
+			"name": "과충전",
+			"effect": "전기타입의 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Overcoat": {	
+			"name": "방진",
+			"effect": "가루 키워드를 가진 기술에 면역이고, 날씨에 의해 피해를 받지 않습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Overgrow": {	
+			"name": "심록",
+			"effect": "풀타입의 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Overshadow": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Own Tempo": {	
+			"name": "마이페이스",
+			"effect": "혼란에 면역입니다.방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Pack Hunt": {	
+			"name": "무리사냥",
+			"effect": "발동조건 - 인접한 적 하나에게 아군이 근접공격으로 데미지를 준 경우<br>그 적에게 AC5의 물리공격을 가할수 있습니다. 공격이 명중하면 대상은 소량의 체력을 잃습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Parental Bond": {	
+			"name": "부자유친",
+			"effect": "아기 템플릿을 가진 캥카가 메가진화했을때만 이 특성을 얻을수 있습니다. 이 특성을 가진 동안 아기는 피해감소 10을 얻고, 어미의 주머니를 나와 전투에 참여합니다. 어미와 아기가 각각의 턴을 가집니다. 아기는 어미로부터 10미터 이상 떨어지려 하지 않을것입니다. 아기가 기절할경우, 어미 캥카는 난동하게 되고 장면 끝까지 피해감소 5와 피해량+5의 보너스를 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Parry": {	
+			"name": "패리",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>그 공격이 빗나갑니다.방어적.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Pastel Veil": {	
+			"name": "파스텔베일",
+			"effect": "사용자와 3미터이내의 아군들은 독에 면역이 됩니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Perception": {	
+			"name": "감지",
+			"effect": "사용자는 +1 회피를 얻습니다. 아군이 사용한 피해를 주는 영역효과 공격에 맞게 되었을 때마다, 당신은 그 공격이 해결되기 전에 자유 행동으로 이탈할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Perforate": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Perish Body": {	
+			"name": "멸망의바디",
+			"effect": "발동조건 - 근접공격으로 명중당했을 경우<br>공격한 생물체와 사용자는 각각 멸망 카운트 3을 받습니다. 각 대상의 턴 시작시마다, 멸망 카운트는 1 줄어듭니다. 한쪽의 멸망 카운드가 0이 되면, 포켓몬의 체력이 0이 됩니다. 멸망 카운트는 대상이 볼에 돌아가거나 숨돌리기를 하거나 기절하면 사라집니다. 멸망의바디는 절대 대규모피해를 일으키지 않습니다. 방어적.",
+			"frequency": "하루 – 기본 행동, 반응",
+			"keywords": [""]
+		},	
+		"Permafrost": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Petrify": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Phototroph": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Pickpocket": {	
+			"name": "나쁜손버릇",
+			"effect": "발동조건 - 근접기술로 명중당했을 경우<br>상대가 도구를 지니고 있고 특성 보유자는 지니고있지 않다면, 상대가 지닌 도구를 가져옵니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Pickup": {	
+			"name": "픽업",
+			"effect": "대상 - 도구를 지니고 있는 5미터 이내의 전투원<br>대상이 들고 있는 도구를 선택합니다. 사용자는 도구의 가짜 복사본을 얻습니다. 이 복사본은 복사한 도구와 동일한 효과를 가지지만, 전투가 끝나면 사라집니다. 도구가 소모품인 경우, 그때까지 소모되지 않았다면 원본 도구도 동시에 소멸됩니다.<br>보너스: 사용자가 청소부 재능을 얻습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Pixilate": {	
+			"name": "페어리스킨",
+			"effect": "발동조건 - 노말타입 공격기를 사용했을 때<br>그 기술이 페어리타입으로 바뀝니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Plus": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Poison Heal": {	
+			"name": "포이즌힐",
+			"effect": "발동조건 - 상태이상 독에 걸려있을 경우<br>이번 인카운터 끝까지, 독이나 맹독에 걸려있는 동안 매 턴 시작에 소량의 체력을 회복하고, 독에 의해 피해를 입지 않습니다. 인카운터가 끝날때 독이나 맹독이 사라집니다. 추가로, 특성 보유자는 독에 의해 어떠한 전투단계도 내려가지 않습니다.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Poison Point": {	
+			"name": "독가시",
+			"effect": "발동조건 - 근접기술에 명중당했을 경우<br>공격자가 독에 걸립니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Poison Puppeteer": {	
+			"name": "독조종",
+			"effect": "대상 - 독이나 맹독 상태가 된 3미터 이내의 적 하나<br>대상은 사용자가 원하는 방향으로 3미터 밀려납니다. 만약 이 이동이 차단 지형에 의해 멈추게 되면 대상은 혼란에 빠집니다. 이 이동이 다른 적에 의해 멈추게 되면, 그 적 또는 대상 중에 선택하여 중독 또는 혼란 상태가 되게 합니다.",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Poison Touch": {	
+			"name": "독수",
+			"effect": "이 포켓몬의 기술은 19+에서 대상에게 독을 겁니다. 이미 독을 걸수 있던 기술이었다면, 그 효과범위에 +2합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Pollution": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Pollution [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Poltergeist": {	
+			"name": "폴터가이스트",
+			"effect": "로토무는 가진 폼에 따라 특성을 얻습니다. 만약 로토무가 레벨 40이상이라면, 폼에 따라서 기술 목록에 있었던 것처럼 해당 기술을 사용할 수 있습니다.(특성 - 기술)<br><br>보통 로토무: 부유 - 없음<br>히트로토무: 타오르는불꽃 - 오버히트<br>워시로토무: 저수 - 하이드로펌프<br>프로스트로토무: 겨울의입맞춤 - 눈보라<br>스핀로토무: 바람숨기 - 폭풍<br>커트로토무: 초식 - 리프스톰",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Polycephaly": {	
+			"name": "멀티헤드",
+			"effect": "발버둥을 신속 행동으로 사용할수 있습니다. 이렇게 사용된 발버둥은 보통의 발버둥보다 한단계 더 반감됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Power Construct": {	
+			"name": "스웜체인지",
+			"effect": "사용자는 장면 끝까지 페펙트폼으로 폼체인지합니다, 그리고 페펙트폼이 가질 수 있는 최대 체력의 절반에 해당하는 임시 체력을 얻습니다. 사용자는 퍼펙트폼인 동안 다른 요인으로부터 임시 체력을 얻지 못합니다.<br>특수: 사용자는 퍼펙트폼이 되기 전의 폼(10% 또는 50%)의 전체 체력과 최대 체력을 계속 사용합니다. 두 폼은 여전히 스탯 총합(BST)을 따라야 합니다. 사용자는 체력이 절반 미만일 때만 스윔체인지를 사용할 수 있습니다.",
+			"frequency": "하루 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Power of Alchemy": {	
+			"name": "화학의힘",
+			"effect": "대상 - 10m 내에 있는 단일의 포켓몬 또는 트레이너<br>그 포켓몬은 대상의 의해 알려진 특성 하나를 인카운터 나머지 동안 또는 포켓몬이 기절할 때까지 얻습니다,",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Power Spot": {	
+			"name": "파워스폿",
+			"effect": "사용자의 2미터 이내의 아군들은 피해 굴림에 +5 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Prankster": {	
+			"name": "짓궂은마음",
+			"effect": "자유 행동으로 적들을 대상으로 변화기를 사용할 수 있습니다. 이 기술은 우선 효과의 혜택을 받지 않습니다.<br>보너스: 변화기를 우선(고급)으로 사용할 수 있습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Pressure": {	
+			"name": "프레셔",
+			"effect": "3미터 이내의 모든 적들은 1라운드 동안 억압됩니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Pride": {	
+			"name": "자존심",
+			"effect": "화상,독,마비,얼음,잠듦 상태인 동안 특공이 2단계 오릅니다. 상태이상들이 해제되면 오른 단계도 원상복귀됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Prime Fury": {	
+			"name": "원초적분노",
+			"effect": "사용자가 난동 상태가 되고, 공격과 특수공격 각각에 +1 전투단계.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Primordial Sea [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Prism Armor": {	
+			"name": "프리즘아머",
+			"effect": "사용자는 굉장한효과 피해에 대해 +5 피해 감소를 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Probability Control": {	
+			"name": "확률제어",
+			"effect": "대상 - 아군 또는 자신이 만들어낸 굴림<br>그 굴림을 다시 굴리게 할수 있습니다. 이렇게 하면 초자연적 흔적이 남습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Propeller Tail": {	
+			"name": "스크루지느러미",
+			"effect": "사용자는 자유 행동으로 질주 동작을 시도할 수 있습니다.<br>보너스: 사용자를 가로채기할 수 없으며, 사용자의 대상을 변경하기 위해 특성, 기술 또는 재주를 활성화할 수도 없습니다. 남아있는 이러한 효과(예: 날따름)는 모두 실패합니다.<br>",
+			"frequency": "장면 – 신속 행동",
+			"keywords": [""]
+		},	
+		"Protean": {	
+			"name": "변환자재",
+			"effect": "발동조건 - 기술을 사용했을 경우<br>사용자의 타입이 그 기술의 타입으로 변화합니다. 이 특성은 그 기술이 해결되기 전에 적용됩니다.(즉 그 기술의 자속보정을 받을수 있고, 다른 특성들도 발동시킬수 있습니다.)",
+			"frequency": "임의 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Protosynthesis": {	
+			"name": "고대활성",
+			"effect": "쾌청 날씨 상태 또는 최대 체력 50% 미만에서는 체력을 제외한 가장 높은 스탯에서 전투 단계 +1을 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Psionic Screech": {	
+			"name": "염동충격파",
+			"effect": "발동조건 - 사용자가 비행타입 기술을 사용했을 때<br>그 기술은 에스퍼타입으로 바뀌고, 기술에 맞은 대상은 풀죽음 상태가 됩니다.",
+			"frequency": "장면x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Psych Out": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Psychic Surge": {	
+			"name": "사이코메이커",
+			"effect": "필드는 사이코필드의 영향을 받은 것처럼 한 라운드 내내 사이코필드가 됩니다.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Pumpkingrab": {	
+			"name": "호박잡기",
+			"effect": "사용자는 인접한 적을 자동으로 붙잡고 우위를 얻습니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Punk Rock": {	
+			"name": "펑크록",
+			"effect": "사용자는 소리 키워드를 가진 기술에 +2 DB를 얻습니다.<br>보너스: 사용자는 소리 키워드를 가진 기술에 한단계 더 반감합니다. 방어적.<br>",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Pure Blooded": {	
+			"name": "순혈종",
+			"effect": "드래곤타입 [마지막기회]를 익힙니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Pure Power": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Purifying Salt": {	
+			"name": "정화의소금",
+			"effect": "사용자는 고스트타입의 기술에 대한 저항과 화상, 얼음, 마비, 독, 저주, 잚듬에 대한 면역을 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Quark Drive": {	
+			"name": "쿼크차지",
+			"effect": "일렉트릭필드 또는 최대 체력 50% 미만에서는, 체력이 아닌 가장 높은 스탯에서 전투 단계 +1을 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Queenly Majesty": {	
+			"name": "여왕의위엄",
+			"effect": "연결- 짓밟기- 만약 인접한 대상이 우선 기술 또는 방해 행동을 사용하면, 사용자는 자유 행동 방해로 대상에게 짓밟기를 사용할 수 있습니다. 보너스: 사용자는 방해 기술의 대상이 되지 않으며 적들은 사용자의 행동에 반응하여 방해를 활성할 수 없습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Quick Charge": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Quick Cloak": {	
+			"name": "신속도롱이",
+			"effect": "도롱충이는 근처의 재료로 빠르게 도롱이를 만듭니다; 나뭇잎과 잔가지를 사용하면 초목도롱이를, 모래와 돌을 사용하면 모래땅도롱이를, 쓰레기 또는 파편을 사용하면 슈레도롱이를 만들어 줄 것입니다. 도롱이를 입는 동안, 도롱충이는 도롱이와 관련된 타입을 두번째 타입으로 얻는데, 도롱마담으로 진화하면 영구적으로 타입을 얻게 됩니다. 도롱이는 도롱충이가 굉장한효과 피해를 입거나, 새 도롱이를 만들면 파괴됩니다.",
+			"frequency": "임의 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Quick Curl": {	
+			"name": "빠른말이",
+			"effect": "연결 - 웅크리기. 사용자는 이 특성을 활성해서 기본 행동 방해로 웅크리기를 사용할 수 있고 1라운드 전체 동안 +10 피해 감소를 얻습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Quick Draw": {	
+			"name": "퀵드로",
+			"effect": "발동조건 - 적이 기술을 사용하고 사용자는 이 라운드에서 행동하지 않았을 경우<br>사용자는 즉시 그 적에게 기본 행동 방해로 기술을 사용합니다 (이 기술은 여전히 빈도와 범위를 지켜야 합니다). 이 기술이 적중할 경우, 적이 풀죽는 경우를 제외하고, 적은 자신이 사용한 그 공격의 공격굴림에 -2 페널티를 얻습니다. <br>보너스: 사용자는 풀죽지 않습니다. 방어적.",
+			"frequency": "장면 - 자유 행동, 방해",
+			"keywords": [""]
+		},	
+		"Quick Feet": {	
+			"name": "속보",
+			"effect": "독,화상,마비,얼음,잠듦 상태가 되면 스피드가 2 전투단계 오릅니다. 마비로 인해 이니셔티브가 절반이 되지 않습니다. 상태이상이 모두 해소되면 스피드도 복구됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Quickdraw": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Radiant Beam": {	
+			"name": "광명빔",
+			"effect": "사용자는 풀타입 공격기를 일반적인 범위 대신 '직선 4'의 범위를 가진 것처럼 사용할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Radioactive": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Ragelope": {	
+			"name": "분노의달리기",
+			"effect": "모든 물리공격에 이하의 추가효과가 더해집니다 : 18+에서 난동부리게 되고 스피드가 1단계 오릅니다. 이미 난동부리고있었다면 대신 공격이 1단계 오릅니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Rain Dish": {	
+			"name": "젖은접시",
+			"effect": "사용자는 소량의 체력을 얻습니다. 젖은접시는 오직 사용자가 체력이 절반보다 적거나 비바라기 날씨일 때만 사용할 수 있습니다.",
+			"frequency": "하루 x5 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Rally": {	
+			"name": "랠리",
+			"effect": "사용자와 10미터 이내의 모든 아군은 즉시 자유 행동으로 1미터 이탈할 수 있습니다. 랠리는 잠듦/풀죽음/구속/기절해있거나, 모종의 이유로 이동 불가능한 아군에겐 적용되지 않습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Rattled": {	
+			"name": "주눅",
+			"effect": "발동조건 - 벌레, 악, 고스트타입 기술중 하나에 명중당했을 때<br>사용자의 스피드 전투단계 +1 오르고, 자유 행동으로 즉시 이탈할 수 있습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Razor Edge": {	
+			"name": "면도날",
+			"effect": "연결 - 포이즌테일. 사용자의 모든 기술의 치명타 범위에 +2, '테일'이라 이름붙은 기술의 치명타 범위는 대신 +3 증가합니다. (테일 기술: 드래곤테일, 스위프뺨치기, 포인트테일, 아이언테일, 아쿠아테일)",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Rebuild": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Receiver": {	
+			"name": "리시버",
+			"effect": "다음의 효과는 발동조건이 되었을 때 장면당 한번 사용 가능합니다; 1) 한 아군이 기절했을 때, 사용자는 그들의 특성 중 하나를 선택합니다. 사용자는 인카운터 끝까지 그 특성을 얻습니다.2) 사용자가 기절했을 때, 인카운터 나머지동안 한 아군이 자신의 기본 특성을 사용할 수 있도록 부여할 수 있습니다.",
+			"frequency": "특수 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Reckless": {	
+			"name": "이판사판",
+			"effect": "탈진, 반동 또는 이판사판 키워드를 가진 기술의 기본 피해량에 +3.<br>이판사판 기술: 점프킥, 무릎차기, 인파이트, 용성군, 암해머, 리프스톰, 역린, 오버히트, 꽃잎댄스, 사이코부스트, 엄청난힘, 난동부리기, V제너레이트.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Refreshing Veil": {	
+			"name": "리프레쉬베일",
+			"effect": "연결 – 아쿠아링. 아쿠라링을 사용할 때마다, 이 특성을 활성해서 스스로 모든 지속성 상태 이상을 치료합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Refrigerate": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Regal Challenge": {	
+			"name": "장엄한도전",
+			"effect": "대상 - 5m이내에 존재하는 포켓몬 또는 트레이너<br>대상에게 AC 4 변화기를 사용합니다. 명중하면 대상의 스피드가 1단계 감소하고 둔화됩니다. 빗나가면 사용자의 공격과 특공이 1단계 증가합니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Regenerator": {	
+			"name": "재생력",
+			"effect": "발동조건 - 몬스터볼로 되돌아가거나 숨돌리기 할 때<br>최대체력의 1/3만큼 회복합니다. 장면당 1번만 발동할수 있습니다.",
+			"frequency": "하루 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Regurgitation": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Revelation": {	
+			"name": "시연",
+			"effect": "발동조건 - 10 m내의 누군가가 피해를 주는 [춤] 키워드의 기술 을 사용할 때<br>사용자는 즉시 그 기술을 기본 행동 방해로 사용할 수 있습니다. 보너스: 사용자가 춤기술을 사용할 때마다, 그들은 그들의 다음 턴 끝까지 정확도 굴림에 +2를 받습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Ripen": {	
+			"name": "숙성",
+			"effect": "사용자가 열매 음식버프를 소비해서 얻는 이익 효과가 2배가 됩니다. (오랭열매는 10 HP 회복, 치리열매는 공격 +2 CS 증가, 자보열매는s ¼ 체력을 잃게 하며, 오카열매는 기술을 2단계 약화시키는 등.). 이렇게 해도 상태 치료의 수, 장면 기술의 복원, 억제제에 의한 스탯 저하 또는 발동하기 위해 일반적인 HP를 요구하는 효과는 늘어나지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Rivalry": {	
+			"name": "투쟁심",
+			"effect": "같은 성별의 적에게 가하는 피해량 +5",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"RKS System": {	
+			"name": "AR시스템",
+			"effect": "사용자가 공격기에 의해 명중당했을 경우, 자신이 노말타입인 것처럼 피해를 계산할 수 있습니다. 이미 노말타입이라면, 모든 피해에 한단계 더 반감합니다. 보너스: 사용자의 타입은 지니고 있는 메모리의 타입에 따라 변합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Rock Head": {	
+			"name": "돌머리",
+			"effect": "공격시 반동 키워드를 무시합니다. 사용자가 물리적 공격으로 적을 공격하기 전에 적 쪽으로 4m 이상 직선으로 이동할 경우 적에 대한 피해 굴림에 +2d6 보너스를 추가할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Rocket": {	
+			"name": "로켓",
+			"effect": "발동조건 - 라운드가 시작했을 때<br>사용자는 그 라운드의 제일 처음으로 턴을 맞이합니다. 우선, 방해, 또는 반응 기술 또는 특성을 사용자의 턴에 선언할 수 없습니다.<br>보너스: 사용자의 공중이동 재능 +2",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Rocky Payload": {	
+			"name": "바위나르기",
+			"effect": "연결 - 내던지기. 사용자는 내던지기 기술을 비행타입 또는 바위타입 기술처럼 사용할 수 있습니다. 지니는도구의 효과를 무시할 수 있습니다.<br>보너스: 사용자는 바위타입 기술에 자속보정을 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Root Down": {	
+			"name": "뿌리내림",
+			"effect": "연결 - 뿌리박기. 사용자가 뿌리박기 코트를 가진동안, 이 특성을 활성해서 5 피해 감소를 얻을 수 있습니다.",
+			"frequency": "임의 - '이동 행동'",
+			"keywords": [""]
+		},	
+		"Rough Skin": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Run Away": {	
+			"name": "도주",
+			"effect": "전환(이동)할 때 기회공격을 유발하지 않습니다. 사용자는 수렁 상태가 되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Run Up": {	
+			"name": "도움닫기",
+			"effect": "대상에게 일직선으로 움직이면서 근접 공격을 가하면, 그렇게 움직인 거리 1미터당 해당 공격의 피해량이 1 증가합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sacred Bell": {	
+			"name": "신성한종소리",
+			"effect": "악타입과 고스트타입 기술에 한단계 더 반감합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sand Force": {	
+			"name": "모래의힘",
+			"effect": "모래 지형이거나 모래바람일 때, 사용자는 땅, 바위, 강털타입 공격기에 +5 피해를 더 줌.<br>보너스: 사용자는 모래바람의 체력을 잃게 하는 효과에 면역.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sand Rush": {	
+			"name": "모래헤치기",
+			"effect": "모래바람 날씨 또는 체력이 절반보다 적을 때, 사용자의 이니셔티브는 2배가 됩니다.<br>보너스: 사용자는 모래바람의 체력을 잃게 하는 효과에 면역.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sand Spit": {	
+			"name": "모래뿜기",
+			"effect": "발동조건 - 2m이내에 존재하는 적의 공격으로부터 피해를 받을 경우<br>연결 – 모래뿌리기. 사용자는 그 적을 모래뿌리기로 공격합니다.",
+			"frequency": "장면 – 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Sand Stream": {	
+			"name": "모래날림",
+			"effect": "날씨를 1라운드 내내 모래바람으로 바꿉니다.<br>보너스: 사용자는 모래바람의 체력을 잃게 하는 효과에 면역.",
+			"frequency": "장면 x3 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Sand Stream [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sand Veil": {	
+			"name": "모래숨기",
+			"effect": "사용자는 회피에 +1. 모래바람 또는 모래지형에선 회피가(1아니고) +2 증가합니다. 모래바람일 때, 사용자와 그 인접한 아군들은 모래바람의 체력을 잃게 하는 효과에 면역입니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sap Sipper": {	
+			"name": "초식",
+			"effect": "사용자는 풀타입 공격의 피해와 효과에 무효가 됩니다. 풀타입 공격을 맞게 되면, 공격 또는 특수공격을 선택해서 전투단계 +1을 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Scavenger": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Schooling": {	
+			"name": "어군",
+			"effect": "사용자는 군집의모습으로 폼체인지하고 자신의 최대 체력의 절반에 해당하는 임시 체력을 얻습니다. 사용자는 군집의모습인 동안 다른 어떤 요인으로도 임시 체력을 얻을 수 없습니다. 사용자가 최대 HP의 50% 미만이고 임시 체력이 남아 있지 않으면 다시 단독의 모습으로 바뀝니다. 보너스: 사용자는 단독과 군집의 2가지 기본 스탯을 가집니다. HP는 두 폼 모두 동일해야 합니다.",
+			"frequency": "하루 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Scrappy": {	
+			"name": "배짱",
+			"effect": "노말타입과 격투타입 공격이 고스트타입에게 정상적으로 적용되게 합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Screen Cleaner": {	
+			"name": "배리어프리",
+			"effect": "필드에 모든 축복은, 아군도 적도 모두 제거됩니다.<br>보너스: 사용자는 차단이 아닌 함정에 면역이며, 그 위로 이동할 때 그 함정들이 파괴됩니다. 차단 함정은 이동 목적으로만 둔화 지형으로 취급되고(사용자는 여전히 그것들을 통과하여 대상을 노릴 수 없습니다), 그것들을 지나가게 되면 파괴됩니다. <br>",
+			"frequency": "하루 – 기본 행동",
+			"keywords": [""]
+		},	
+		"Seasonal": {	
+			"name": "사시사철",
+			"effect": "계절에 따라 이하의 특성을 얻습니다. <br>-봄: 도주 <br>-여름: 풀모피 <br>-가을: 투쟁심 <br>-겨울: 두꺼운지방",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Seed Sower": {	
+			"name": "넘치는씨",
+			"effect": "발동조건 - 사용자가 2미터 이내의 적에게 피해를 입었을 때<br>연결 - 씨뿌리기. 사용자가 씨뿌리기를 그 적에게 자유 행동으로 사용할 수 있습니다. 이 공격은 빗나가지 않습니다.<br>보너스: 사용자가 씨뿌리기의 영향을 받은 적을 대상으로 할 때에는 그래스필드에 있는 것처럼 간주합니다.",
+			"frequency": "장면 - 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Sequence": {	
+			"name": "연쇄",
+			"effect": "발동조건 - 전기타입 공격을 할 때<br>사용자와 인접한 전기타입 포켓몬 하나마다, 그 공격의 피해량에 +3.",
+			"frequency": "임의 – 자유 행동",
+			"keywords": [""]
+		},	
+		"Serene Grace": {	
+			"name": "하늘의은총",
+			"effect": "효과 범위 +2 부가",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Serpent's Mark": {	
+			"name": "뱀무늬",
+			"effect": "아보크의 숨겨진 특성과 대단한 특성은 아보크의 배의 무늬에 따라 달라집니다. 무늬를 확인하려면 진화 또는 생성 시 1d6 굴립니다. 만약 아보크가 교배되었다면, 부모와 같은 무늬를 갖게 될 것입니다. 만약 두 부모가 서로 다른 무늬를 가진 아보크라면, 동전을 던져 어떤 무늬를 물려받을지 결정하세요.<br>무늬 이름 - 숨겨진 특성 / 대단한 특성<br>1) 공격무늬 - 옹골찬턱 / 근성<br>2) 파괴무늬 - 크러시트랩/ 통찰<br>3) 공포무늬 - 긴장감 / 장엄한도전<br>4) 생명무늬 – 재생력 / 죽음저항<br>5) 속도무늬 - 도주 / 가속<br>6) 은신무늬- 틈새포착 / 매복",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Shackle": {	
+			"name": "쇠고랑",
+			"effect": "파열 3를 만들고. 파열 안의 모든 적들은 그들의 다음 턴 끝까지 이동 재능이 절반이 됩니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Shadow Call": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Shadow Dance": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Shadow Shield": {	
+			"name": "스펙터가드",
+			"effect": "체력이 가득할 때, 사용자는 모든 피해에 한단계 더 반감합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Shadow Tag": {	
+			"name": "그림자밟기",
+			"effect": "대상 - 인접한 단일의 포켓몬 또는 트레이너<br>대상의 그림자가 대상의 위치에 5턴간 못박힙니다. 이동안 대상은 수렁/둔화 상태가 되며, 그림자로부터 5미터 이상 떨어질수 없습니다. 밀어내거나 강제 이동 효과로도 그림자로부터 5미터 이상 떨어질수 없습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Shadowbringer [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sharp Coral": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sharpness": {	
+			"name": "예리함",
+			"effect": "발동조건 - 사용자가 베기 키워드를 가진 기술을 사용<br>사용자의 베기 키워드 기술은 비속도 회피, DR, 대상의 양수 CS를 무시합니다. 이 기술에 대해서 축복을 발동할 수 없습니다. 기술이 해결된 후, 사용자는 자유 행동으로 대상관 인접한 칸으로 최대 3m까지 이탈할 수 있습니다<br>보너스: 사용자가 베기 키워드를 사용한 기술의 기본 피해량이 +2 증가합니다.<br>베기 기술: 제비반환, 에어커터, 에어슬래시, 아쿠아커터, 거수참, 원념의칼, 화간접무*(Butterfly Knife*), 비검천중파, 크로스포이즌, 풀베기, 드래곤클로, 연속자르기, 도각참, 리프블레이드, 메탈클로, 파워풀에지, 깜짝베기, 불가사의검*(Occult Razor*), 찍찍베기, 사이코블레이드, 사이코커터, 잎날가르기, 셸블레이드, 칼바람, 성스러운칼, 신비의칼, 섀도클로, 베어가르기, 솔라블레이드, 공간절단, 암석액스, 타키온커터, 시저크로스",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Shed Skin": {	
+			"name": "탈피",
+			"effect": "마비,얼음,화상,독,잠듦중 하나를 해소합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Sheer Force": {	
+			"name": "우격다짐",
+			"effect": "효과 범위를 가진 기술은 피해에 +10 보너스를 얻지만, 효과 범위는 발동되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Shell Armor": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Shell Cannon": {	
+			"name": "등껍질로켓포",
+			"effect": "거북왕이 아쿠아제트, 다이빙, 러스터캐논, 하이드로캐논, 하이드로펌프, 몸통박치기, 폭포오르기, 물대포, 물놀이를 사용할 때 이 특성을 활성해서 그 기술들의 정확도 굴림에 +2를 받고 피해 굴림에서 +4 보너스 피해를 입힙니다 아쿠아제트, 다이빙, 몸통박치기, 또는 폭포오르기를 사용할 때 거북왕은 이 특성을 그 기술들을 대상으로 활성해서 반드시 직선으로 이동해야하지만, 그렇게 할 때 육상이동과 수중이동의 속도가 +2 증가합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Shell Shield": {	
+			"name": "껍질방패",
+			"effect": "연결 - 껍질에숨기. 사용자는 이 특성을 활성해서 기본 행동 방해로 껍질에숨기를 사용할 수 있고 한 라운드 내내 +10 피해 감소를 얻습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Shield Dust": {	
+			"name": "인분",
+			"effect": "명중굴림의 결과로 인해 발생하는 추가효과가 붙은 기술의 대상이 되면, 그 추가효과를 무시합니다.(예를 들어 화염방사로 화상 상태가 되지 않습니다.) 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Shields Down": {	
+			"name": "리밋실드",
+			"effect": "사용자는 유성과 코어의 2가지 기본 스탯을 가집니다. HP는 양쪽 폼 모두 동일해야 합니다. 사용자가 유성의 모습이고 상처입은 상태(최대 체력 절반 미만)가 되었을 때, 코어의 모습으로 폼체인지 합니다. 사용자가 상처입지 않았고 전투 밖에 있는 동안 유성의 모습으로 돌아갑니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Silk Threads": {	
+			"name": "명주실",
+			"effect": "연결 - 실뿜기. 사용자가 실뿜기를 사용할 때마다, 명중한 모든 대상은 한 라운드 내내 둔회되고 취약해집니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Simple": {	
+			"name": "단순",
+			"effect": "전투단계가 증감할때, 대신 2배만큼 증감합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Siphon": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Skill Link": {	
+			"name": "스킬링크",
+			"effect": "발동조건 - 오단타격 키워드를 가진 기술로 공격할 때<br>그 기술은 자동으로 5회 타격합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Slow Start": {	
+			"name": "슬로스타트",
+			"effect": "인카운터에 등장한 후 3라운드동안 이 포켓몬의 스피드와 공격 능력치가 절반이 되지만, 피해감소 10을 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Slush Rush": {	
+			"name": "눈치우기",
+			"effect": "싸라가기눈 날씨이거나 최대 체력 절반 미만일 때, 사용자의 이니셔티브는 2배가 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Smothering Smaze [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sniper": {	
+			"name": "스나이퍼",
+			"effect": "치명타가 발생할 때마다, 그 공격은 +3d10의 추가 피해를 입힙니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Snow Cloak": {	
+			"name": "눈숨기",
+			"effect": "사용자는 +1 회피를 얻습니다. 이 증가는 싸라기눈이나 눈 지형에서 +2가 됩니다. 싸라기눈인 동안, 사용자와 인접한 아군들은 싸라기눈에 체력을 잃지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Snow Warning": {	
+			"name": "눈퍼트리기",
+			"effect": "날씨를 5라운드동안 싸라기눈으로 바꿉니다. 지속 효과로 싸라기눈에 피해를 입지 않습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Snow Warning [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Snuggle": {	
+			"name": "포옹",
+			"effect": "대상 - 인접한 단일 대상<br>사용자와 대상이 각각 소량의 2배만큼 임시 체력을 얻습니다.",
+			"frequency": "장면 - 기본 행동",
+			"keywords": [""]
+		},	
+		"Sol Veil": {	
+			"name": "햇살베일",
+			"effect": "회피 +1. 쾌청한 동안 피해감소 5. 쾌청한 동안 풀숲에 있으면 추가로 회피+1.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Solar Power": {	
+			"name": "선파워",
+			"effect": "발동조건 - 피해굴림을 굴릴 때<br>사용자는 소량의 체력을 잃고, 발동한 피해 굴림에 5 + 소량의 체력값을 보너스로 받습니다. 선파워는 쾌청날씨일 때는 빈도를 무시하고 활성할 수 있습니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Solid Rock": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sonic Courtship": {	
+			"name": "구애울음",
+			"effect": "발동조건 - 헤롱헤롱 기술을 사용할 때<br>연결 - 헤롱헤롱. 사용자는 헤롱헤롱이 “파열 3, 소리, 친화”의 범위를 가진 것처럼 사용합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Soothing Tone": {	
+			"name": "위로의음색",
+			"effect": "연결 - 치료방울. 사용자가 아군을 대상으로 기술을 사용할 때마다, 그 아군들은 사용자의 특수공격과 같은 값의 임시 체력을 얻습니다. 이는 장면당 한 번만 특정 아군에 영향을 줄 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sorcery": {	
+			"name": "요술",
+			"effect": "기본 특공 스탯에 +5 보너스를 받고, 10레벨마다 +1 보너스를 더 받습니다. 이 특성은 무효화되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Soul Heart": {	
+			"name": "소울하트",
+			"effect": "전투원이 기절할 때마다, 사용자는 +2 특수공격 전투단계와 소량의 임시 체력을 얻습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Soulstealer": {	
+			"name": "영혼도둑",
+			"effect": "발동조건 - 자신의 공격으로 적을 기절시켰을 경우<br>사용자의 부상을 하나를 스스로 제거하고, 최대체력의 25%만큼 회복합니다. 이 공격으로 적이 죽었다면, 대신 모든 부상을 제거하고 최대 체력읠 50%의 체력을 회복합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Sound Boost": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sound Lance": {	
+			"name": "음속창",
+			"effect": "발동조건 - 초음파를 사용했을 때<br>연결 – 초음파. 대상은 사용자의 특수공격과 같은 수치의 체력을 잃습니다. 이 효과는 초음속이 빗나간 경우에도 발생합니다.",
+			"frequency": "장면 x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Soundproof": {	
+			"name": "방음",
+			"effect": "소리 키워드가 있는 기술에 면역입니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Spectrum": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Speed Boost": {	
+			"name": "가속",
+			"effect": "매 턴 종료시 스피드가 1단계 증가합니다. 전투에서만 효과를 발휘합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Spike Shot": {	
+			"name": "스파이크슛",
+			"effect": "근접, 1 대상 범위의기술을 8,1 대상 범위의 기술로 쓸 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Spinning Dance": {	
+			"name": "회전춤",
+			"effect": "발동조건 - 공격의 대상이 되었으나, 회피했을 경우<br>기절,마비,잠듦 상태가 아니면 회피에 +1을 받고, 즉시 1미터 이동할수 있습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Spiteful Intervention": {	
+			"name": "악의적개입",
+			"effect": "연결 - 원한. 사용자는 자신에게 명중하는 것뿐 아니라 한 아군에게 명중하는 공격에도 대응하여 원한을 사용할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Splendorous Rider": {	
+			"name": "찬란한라이더",
+			"effect": "사용자는 탈 것이 알고있는 기술 중, 사용자가 아직 배우지 못한 기술 하나를 선택할 수 있습니다. 사용자의 나머지 턴 동안, 해당 기술은 자기 기술인 것처럼 사용할 수 있습니다.<br>단 빈도 제한을 공유한다는 점에 유의하세요. 탈 것이 배운 하루 빈도의 기술은 2번 이상 사용할 수 없습니다.<br>이 특성은 복사하거나 옮겨질 수 없습니다.",
+			"frequency": "장면x2 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Spray Down": {	
+			"name": "스프레이다운",
+			"effect": "발동조건 - 공중의 뜬 대상 하나를 범위 1인 공격으로 명중시켰을 때<br>발동조건 공격의 대상은 땅으로 떨어지고, 모든 공중이동 또는 부유이동을 3턴간 잃습니다. 이 동안, 그들은 땅타입 기술에 무효였을지라도 명중당하게 됩니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Sprint": {	
+			"name": "전력질주",
+			"effect": "발동조건 - 전투중 질주액션을 사용하였을 때<br>사용자는 +2 스피드 전투단계를 얻습니다.<br>보너스: 사용자의 육상이동 속도는 +2 증가.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Stakeout": {	
+			"name": "잠복",
+			"effect": "사용자는 몬스터볼에서 방출된 적 또는 사용자의 턴이 지난 이후 인카운터에 난입한 적에 대해 피해 굴림에+2d6+4 보너스를 얻습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Stall": {	
+			"name": "시간벌기",
+			"effect": "라운드 순서를 정할때 이 포켓몬은 항상 마지막에 행동합니다. 다른 포켓몬이 마지막에 행동하게 되어도 항상 마지막에 행동합니다. 대신, 그 맨 마지막 순서에 행동할 경우 그 행동은 방해받지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Stalwart": {	
+			"name": "굳건한신념",
+			"effect": "발동조건 - 자신이 대규모피해를 입었을 때<br>사용자의 공격, 특수공격, 방어, 특수방어는 1 CS 상승합니다.<br>보너스: 사용자를 가로채기할 수 없으며, 사용자의 대상을 변경하기 위해 특성, 기술 또는 재주를 활성화할 수도 없습니다. 남아있는 이러한 효과(예: 날따름)는 모두 실패합니다.",
+			"frequency": "장면 – 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Stamina": {	
+			"name": "지구력",
+			"effect": "발동조건 - 공격기에 의해 명중당했을 경우<br>사용자는 +1 방어 전투단계를 얻습니다. [방어적]",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Stance Change": {	
+			"name": "배틀스위치",
+			"effect": "킬카르도는 2가지 폼이 있습니다:실드폼과 블레이드폼. 기본적으로 실드폼입니다. 킬카르도가 공격기를 사용하면 블레이드폼으로 바뀌어, 공격과 방어스탯을 뒤바꾸고, 특공과 특방 스탯을 뒤바꿉니다.(전투단계가 변화하진 않습니다) 킹실드, 방어, 방어를 올리는 변화기, 축복을 사용하면 실드폼으로 돌아오고 스탯도 돌아옵니다. 또는, 완전 행동으로 폼을 바꿀수도 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Starlight": {	
+			"name": "스타라이트",
+			"effect": "사용자는 달빛이나 별빛에 노출되는 동안 스타라이트를 활성화하여 발광이 될 수 있습니다. 신속 행동으로, 사용자는 발광 행동을 소모하여 장면의 나머지동안 +2 특수방어 전투단계와 +2 회피를 얻습니다.",
+			"frequency": "하루 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Starswirl": {	
+			"name": "스타스핀",
+			"effect": "연결 – 고속스핀. 사용자는 이 특성을 활성해서 신속 행동으로 고속 스핀을 사용할 수 있습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Static": {	
+			"name": "정전기",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>공격자가 마비됩니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Steadfast": {	
+			"name": "불굴의마음",
+			"effect": "발동조건 - 자신이 풀죽었을 때<br>사용자의 스피드 +1 전투단계.<br>보너스: 사용자의 이니셔티브 +5 증가.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Steam Engine": {	
+			"name": "증기기관",
+			"effect": "발동조건 - 물타입이나 불꽃타입 기술에 데미지를 입거나 턴의 시작에 비바라기 상태로 시작했을 경우<br>연결 – 연막. 사용자는 자유 행동으로 빈도를 무시하고 자신을 중심으로 연막을 사용할 수 있습니다.",
+			"frequency": "장면 x2 – 신속 행동, 반응",
+			"keywords": [""]
+		},	
+		"Steelworker": {	
+			"name": "강철술사",
+			"effect": "발동조건 - 닻에 인접한 상태에서 피해를 받았을경우 <br>사용자는 자신이 오직 강철타입만인 것처럼 피해 계산을 합니다. .보너스: 사용자는 닻으로부터 일어나는 강철타입 기술에 자속보정을 받습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Stench": {	
+			"name": "악취",
+			"effect": "그 포켓몬의 기술은 굴림 18+에서 대상을 풀죽게 합니다. 만약 기술이 이미 적을 풀죽게하는 기술이라면, 효과 범위가 대신 +3 증가합니다. 사용자가 공격을 적을 풀죽게 할 때마다, 그 적은 한 라운드 내내 정확도 굴림에 -2 페널티를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sticky Smoke": {	
+			"name": "불쾌한연기",
+			"effect": "연결 - 연막. 대상의 연막에서 턴을 시작하거나 종료하는 모든 대상의 정확도가 -1만큼 낮아집니다. 이 페널티는 여러 번 발생할 수 있습니다. 이것은 연막의 일반적인 페널티와 함께 쌓입니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Storm Drain": {	
+			"name": "마중물",
+			"effect": "발동조건 - 10m이내에서 물타입 원거리 기술이 사용되었을 경우<br>그 기술은 1-대상 기술이 되고 사용자에게 유도되며 실패하지도 빗나가지도 않습니다. 이것은 록온과 마음의눈을 무효화합니다. 사용자의 특수공격은 +1 전투단계 증가합니다.<br>보너스: 사용자는 물타입 공격의 피해와 효과에 면역이 됩니다. 방어적.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Stormbringer": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Strange Tempo": {	
+			"name": "기묘한박자",
+			"effect": "혼란 상태가 되면 선택할수 있습니다. 1)자유 행동으로 혼란에 걸리지 않은것처럼 행동할수 있습니다. 2)기본 행동으로, 혼란을 치료하고 원하는 스탯 하나를 골라 2단계 올립니다.",
+			"frequency": "임의 - 특수",
+			"keywords": [""]
+		},	
+		"Strong Jaw": {	
+			"name": "옹골찬턱",
+			"effect": "사용자는 다음의 기술들의 기본 피해량에 +2를 얻습니다; 물기, 벌레먹기, 깨물어부수기, 불꽃엄니, 얼음엄니, 번개엄니, 맹독엄니, 필살앞니.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Stubborn": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sturdy": {	
+			"name": "옹골참 [홈브류]",
+			"effect": "키워드 - 홈브류<br>사용자는 일격 키워드를 가진 기술에 면역이 됩니다. 만약 단일 데미지 또는 체력 손실이 X 체력보다 더 많이 잃게 된다면, 그 데미지와 체력손실은 대신 X만큼 감소합니다. X는 최대 체력의 50%(올림)과 같습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Suction Cups": {	
+			"name": "흡반",
+			"effect": "사용자는 한 라운드 내내 +5 피해 감소를 얻습니다.<br>보너스: 사용자는 밀기 효과에 면역이 됩니다. 방어적.",
+			"frequency": "임의 - '이동 행동'",
+			"keywords": [""]
+		},	
+		"Sumo Stance": {	
+			"name": "씨름자세",
+			"effect": "발동조건 - 적을 근접공격으로 명중시켰을 때<br>그 적은 사용자로부터 1미터 멀어지고 사용자는 한 라운드 내내 밀기 효과엔 면역이 됩니다.<br>보너스: 사용자의 무게 등급은 +1 상승합니다.",
+			"frequency": "임의 - '이동 행동'",
+			"keywords": [""]
+		},	
+		"Sun Blanket": {	
+			"name": "햇볕",
+			"effect": "발동조건 - 이니셔티브를 얻을 때<br>사용자는 소량의 체력을 얻습니다. 햇볕은 오직 체력이 절반 미만이거나 쾌청 날씨일 때 발동할 수 있습니다.",
+			"frequency": "하루 x5 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Sunbathe": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Sunglow": {	
+			"name": "노을",
+			"effect": "노을을 사용하면 햇빛에 노출되었을 때 광명 상태가 될 수 있습니다. 신속 행동으로, 사용자는 광명 상태를 소비해서 +2 공격 전투단계 및 +2 정확도를 장면의 나머지 동안 얻을 수 있습니다.",
+			"frequency": "하루 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Super Luck": {	
+			"name": "대운",
+			"effect": "치명타 범위가 18-20으로 늘어납니다. 이미 치명타 범위가 늘어난 기술이었다면, 그 범위를 추가로 2 늘립니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Supercell": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Supersweet Syrup": {	
+			"name": "감미로운꿀",
+			"effect": "사용자 주변의 파열 2 범위 내에 있는 모든 적의 회피가 이 범위 내에 있는 한 -2만큼 감소합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Supreme Overlord": {	
+			"name": "총대장",
+			"effect": "사용자는 피해 굴림에 +1d6 보너스를 얻으며, 이 보너스는 전투 중에 기절한 아군마다 +1d6씩 증가합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Surge Surfer": {	
+			"name": "서핑테일",
+			"effect": "전기 지형에 있거나 최대 체력 절반 미만일때, 사용자의 이니셔티브는 2배가 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Swarm": {	
+			"name": "벌레의알림",
+			"effect": "벌레타입의 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sway": {	
+			"name": "기우뚱",
+			"effect": "발동조건 - 피해를 주는 근접공격에 당했을 때<br>그 공격은 빗나가고 대신 공격자에게 적중합니다. 공격자는 사용자에 인접한 빈칸으로 밀려나게 할 수 있습니다.",
+			"frequency": "장면 - 기본 행동, 방해",
+			"keywords": [""]
+		},	
+		"Sweet Veil": {	
+			"name": "스위트베일",
+			"effect": "인근 3미터 이내의 아군은 잠듦에 면역입니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Swift Swim": {	
+			"name": "쓱쓱",
+			"effect": "비바라기 날씨이거나 체력이 절반 미만일 때, 사용자의 이니셔티브는 2배가 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Sword of Ruin": {	
+			"name": "재앙의검",
+			"effect": "축복 - 재앙의검의 영향을 받는 모든 사용자가 물리 피해를 입힐 때 활성화하면 공격 대상 한 명에게 한 단계 더 효과적으로 피해를 입힐 수 있습니다. 재앙의검은 2번 발동한 후 사라집니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Symbiosis": {	
+			"name": "공생",
+			"effect": "대상 - 인접한 단일 아군<br>사용자는 갖고 있는 지니는 도구를 선택하고. 대상이 기꺼이하려 한다면, 그들 또한 장면의 나머지 동안 선택한 도구의 효과를 얻습니다. 빈도가 있는 도구는 사용자와 대상이 독립적으로 사용합니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Synchronize": {	
+			"name": "싱크로",
+			"effect": "발동조건 - 마비, 얼음, 독, 화상, 잚듬상태가 되었을 때<br>그 상태이상을 건 적은 똑같은 상태이상에 걸리게 됩니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Tablets of Ruin": {	
+			"name": "재앙의목간",
+			"effect": "축복 - 재앙의목간에 영향을 받은 모든 플레이어는 물리 피해를 받을 때 이를 활성화하여 피해에 한 단계 더 저항할 수 있습니다. 재앙의목간은 2번 발동한 후 사라집니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Tangled Feet": {	
+			"name": "갈지자걸음",
+			"effect": "혼란이거나 둔화 상태인 동안, +3 회피를 얻습니다 . 사용자는 취약 상태에 면역이 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tangling Hair": {	
+			"name": "컬리헤어",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>공격자는 -1 스피드 전투단계를 받고 자신의 다음 턴 끝까지 둔화됩니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Targeting System": {	
+			"name": "조준시스템",
+			"effect": "연결 – 록온. 이 특성을 활성화한 대상은 신속 행동으로 록온을 사용할 수 있습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Team Player": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Teamwork": {	
+			"name": "팀워크",
+			"effect": "적에게 인접한 동안, 그 적에게 아군이 가하는 근접공격은 명중굴림에 +2 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Technician": {	
+			"name": "테크니션",
+			"effect": "기본 피해량이 6 이하인 기술의 기본 피해량이 +2 증가합니다. 이 보너스는 이단타격이나 오단타격 키워드가 붙은 기술에는 항상 적용됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Telepathy": {	
+			"name": "텔레파시",
+			"effect": "사용자는 +1 회피를 얻습니다. 아군이 사용한 영역효과 공격기에 맞으려고 할 때마다, 공격이 해결되기 전에 자유 행동으로 이탈할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tera Shell": {	
+			"name": "테라셸",
+			"effect": "발동조건 - 사용자가 기술에 맞았을 때<br>전투가 끝날 때까지 발동된 그 기술의 타입에 사용자가 저항하는 타입(선택)이 됩니다. 다른 모든 타입을 대체합니다.<br>특수: 사용자가 타입을 바꾸어도 자속보정이 변경되지 않습니다(기존 자속보정이 유지됨). 만약 새롭게 자속보정을 얻는 기술이 생기면, 대신 +10 피해 보너스를 얻습니다.",
+			"frequency": "장면 - 자유 행동, 방해",
+			"keywords": [""]
+		},	
+		"Teravolt": {	
+			"name": "테라볼티지",
+			"effect": "사용자의 전기타입 공격은 적의 방어적 특성의 효과를 무시합니다, 그리고 만약 그들이 공격에 반감된다면 대신 그들은 중립적인 피해를 입습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Thermal Exchange": {	
+			"name": "열교환",
+			"effect": "발동조건 - 사용자가 불타입 기술에 맞았을 때<br>사용자는 공격에 전투 단계 +1을 받습니다.<br>보너스: 화상에 면역이 됩니다. 방어적.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Thermosensitive": {	
+			"name": "감온성",
+			"effect": "쾌청한 날씨 아래에서 공격과 특공이 2단계 증가하지만, 싸라기눈 아래에서 이동능력이 절반으로 줄어듭니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Thick Fat": {	
+			"name": "두꺼운지방",
+			"effect": "불꽃타입과 얼음타입에 한단계 더 반감합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Thrust": {	
+			"name": "밀침",
+			"effect": "사용하는 모든 기술에 밀기 키워드를 부여합니다. 기본적으로 1미터만큼 밀어내며, 이미 밀기 키워드가 있던 기술이라면 밀어내는 거리를 1미터 늘립니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tingle": {	
+			"name": "욱신욱신",
+			"effect": "발동조건 - 인접한 단일 대상을 목표로 한 공격이 명중했을 때<br>대상은 소량의 체력을 잃고 1 라운드동안 피해굴림에 -5 페널티를 받습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Tinted Lens": {	
+			"name": "색안경",
+			"effect": "반감하는 기술을 평범하게 받고, 이중으로 반감하는 기술은 한번만 반감해 받고, 삼중으로 반감하는 기술은 2번만 반감하여 입게 됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tochukaso": {	
+			"name": "동충하초",
+			"effect": "벌레타입과 독타입에 한단계 더 반감합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tolerance": {	
+			"name": "강내성",
+			"effect": "이미 반감하던 타입에 한단계 더 반감합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tonguelash": {	
+			"name": "채찍혀",
+			"effect": "발동조건 - 핥기 기술로 대상에게 명중했을 경우 <br>연결 – 핥기. 핥기로 대상은 자동으로 마비되고 풀죽습니다.<br>보너스: 사용자는 핥기가 노말타인 것처럼 사용할 수 있습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Torque Converter": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Torrent": {	
+			"name": "급류",
+			"effect": "물타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Tough Claws": {	
+			"name": "단단한발톱",
+			"effect": "근접 기술의 기본 피해량 +2",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Toxic Boost": {	
+			"name": "독폭주",
+			"effect": "사용자는 공격 및 특수공격에 +3 전투단계를 얻습니다. 독폭주는 독 또는 맹독 상태일 때만 사용이 가능합니다.<br>특수: 만약 사용자가 면역 특성을 가졌다면, 그들은 여전히 독, 맹독 상태가 될 수 있지만 그 상태들로부터 체력을 잃지는 않습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Toxic Chain": {	
+			"name": "독사슬",
+			"effect": "발동조건 - 사용자가 적을 중독시켰을 때<br>다른 적을 선택하고, 그들은 독 상태가 되며 그 적과 발동 조건의 적이 서로 사슬에 묶입니다. 적 하나가 피해를 입을 때마다 사슬에 묶인 모든 적은 한 라운드 동안 취약 상태가 됩니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Toxic Debris": {	
+			"name": "독치장",
+			"effect": "발동조건 - 사용자가 피해를 주는 물리 공격에 맞았을 때<br>연결 - 독압정. 사용자는 사용자 주변의 파열 1에 있는 모든 칸을 대상으로 빈도를 무시하고 독압정을 자유 행동, 반응으로 사용할 수 있습니다.",
+			"frequency": "장면 x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Toxic Nourishment": {	
+			"name": "독먹기",
+			"effect": "대상 - 5m 이내의 독 또는 맹독 상태인 누군가<br>대상은 독 또는 맹독을 회복하고, 소량의 체력을 3회 얻습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Trace": {	
+			"name": "트레이스",
+			"effect": "대상 - 10m 내에 있는 단일의 포켓몬 또는 트레이너<br>기절하거나 이번 인카운터가 끝날때까지 대상의 특성 하나를 복사합니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Transform Zero": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Transistor": {	
+			"name": "트랜지스터",
+			"effect": "발동조건 - 사용자가 전기타입 기술로 명중시켰을 때<br>공격을 명중시킨 대상 하나는 그 공격에 1단계 더 취약해집니다.(다른 모든 수식 뒤에 적용됨)<br>무효인 대상은 본 특성의 목적상 이중 저항으로 취급되며, 정상적으로 데미지를 입습니다.",
+			"frequency": "장면x2 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Transporter": {	
+			"name": "트랜스포터",
+			"effect": "발동조건 - 순간이동할때<br>연결 – 순간이동. 당신은 순간이동을 할 때 당신의 순간이동 수치가 평상시의 3배인 것처럼 활성하거나; 또는 당신은 트랜스포터를 활성할 때 당신이 만지고 있는 동의를 한 한명의 트레이너나 포켓몬과 함께 순간이동합니다. 두 가지 효과를 모두 선택하기 위해 트랜스포터를 한 번에 두 번 사용할 수 있습니다.",
+			"frequency": "하루 x3 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Triage": {	
+			"name": "힐링시프트",
+			"effect": "사용자의 치유 키워드를 가진 기술은 우선 기술처럼 사용될 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Trinity": {	
+			"name": "삼위일체",
+			"effect": "연결 - 트라이어택. 당신은 트라이어택이 “근접, 3 대상” 범위를 가진 것처럼 사용할 수 있습니다. 각 대상마다 다른 공격 굴림을 합니다. 만약 트라이어택의 효과 범위가 활성되면, 그 효과로 인해 굴리지 않고; 첫번째 대상은 오직 얼음상태, 두번째 대상은 화상상태, 세번째 대상은 마비상태가 됩니다. 추가로, 당신이 원한다면 트라이어택을 물리기로 사용할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Truant": {	
+			"name": "게으름",
+			"effect": "턴 시작에 1d20을 굴립니다. 7 이하라면 그 턴 기본 행동을 할 수 없지만, 소량의 체력을 회복합니다. 방해와 탈진 상태로 인해 행동이 거부된 턴이 포함되고 그 턴 상태이상 해소 굴림을 할때 +3 보너스를 받습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Turboblaze": {	
+			"name": "터보블레이즈",
+			"effect": "사용자의 불꽃타입 공격은 적의 방어적 특성의 효과를 무시합니다, 그리고 만약 그들이 공격에 반감된다면 대신 그들은 중립적인 피해를 입습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Twisted Power": {	
+			"name": "트위스트파워",
+			"effect": "공격 스탯의 절반을 특수기에 더할수 있습니다. 특공 스탯의 절반을 물리기에 더할수 있습니다. 이 효과로 공격의 타입이 변하진 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Type Aura (Dark)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Electric)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Fairy)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Fighting)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Fire)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Grass)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Ice)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Psychic)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Shadow)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Steel)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (Water)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Aura (X)": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Type Strategist": {	
+			"name": "타입전략가",
+			"effect": "타입전략가와 관련된 기술을 쓸때마다, 한 라운드동안 피해감소 5를 얻습니다. 체력이 1/3 이하였다면 대신 피해감소 10을 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Ugly": {	
+			"name": "추함",
+			"effect": "내 기술의 명중굴림이 19이상이 나왔을 때을 때 대상을 풀죽게 합니다. 이미 풀죽게 할수 있던 기술이면 그 범위가 2 늘어납니다. 콘테스트의 소개 단계에서 이 포켓몬을 쓰면 6이 나온 주사위를 1로 취급합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Unaware": {	
+			"name": "천진",
+			"effect": "공격을 하거나 공격을 받을 때, 상대방은 데미지를 계산할 때 마치 자신의 전투단계가 기본값인 것 처럼 계산합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Unbreakable": {	
+			"name": "불괴",
+			"effect": "강철타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Unburden": {	
+			"name": "곡예",
+			"effect": "사용자의 스피드의 기본 단계는 +2 전투단계입니다. 지니는 도구를 지닌 동안, 사용자의 스피드는 2 전투단계 낮아집니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Unleafed": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Unnerve": {	
+			"name": "긴장감",
+			"effect": "3미터 이내의 적들은 양수의 전투단계를 얻거나, 만복/음식 버프를 소모할수 없게 됩니다. 이미 올라있던 대상의 전투단계엔 영향을 주지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Unseen Fist": {	
+			"name": "보이지않는주먹",
+			"effect": "반응, 방해, 축복은 사용자의 근접 공격에 대하여 발동되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Vanguard": {	
+			"name": "선봉",
+			"effect": "자신보다 이니셔티브가 낮고, 이번 라운드 아직 행동하지 않은 대상에게 가하는 피해량 +5.(이전 라운드에서 방해 등을 통해 당신의 행동을 증가시키는 것은 그 라운드에서 행동한 것으로 간주되지 않는다)",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Vaporization": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Venom": {	
+			"name": "독액",
+			"effect": "독타입 [마지막기회]를 습득합니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Vessel of Ruin": {	
+			"name": "재앙의그릇",
+			"effect": "축복 - 재앙의그릇에 영향을 받은 모든 사용자가 특수 피해를 받을 때 활성화하여 피해에 한 단계 더 저항할 수 있습니다. 재앙의그릇은 2번 발동한 후 사라집니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Vicious": {	
+			"name": "포악",
+			"effect": "발동조건 - 손톱갈기를 사용할 때<br>연결 – 손톱갈기. 이 특성을 활성화할때, 하나의 효과를 선택; 사용자는 이 라운드에 다른 기본 행동을 하나 얻거나; 남은 인카운터 끝까지 그들의 모든 공격에 치명타 범위를 +2 증가시킵니다.",
+			"frequency": "장면 - 특수",
+			"keywords": [""]
+		},	
+		"Victory Star": {	
+			"name": "승리의별",
+			"effect": "모든 아군 포켓몬의 명중굴림에 +2",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Vigor": {	
+			"name": "생기",
+			"effect": "발동조건 - 버티기를 사용할 때<br>연결 – 버티기. 이 특성을 활성화할 때, 체력이 1이 되고, 사용자는 소량의 체력을 얻습니다. 또한 사용자가 버티기에서 받은 기술이 대규모 피해로 부상을 입힐 때, 사용자는 부상을 입지 않습니다. 방어적.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Vital Spirit": {	
+			"name": "의기양양",
+			"effect": "잠듦에 면역이며, 잠자기를 쓸수 없습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Volt Absorb": {	
+			"name": "축전",
+			"effect": "전기타입 공격의 피해와 효과에 무효이며, 전기타입 공격에 적중당하면 소량의 체력을 회복합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Voodoo Doll": {	
+			"name": "저주인형",
+			"effect": "발동조건 - 저주를 고스트타입으로 사용할 때<br>연결 - 저주. 사용자의 8미터 이내의 대상을 추가로 선택하고 대상은 저주에 걸립니다.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Wallmaster": {	
+			"name": "벽의달인",
+			"effect": "연결 – 배리어. 사용자가 배리어를 사용할 때마다, 그들은 방어 +2 전투단계를 얻거나, 배리어 벽을 추가로 2개 설치할 지 선택할 수 있습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Wandering Spirit": {	
+			"name": "떠도는영혼",
+			"effect": "발동조건 - 사용자가 근접공격을 당했을 경우<br>사용자는 기술 스킬스왑 효과에 따라 상대 포켓몬의 무작위 특성과 떠도는영혼 특성을 교환합니다.",
+			"frequency": "장면 – 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"War Machine": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Wash Away": {	
+			"name": "씻어내기",
+			"effect": "발동조건 - 물타입 기술로 명중시켰을 때<br>기술이 적중하기 전, 그 기술의 대상의 단계 증감을 초기화하고, 물놀이를 제외한 모든 코트를 제거합니다.",
+			"frequency": "하루 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Water Absorb": {	
+			"name": "저수",
+			"effect": "물타입 공격의 피해와 효과에 무효이며, 물타입 공격에 적중당하면 소량의 체력을 회복합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Water Bubble": {	
+			"name": "수포",
+			"effect": "사용자는 불꽃타입 공격에 한단계 반감하고, 화상에 면역이며, 항상 비바라기 날씨인 것처럼 행동할 수 있습니다. [방어적] 보너스: 사용자는 물타입 기술을 “근접, 1 대상”의 범위를 가진 것처럼 사용할 수 있습니다. 그렇게 한다면, 그 기술의 분류는 물리가 되고 +1d6+2 피해를 입힙니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Water Compaction": {	
+			"name": "꾸덕꾸덕굳기",
+			"effect": "발동조건 - 물타입 기술에 의해 명중당했을 경우<br>사용자는 +2 방어 전투단계. [방어적]",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Water Veil": {	
+			"name": "수의베일",
+			"effect": "키워드 - 면역<br>화상에 면역입니다. 방어적",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Weak Armor": {	
+			"name": "깨어진갑옷",
+			"effect": "발동조건 - 물리공격으로 인한 피해를 받았을 때<br>피해를 입은 후, 방어를 1단계 낮추고 스피드를 1단계 올릴수 있습니다. 이것은 받은 피해가 해결되고 난 후 작동합니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Weaponize": {	
+			"name": "무기화",
+			"effect": "발동조건 - 물리공격으로 인한 피해를 받았을 때.<br>살아있는 무기로 장착된 동안, 그리고 포켓몬으로서 명령을 듣는 동안, 장착자에게 자유 행동으로 가로채기할수 있습니다.",
+			"frequency": "임의 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Weeble": {	
+			"name": "오뚝이",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>AC 4의 물리기를 인접한 대상에게 사용합니다. 적중하면 대상은 그 공격기로 잃은 체력의 1/3만큼 체력을 잃습니다.",
+			"frequency": "임의 - 기본 행동, 반응",
+			"keywords": [""]
+		},	
+		"Weird Power": {	
+			"name": "기괴한힘",
+			"effect": "사용자의 공격이 특공보다 높다면 특수기 사용시 공격 스탯을 더할수 있습니다. 특공이 공격보다 높다면 물리기 사용시 특공 스탯을 더할수 있습니다. 트위스트파워와 중복되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Well-Baked Body": {	
+			"name": "노릇노릇바디",
+			"effect": "사용자는 불타입 공격의 피해와 효과에 면역이 되며, 불타입 공격을 받을 때마다 방어 전투 단계 +2를 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Whirlwind Kicks": {	
+			"name": "회오리차기",
+			"effect": "연결 – 트리플킥. 사용자가 기술 “고속스핀” 또는“트리플킥”을 사용할 때, 그 기술들의 “파열 1”의 범위를 가집니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"White Flame": {	
+			"name": "화이트플레임",
+			"effect": "난동에서 해제되기 위한 굴림을 실행할수 없고, 난동부리는 동안 피해량 +5",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"White Smoke": {	
+			"name": "하얀연기",
+			"effect": "자신의 기술 이외의 요인으로 전투단계와 명중, 회피가 줄어들지 않습니다.방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Wily": {	
+			"name": "능청",
+			"effect": "사용자의 변화기는 범위 내의 대상 하나를 추가로 대상으로 할 수 있습니다. 이것은 영역 효과 기술에는 적용되지 않습니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Wind Force": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Wind Power": {	
+			"name": "풍력발전",
+			"effect": "발동조건 - 4미터 내의 적 또는 아군이 바람 키워드로 기술을 사용할 때<br>연결 - 충전. 사용자는 자유 행동으로 충전을 사용할 수 있습니다.<br>바람 기술: 에어커터, 찬바람폭풍, 눈보라, 요정의바람, 바람일으키기, 열풍, 폭풍, 얼어붙은바람, 괴상한바람, 꽃보라, 열사의폭풍, 모래바람, 은빛바람, 봄의폭풍, 순풍, 회오리, 날려버리기, 번개폭풍",
+			"frequency": "장면 - 신속 행동, 반응",
+			"keywords": [""]
+		},	
+		"Wind Rider": {	
+			"name": "바람타기",
+			"effect": "발동조건 - 4미터 내의 적 또는 아군이 바람 키워드로 기술을 사용할 때<br>사용자는 자유 행동으로 이탈할 수 있습니다. 장면당 한 번, 사용자는 공격 또는 특수공격에서 +1 CS를 얻을 수도 있습니다.<br>보너스: 사용자가 어떤 이유로든 이탈할 때마다 1미터가 아닌 2미터를 이동할 수 있습니다. 또한, 바람 키워드가 있는 기술의 피해와 효과에 면역이 됩니다. 방어적.",
+			"frequency": "임의 - 자유 행동, 반응",
+			"keywords": [""]
+		},	
+		"Wind Rider [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Windvane [Weather Playtest]": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Windveiled": {	
+			"name": "바람숨기",
+			"effect": "사용자는 비행타입 공격의 피해와 효과에 무효입니다. 사용자가 비행공격에 명중당하면, 사용자는 +1 스피드 CS를 얻습니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Winter Joy": {	
+			"name": "",
+			"effect": "",
+			"frequency": "",
+			"keywords": [""]
+		},	
+		"Winter's Kiss": {	
+			"name": "겨울의입맞춤",
+			"effect": "얼음타입 기술에 피해를 입지 않으며, 얼음타입 기술에 적중당하면 소량의 체력을 회복합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Wishmaster": {	
+			"name": "바라는대로",
+			"effect": "연결 – 희망사항. 사용자가 희망사항을 사용할 때마다, 사용자는 다음의 효과 중 하나를 고릅니다: 대상은 다음 라운드 대신 즉시 치료됩니다. 또는 대상이 치유 될 때 선택한 스탯에 +2 CS를 얻습니다. 또는 대상이 상태 이상에서 치료됩니다.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Wistful Melody": {	
+			"name": "애가",
+			"effect": "연결 – 노래하기. 사용자가 노래하기를 사용할 때마다, 노래하기가 대상을 명중했는지 여부에 관계없이 노래하기의 대상이 된 대상의 공격 및 특수공격이 각각 -2 CS만큼 낮아지게하는 특성을 활성화 할 수 있습니다. 이 특성은 방음 특성이있는 대상에게 영향을 미치지 않습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Wobble": {	
+			"name": "오차발생",
+			"effect": "발동조건 - 공격기로 맞았을 경우<br>사용빈도를 무시하고, 카운터나 미러코트를 반응으로 쓸수 있습니다.",
+			"frequency": "장면 - 자유 행동",
+			"keywords": [""]
+		},	
+		"Wonder Guard": {	
+			"name": "불가사의부적",
+			"effect": "효과가 굉장한 기술에만 피해를 입습니다. 약점이 없는 사용자는 이 특성의 효과를 받지 못합니다. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Wonder Skin": {	
+			"name": "미라클스킨",
+			"effect": "변화기에 대해 회피+6. 방어적.",
+			"frequency": "항상",
+			"keywords": [""]
+		},	
+		"Zen Mode": {	
+			"name": "달마모드",
+			"effect": "사용자는 장면의 나머지 동안 달마모드 폼으로 폼체인지할 수 있습니다 . 그리고 기술 “화염방사”와 “사이코키네시스”를 기술목록에 있었던 것처럼 사용할 수 있습니다.",
+			"frequency": "장면 - 신속 행동",
+			"keywords": [""]
+		},	
+		"Zen Snowed": {	
+			"name": "눈덮인달마",
+			"effect": "사용자는 장면 나머지동안 달마모드로 폼체인지하고, 기술 “냉동펀치”와“불꽃펀치”를 그들의 기술목록에 있는 것처럼 사용할 수 있습니다.",
+			"frequency": "장면 – 신속 행동",
+			"keywords": [""]
+		},	
+		"Zero to Hero": {	
+			"name": "마이티체인지",
+			"effect": "발동조건 - 아군이 적에게 기절함<br>특수: 사용자는 나이브와 마이티의 두 가지 기본 스탯과 특성을 가지고 있습니다. 두 폼의 HP는 동일해야 합니다. <br>사용자가 필드에서 제거됩니다. 다음에 이니셔티브를 획득할 때, 아군 또는 발동시킨 적을 선택합니다. 사용자는 선택한 대상과 인접한 칸에 마이티폼으로 다시 나타납니다. 전투가 종료되면 사용자는 나이브 폼으로 돌아갑니다. 선천적.",
+			"frequency": "장면 - 이동 행동",
+			"keywords": [""]
+		}	
+		
+	}
+}
